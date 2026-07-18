@@ -1,0 +1,7 @@
+{
+  "apiKey": "YOUR_API_KEY_HERE",
+  "serviceEndpoint": "https://api.example.com/marketdata",
+  "rotationHistoryLimit": 100,
+  "trackingInterval": 60000,
+  "logLevel": "info"
+}

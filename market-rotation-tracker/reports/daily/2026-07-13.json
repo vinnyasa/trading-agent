@@ -1,0 +1,491 @@
+{
+  "runDate": "2026-07-13",
+  "runTimestamp": "2026-07-13T20:13:18.887Z",
+  "dataSourceStatus": {
+    "primary": "massive",
+    "symbolsLoaded": 29,
+    "symbolsFailed": []
+  },
+  "macroRegime": {
+    "regime": "unknown",
+    "label": "Unknown / Mixed",
+    "factors": [
+      "Mixed or inconclusive macro signals"
+    ],
+    "confidence": "low"
+  },
+  "rotation": {
+    "leaders": [
+      {
+        "symbol": "XLF",
+        "label": "Financials",
+        "relativeStrength": 2.59,
+        "momentum": 4.23,
+        "score": 58.1,
+        "trend": "strengthening"
+      },
+      {
+        "symbol": "XLV",
+        "label": "Health Care",
+        "relativeStrength": 1.16,
+        "momentum": 3.35,
+        "score": 55.1,
+        "trend": "strengthening"
+      },
+      {
+        "symbol": "XLI",
+        "label": "Industrials",
+        "relativeStrength": 3.16,
+        "momentum": -1.19,
+        "score": 53.5,
+        "trend": "strengthening"
+      }
+    ],
+    "laggards": [
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "relativeStrength": -9.51,
+        "momentum": 1.83,
+        "score": 37.6,
+        "trend": "weakening"
+      },
+      {
+        "symbol": "XLP",
+        "label": "Consumer Staples",
+        "relativeStrength": -5.67,
+        "momentum": 0.21,
+        "score": 41.7,
+        "trend": "weakening"
+      },
+      {
+        "symbol": "XLRE",
+        "label": "Real Estate",
+        "relativeStrength": -5.27,
+        "momentum": -0.31,
+        "score": 41.8,
+        "trend": "weakening"
+      }
+    ],
+    "topRotationMove": "Financials (XLF) leading with RS +2.59% vs SPY",
+    "rankedAt": "2026-07-13T20:16:29.995Z"
+  },
+  "topSignals": [
+    {
+      "symbol": "XLI",
+      "score": 50,
+      "conviction": "medium",
+      "regime": "unknown",
+      "rotationTrend": "strengthening",
+      "pressurePoints": [],
+      "rsi": 51.79,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Industrials strengthening (RS +3.16% vs SPY) | No significant pressure points | RSI: 51.79"
+    },
+    {
+      "symbol": "XLF",
+      "score": 40,
+      "conviction": "low",
+      "regime": "unknown",
+      "rotationTrend": "strengthening",
+      "pressurePoints": [
+        {
+          "symbol": "XLF",
+          "type": "resistance",
+          "level": 56.59,
+          "description": "Near 20-day resistance at $56.59 (1.6% away)",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 69.24,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Financials strengthening (RS +2.59% vs SPY) | Pressure: Near 20-day resistance at $56.59 (1.6% away) | RSI: 69.24"
+    },
+    {
+      "symbol": "XLV",
+      "score": 40,
+      "conviction": "low",
+      "regime": "unknown",
+      "rotationTrend": "strengthening",
+      "pressurePoints": [
+        {
+          "symbol": "XLV",
+          "type": "rsi-overbought",
+          "level": 0,
+          "description": "RSI overbought at 71.7",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "XLV",
+          "type": "high-volume-node",
+          "level": 158.44,
+          "description": "Near high-volume node at $158.44",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 71.7,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Health Care strengthening (RS +1.16% vs SPY) | Pressure: RSI overbought at 71.7; Near high-volume node at $158.44 | RSI: 71.7"
+    },
+    {
+      "symbol": "XLP",
+      "score": 30,
+      "conviction": "low",
+      "regime": "unknown",
+      "rotationTrend": "weakening",
+      "pressurePoints": [
+        {
+          "symbol": "XLP",
+          "type": "high-volume-node",
+          "level": 83.66,
+          "description": "Near high-volume node at $83.66",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "XLP",
+          "type": "bollinger-squeeze",
+          "level": 0,
+          "description": "Bollinger Band squeeze — compressed volatility, breakout direction unclear",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 53.3,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Consumer Staples weakening (RS -5.67% vs SPY) | Pressure: Near high-volume node at $83.66; Bollinger Band squeeze — compressed volatility, breakout direction unclear | RSI: 53.3"
+    },
+    {
+      "symbol": "XLRE",
+      "score": 30,
+      "conviction": "low",
+      "regime": "unknown",
+      "rotationTrend": "weakening",
+      "pressurePoints": [
+        {
+          "symbol": "XLRE",
+          "type": "high-volume-node",
+          "level": 44.06,
+          "description": "Near high-volume node at $44.06",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "XLRE",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 55.33,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Real Estate weakening (RS -5.27% vs SPY) | Pressure: Near high-volume node at $44.06; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 55.33"
+    }
+  ],
+  "stockSignals": [
+    {
+      "symbol": "ETN",
+      "label": "Eaton",
+      "parentSector": "XLI",
+      "parentSectorLabel": "Industrials",
+      "parentRotationScore": 53.5,
+      "pressurePoints": [
+        {
+          "symbol": "ETN",
+          "type": "high-volume-node",
+          "level": 410.85,
+          "description": "Near high-volume node at $410.85",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "ETN",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 45.81,
+      "score": 76,
+      "conviction": "high",
+      "reasoning": "Parent: Industrials (RS +3.16% vs SPY, strengthening) | Pressure: Near high-volume node at $410.85; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 45.81"
+    },
+    {
+      "symbol": "HON",
+      "label": "Honeywell",
+      "parentSector": "XLI",
+      "parentSectorLabel": "Industrials",
+      "parentRotationScore": 53.5,
+      "pressurePoints": [
+        {
+          "symbol": "HON",
+          "type": "high-volume-node",
+          "level": 229.14,
+          "description": "Near high-volume node at $229.14",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "HON",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 47.57,
+      "score": 76,
+      "conviction": "high",
+      "reasoning": "Parent: Industrials (RS +3.16% vs SPY, strengthening) | Pressure: Near high-volume node at $229.14; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 47.57"
+    },
+    {
+      "symbol": "GE",
+      "label": "GE Aerospace",
+      "parentSector": "XLI",
+      "parentSectorLabel": "Industrials",
+      "parentRotationScore": 53.5,
+      "pressurePoints": [
+        {
+          "symbol": "GE",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "GE",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 51.44,
+      "score": 68,
+      "conviction": "medium",
+      "reasoning": "Parent: Industrials (RS +3.16% vs SPY, strengthening) | Pressure: Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion | RSI: 51.44"
+    },
+    {
+      "symbol": "CAT",
+      "label": "Caterpillar",
+      "parentSector": "XLI",
+      "parentSectorLabel": "Industrials",
+      "parentRotationScore": 53.5,
+      "pressurePoints": [
+        {
+          "symbol": "CAT",
+          "type": "high-volume-node",
+          "level": 953.05,
+          "description": "Near high-volume node at $953.05",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "CAT",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 46.23,
+      "score": 68,
+      "conviction": "medium",
+      "reasoning": "Parent: Industrials (RS +3.16% vs SPY, strengthening) | Pressure: Near high-volume node at $953.05; Price and RSI diverging — potential trend exhaustion | RSI: 46.23"
+    },
+    {
+      "symbol": "GS",
+      "label": "Goldman Sachs",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 58.1,
+      "pressurePoints": [
+        {
+          "symbol": "GS",
+          "type": "high-volume-node",
+          "level": 1042.51,
+          "description": "Near high-volume node at $1042.51",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "GS",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 39.79,
+      "score": 60,
+      "conviction": "medium",
+      "reasoning": "Parent: Financials (RS +2.59% vs SPY, strengthening) | Pressure: Near high-volume node at $1042.51; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 39.79"
+    },
+    {
+      "symbol": "RTX",
+      "label": "RTX (Raytheon)",
+      "parentSector": "XLI",
+      "parentSectorLabel": "Industrials",
+      "parentRotationScore": 53.5,
+      "pressurePoints": [],
+      "rsi": 64.85,
+      "score": 60,
+      "conviction": "medium",
+      "reasoning": "Parent: Industrials (RS +3.16% vs SPY, strengthening) | Pressure: No significant pressure points | RSI: 64.85"
+    },
+    {
+      "symbol": "JPM",
+      "label": "JPMorgan Chase",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 58.1,
+      "pressurePoints": [
+        {
+          "symbol": "JPM",
+          "type": "high-volume-node",
+          "level": 328.3,
+          "description": "Near high-volume node at $328.30",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 62.2,
+      "score": 58,
+      "conviction": "medium",
+      "reasoning": "Parent: Financials (RS +2.59% vs SPY, strengthening) | Pressure: Near high-volume node at $328.30 | RSI: 62.2"
+    },
+    {
+      "symbol": "MRK",
+      "label": "Merck",
+      "parentSector": "XLV",
+      "parentSectorLabel": "Health Care",
+      "parentRotationScore": 55.1,
+      "pressurePoints": [
+        {
+          "symbol": "MRK",
+          "type": "high-volume-node",
+          "level": 120.42,
+          "description": "Near high-volume node at $120.42",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 64.27,
+      "score": 58,
+      "conviction": "medium",
+      "reasoning": "Parent: Health Care (RS +1.16% vs SPY, strengthening) | Pressure: Near high-volume node at $120.42 | RSI: 64.27"
+    },
+    {
+      "symbol": "UNH",
+      "label": "UnitedHealth",
+      "parentSector": "XLV",
+      "parentSectorLabel": "Health Care",
+      "parentRotationScore": 55.1,
+      "pressurePoints": [],
+      "rsi": 62.93,
+      "score": 50,
+      "conviction": "medium",
+      "reasoning": "Parent: Health Care (RS +1.16% vs SPY, strengthening) | Pressure: No significant pressure points | RSI: 62.93"
+    },
+    {
+      "symbol": "ABBV",
+      "label": "AbbVie",
+      "parentSector": "XLV",
+      "parentSectorLabel": "Health Care",
+      "parentRotationScore": 55.1,
+      "pressurePoints": [
+        {
+          "symbol": "ABBV",
+          "type": "rsi-overbought",
+          "level": 0,
+          "description": "RSI overbought at 74.65",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "ABBV",
+          "type": "high-volume-node",
+          "level": 242.17,
+          "description": "Near high-volume node at $242.17",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 74.65,
+      "score": 49,
+      "conviction": "low",
+      "reasoning": "Parent: Health Care (RS +1.16% vs SPY, strengthening) | Pressure: RSI overbought at 74.65; Near high-volume node at $242.17 | RSI: 74.65"
+    },
+    {
+      "symbol": "BAC",
+      "label": "Bank of America",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 58.1,
+      "pressurePoints": [
+        {
+          "symbol": "BAC",
+          "type": "resistance",
+          "level": 60.825,
+          "description": "Near 20-day resistance at $60.83 (1.9% away)",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "BAC",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 68.36,
+      "score": 48,
+      "conviction": "low",
+      "reasoning": "Parent: Financials (RS +2.59% vs SPY, strengthening) | Pressure: Near 20-day resistance at $60.83 (1.9% away); Price and RSI diverging — potential trend exhaustion | RSI: 68.36"
+    },
+    {
+      "symbol": "JNJ",
+      "label": "Johnson & Johnson",
+      "parentSector": "XLV",
+      "parentSectorLabel": "Health Care",
+      "parentRotationScore": 55.1,
+      "pressurePoints": [
+        {
+          "symbol": "JNJ",
+          "type": "rsi-overbought",
+          "level": 0,
+          "description": "RSI overbought at 71.79",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 71.79,
+      "score": 48,
+      "conviction": "low",
+      "reasoning": "Parent: Health Care (RS +1.16% vs SPY, strengthening) | Pressure: RSI overbought at 71.79 | RSI: 71.79"
+    },
+    {
+      "symbol": "V",
+      "label": "Visa",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 58.1,
+      "pressurePoints": [],
+      "rsi": 69.53,
+      "score": 40,
+      "conviction": "low",
+      "reasoning": "Parent: Financials (RS +2.59% vs SPY, strengthening) | Pressure: No significant pressure points | RSI: 69.53"
+    },
+    {
+      "symbol": "LLY",
+      "label": "Eli Lilly",
+      "parentSector": "XLV",
+      "parentSectorLabel": "Health Care",
+      "parentRotationScore": 55.1,
+      "pressurePoints": [
+        {
+          "symbol": "LLY",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 65.5,
+      "score": 40,
+      "conviction": "low",
+      "reasoning": "Parent: Health Care (RS +1.16% vs SPY, strengthening) | Pressure: Price and RSI diverging — potential trend exhaustion | RSI: 65.5"
+    }
+  ],
+  "watchlistChanges": [
+    "XLI: Monitor — score 50/100"
+  ],
+  "warnings": [
+    "Stock fetch failed: MS"
+  ]
+}

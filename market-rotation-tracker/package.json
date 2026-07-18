@@ -1,0 +1,32 @@
+{
+  "name": "market-rotation-tracker",
+  "version": "1.0.0",
+  "description": "A project to track market rotations and analyze market data.",
+  "main": "src/agent.ts",
+  "scripts": {
+    "start": "ts-node src/agent.ts",
+    "batch": "ts-node src/batch.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "ts-node": "^10.9.2",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.10",
+    "ts-jest": "^27.0.6"
+  },
+  "keywords": [
+    "market",
+    "rotation",
+    "tracker",
+    "data",
+    "analysis"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

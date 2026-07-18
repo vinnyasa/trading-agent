@@ -1,0 +1,19 @@
+services:
+  batch:
+    build: .
+    # Reads keys from your local .env file — never baked into the image
+    env_file:
+      - .env
+    volumes:
+      # Mount reports folder so output lands on your host machine
+      - ./reports:/app/reports
+      # Mount src so the container always runs the latest code — no rebuild needed
+      - ./src:/app/src
+    command: ["node_modules/.bin/ts-node", "src/batch.ts"]
+
+  # Type-check only — exits 0 if clean, non-zero on errors
+  typecheck:
+    build: .
+    volumes:
+      - ./src:/app/src
+    command: ["node_modules/.bin/tsc", "--noEmit"]

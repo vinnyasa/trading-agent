@@ -1,0 +1,47 @@
+{
+  "lastUpdated": "2026-07-17",
+  "cashAvailable": 2600,
+  "cashNote": "Update cashAvailable in reports/401k-state.json when you move funds from core 401k",
+  "positions": [
+    {
+      "ticker": "FIDRX",
+      "fundName": "Fidelity Select Industrials",
+      "parentEtf": "XLI",
+      "entryDate": "2026-07-14",
+      "entrySignalScore": 53.5,
+      "daysHeld": 3,
+      "canSellWithoutFee": false,
+      "consecutiveLeaderDays": 0,
+      "consecutiveLaggardDays": 0
+    },
+    {
+      "ticker": "FSLEX",
+      "fundName": "Fidelity Environment & Alt Energy",
+      "parentEtf": "XLU",
+      "entryDate": "2026-07-14",
+      "entrySignalScore": 52.3,
+      "daysHeld": 3,
+      "canSellWithoutFee": false,
+      "consecutiveLeaderDays": 0,
+      "consecutiveLaggardDays": 0
+    },
+    {
+      "ticker": "FSELX",
+      "fundName": "Fidelity Select Semiconductors",
+      "parentEtf": "SMH",
+      "entryDate": "2026-07-14",
+      "entrySignalScore": 37.6,
+      "daysHeld": 3,
+      "canSellWithoutFee": false,
+      "consecutiveLeaderDays": 0,
+      "consecutiveLaggardDays": 6
+    }
+  ],
+  "recentActions": [
+    "2026-07-17: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FIDSX (XLF), FSRBX (XLF), FSPHX (XLV)",
+    "2026-07-17: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 3 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FIDSX (XLF), FSPHX (XLV)",
+    "2026-07-17: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FIDSX (XLF), FSENX (XLE)",
+    "2026-07-16: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FIDSX (XLF), FSENX (XLE)",
+    "2026-07-15: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FIDSX (XLF), FSENX (XLE)"
+  ]
+}

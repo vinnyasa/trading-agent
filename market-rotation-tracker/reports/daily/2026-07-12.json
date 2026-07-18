@@ -1,0 +1,182 @@
+{
+  "runDate": "2026-07-12",
+  "runTimestamp": "2026-07-12T20:26:47.423Z",
+  "dataSourceStatus": {
+    "primary": "massive",
+    "symbolsLoaded": 14,
+    "symbolsFailed": []
+  },
+  "macroRegime": {
+    "regime": "unknown",
+    "label": "Unknown / Mixed",
+    "factors": [
+      "Mixed or inconclusive macro signals"
+    ],
+    "confidence": "low"
+  },
+  "rotation": {
+    "leaders": [
+      {
+        "symbol": "XLF",
+        "label": "Financials",
+        "relativeStrength": 2.59,
+        "momentum": 4.23,
+        "score": 58.1,
+        "trend": "strengthening"
+      },
+      {
+        "symbol": "XLV",
+        "label": "Health Care",
+        "relativeStrength": 1.16,
+        "momentum": 3.35,
+        "score": 55.1,
+        "trend": "strengthening"
+      },
+      {
+        "symbol": "XLI",
+        "label": "Industrials",
+        "relativeStrength": 3.16,
+        "momentum": -1.19,
+        "score": 53.5,
+        "trend": "strengthening"
+      }
+    ],
+    "laggards": [
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "relativeStrength": -9.51,
+        "momentum": 1.83,
+        "score": 37.6,
+        "trend": "weakening"
+      },
+      {
+        "symbol": "XLP",
+        "label": "Consumer Staples",
+        "relativeStrength": -5.67,
+        "momentum": 0.21,
+        "score": 41.7,
+        "trend": "weakening"
+      },
+      {
+        "symbol": "XLRE",
+        "label": "Real Estate",
+        "relativeStrength": -5.27,
+        "momentum": -0.31,
+        "score": 41.8,
+        "trend": "weakening"
+      }
+    ],
+    "topRotationMove": "Financials (XLF) leading with RS +2.59% vs SPY",
+    "rankedAt": "2026-07-12T20:29:44.244Z"
+  },
+  "topSignals": [
+    {
+      "symbol": "XLI",
+      "score": 50,
+      "conviction": "medium",
+      "regime": "unknown",
+      "rotationTrend": "strengthening",
+      "pressurePoints": [],
+      "rsi": 51.79,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Industrials strengthening (RS +3.16% vs SPY) | No significant pressure points | RSI: 51.79"
+    },
+    {
+      "symbol": "XLF",
+      "score": 40,
+      "conviction": "low",
+      "regime": "unknown",
+      "rotationTrend": "strengthening",
+      "pressurePoints": [
+        {
+          "symbol": "XLF",
+          "type": "resistance",
+          "level": 56.59,
+          "description": "Near 20-day resistance at $56.59 (1.6% away)",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 69.24,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Financials strengthening (RS +2.59% vs SPY) | Pressure: Near 20-day resistance at $56.59 (1.6% away) | RSI: 69.24"
+    },
+    {
+      "symbol": "XLV",
+      "score": 40,
+      "conviction": "low",
+      "regime": "unknown",
+      "rotationTrend": "strengthening",
+      "pressurePoints": [
+        {
+          "symbol": "XLV",
+          "type": "rsi-overbought",
+          "level": 0,
+          "description": "RSI overbought at 71.7",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "XLV",
+          "type": "high-volume-node",
+          "level": 158.44,
+          "description": "Near high-volume node at $158.44",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 71.7,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Health Care strengthening (RS +1.16% vs SPY) | Pressure: RSI overbought at 71.7; Near high-volume node at $158.44 | RSI: 71.7"
+    },
+    {
+      "symbol": "XLP",
+      "score": 30,
+      "conviction": "low",
+      "regime": "unknown",
+      "rotationTrend": "weakening",
+      "pressurePoints": [
+        {
+          "symbol": "XLP",
+          "type": "high-volume-node",
+          "level": 83.66,
+          "description": "Near high-volume node at $83.66",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "XLP",
+          "type": "bollinger-squeeze",
+          "level": 0,
+          "description": "Bollinger Band squeeze — compressed volatility, breakout direction unclear",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 53.3,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Consumer Staples weakening (RS -5.67% vs SPY) | Pressure: Near high-volume node at $83.66; Bollinger Band squeeze — compressed volatility, breakout direction unclear | RSI: 53.3"
+    },
+    {
+      "symbol": "XLRE",
+      "score": 30,
+      "conviction": "low",
+      "regime": "unknown",
+      "rotationTrend": "weakening",
+      "pressurePoints": [
+        {
+          "symbol": "XLRE",
+          "type": "high-volume-node",
+          "level": 44.06,
+          "description": "Near high-volume node at $44.06",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "XLRE",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 55.33,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Real Estate weakening (RS -5.27% vs SPY) | Pressure: Near high-volume node at $44.06; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 55.33"
+    }
+  ],
+  "watchlistChanges": [
+    "XLI: Monitor — score 50/100"
+  ],
+  "warnings": []
+}
