@@ -1,9 +1,9 @@
 {
   "runDate": "2026-07-20",
-  "runTimestamp": "2026-07-20T13:21:07.442Z",
+  "runTimestamp": "2026-07-20T14:40:27.441Z",
   "dataSourceStatus": {
     "primary": "massive",
-    "symbolsLoaded": 39,
+    "symbolsLoaded": 40,
     "symbolsFailed": []
   },
   "macroRegime": {
@@ -190,7 +190,7 @@
       }
     ],
     "topRotationMove": "Energy (XLE) leading with RS +5.19% vs SPY",
-    "rankedAt": "2026-07-20T13:24:19.170Z"
+    "rankedAt": "2026-07-20T14:43:34.839Z"
   },
   "topSignals": [
     {
@@ -597,6 +597,26 @@
       "score": 70,
       "conviction": "high",
       "reasoning": "Parent: Financials (RS +3.77% vs SPY, strengthening) | Pressure: Near high-volume node at $17.65; Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Price and RSI diverging — potential trend exhaustion | RSI: 44.93"
+    },
+    {
+      "symbol": "SLB",
+      "label": "SLB",
+      "parentSector": "XLE",
+      "parentSectorLabel": "Energy",
+      "parentRotationScore": 66.2,
+      "pressurePoints": [
+        {
+          "symbol": "SLB",
+          "type": "bollinger-squeeze-down",
+          "level": 0,
+          "description": "Bollinger squeeze with downward bias — volatility coiling, momentum tilting down",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 49.92,
+      "score": 68,
+      "conviction": "medium",
+      "reasoning": "Parent: Energy (RS +5.19% vs SPY, strengthening) | Pressure: Bollinger squeeze with downward bias — volatility coiling, momentum tilting down | RSI: 49.92"
     },
     {
       "symbol": "EOG",
@@ -1097,9 +1117,7 @@
     "XLF: Monitor — score 50/100",
     "XLP: Monitor — score 50/100"
   ],
-  "warnings": [
-    "Stock fetch failed: SLB"
-  ],
+  "warnings": [],
   "fourOhOneK": {
     "date": "2026-07-20",
     "cashAvailable": 2600,
@@ -1137,7 +1155,7 @@
         "daysHeld": 6,
         "canSellWithoutFee": false,
         "consecutiveLeaderDays": 0,
-        "consecutiveLaggardDays": 7
+        "consecutiveLaggardDays": 8
       }
     ],
     "recommendations": [
@@ -1168,7 +1186,7 @@
         "parentEtf": "SMH",
         "daysHeld": 6,
         "canSellWithoutFee": false,
-        "reason": "SMH lagging for 7 days. Exit planned — 24 days until free of redemption fee.",
+        "reason": "SMH lagging for 8 days. Exit planned — 24 days until free of redemption fee.",
         "urgency": "medium"
       }
     ],
