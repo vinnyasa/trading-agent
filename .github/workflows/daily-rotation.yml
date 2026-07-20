@@ -55,11 +55,3 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
-
-      - name: Upload daily report artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: daily-report-${{ github.run_id }}
-          path: market-rotation-tracker/reports/daily/
-          retention-days: 90
-        if: always()   # upload even if batch exits with partial data
