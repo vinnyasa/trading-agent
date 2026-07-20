@@ -2,6 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { RotationResult, SectorScore } from '../types';
 import { FIDELITY_FUNDS, getFundsByEtf } from '../config/fidelityFunds';
+import { getPositionSizeGuidance, convictionFromScore } from './positionSizing';
 
 // ── State file ─────────────────────────────────────────────────────────────
 export interface FundPosition {
@@ -101,6 +102,16 @@ export interface FourOhOneKRecommendation {
     urgency: 'high' | 'medium' | 'low';
 }
 
+export interface EntryOpportunity {
+    ticker: string;
+    fundName: string;
+    parentEtf: string;
+    parentEtfScore: number;
+    reason: string;
+    suggestedPositionPct: number;   // % of cashAvailable, capped at MAX_POSITION_PCT
+    suggestedDollarAmount: number;  // cashAvailable * suggestedPositionPct
+}
+
 export interface FourOhOneKReport {
     date: string;
     cashAvailable: number;
@@ -108,13 +119,7 @@ export interface FourOhOneKReport {
     totalPositions: number;
     positions: FundPosition[];
     recommendations: FourOhOneKRecommendation[];
-    entryOpportunities: {
-        ticker: string;
-        fundName: string;
-        parentEtf: string;
-        parentEtfScore: number;
-        reason: string;
-    }[];
+    entryOpportunities: EntryOpportunity[];
     summary: string[];
 }
 
@@ -124,7 +129,7 @@ export function updateFourOhOneK(
 ): FourOhOneKReport {
     const state = loadState();
     const recommendations: FourOhOneKRecommendation[] = [];
-    const entryOpportunities: FourOhOneKRecommendation[] = [];
+    const entryOpportunities: EntryOpportunity[] = [];
     const summary: string[] = [];
 
     const leaderSymbols  = new Set(rotation.leaders.map(l => l.symbol));
@@ -223,6 +228,10 @@ export function updateFourOhOneK(
             // Check if this sector has been a leader before (we approximate with score > 50)
             // True 2-day confirmation requires prior state — use score threshold as proxy
             if (leader.score >= 52) {
+                const conviction = convictionFromScore(leader.score);
+                const sizing = getPositionSizeGuidance(conviction);
+                const suggestedPositionPct = Math.min(sizing.maxPct, MAX_POSITION_PCT * 100);
+                const suggestedDollarAmount = Math.round(state.cashAvailable * suggestedPositionPct / 100);
                 const funds = getFundsByEtf(leader.symbol);
                 for (const fund of funds) {
                     entryOpportunities.push({
@@ -231,7 +240,9 @@ export function updateFourOhOneK(
                         parentEtf: leader.symbol,
                         parentEtfScore: leader.score,
                         reason: `${leader.label} (${leader.symbol}) is a rotation leader with RS ${leader.relativeStrength > 0 ? '+' : ''}${leader.relativeStrength}% vs SPY, score ${leader.score}. Confirm 2nd consecutive leader day before entering.`,
-                    } as any);
+                        suggestedPositionPct,
+                        suggestedDollarAmount,
+                    });
                 }
             }
         }
@@ -270,7 +281,7 @@ export function updateFourOhOneK(
         totalPositions: state.positions.length,
         positions: state.positions,
         recommendations,
-        entryOpportunities: entryOpportunities as any,
+        entryOpportunities,
         summary,
     };
 }

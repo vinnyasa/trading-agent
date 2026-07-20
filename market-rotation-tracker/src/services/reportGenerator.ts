@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { DailyReport, ConfluenceSignal, StockSignal, MacroRegime } from '../types';
+import { getPositionSizeGuidance } from './positionSizing';
 
 function convictionEmoji(c: string): string {
     return c === 'high' ? '🟢' : c === 'medium' ? '🟡' : c === 'low' ? '🔴' : '⚪';
@@ -24,6 +25,8 @@ function generateActionSummary(report: DailyReport): string[] {
         'unknown':              'Macro regime unclear — reduce position sizing, wait for confirmation before new entries.',
     };
     lines.push(`**Macro:** ${macroRead[regime] ?? macroRead['unknown']}`);
+    lines.push('');
+    lines.push('**Position sizing guide:** High conviction 15–20% of account · Medium 8–12% · Low 3–5% · Noise/none, sit out. (401k fund positions are additionally capped at 35% each.)');
     lines.push('');
 
     // ── Rotation reads ────────────────────────────────────────────────────────
@@ -64,13 +67,14 @@ function generateActionSummary(report: DailyReport): string[] {
             } else {
                 action += `Clean rotation signal, RSI ${s.rsi.toFixed(0)} — trend entry. No major overhead resistance.`;
             }
+            action += ` _Suggested size: ${getPositionSizeGuidance(s.conviction).label}._`;
             lines.push(action);
         });
     }
 
     if (mediumEtf.length > 0) {
         mediumEtf.forEach(s => {
-            lines.push(`**${s.symbol} — MEDIUM conviction (${s.score}/100):** Monitor. RS ${s.rotationTrend}, RSI ${s.rsi.toFixed(0)}.`);
+            lines.push(`**${s.symbol} — MEDIUM conviction (${s.score}/100):** Monitor. RS ${s.rotationTrend}, RSI ${s.rsi.toFixed(0)}. _Suggested size: ${getPositionSizeGuidance(s.conviction).label}._`);
         });
     }
 
@@ -95,7 +99,7 @@ function generateActionSummary(report: DailyReport): string[] {
             else if (squeeze?.type === 'bollinger-squeeze-down') note = 'Squeeze-down — hold off';
             else note = `RSI ${s.rsi.toFixed(0)}, sector rotation supporting`;
 
-            lines.push(`- **${s.symbol}** (${s.label}, ${s.parentSector}): ${note} — Score ${s.score}/100`);
+            lines.push(`- **${s.symbol}** (${s.label}, ${s.parentSector}): ${note} — Score ${s.score}/100 _(size: ${getPositionSizeGuidance(s.conviction).label})_`);
         });
     }
 
@@ -151,6 +155,8 @@ export function generateMarkdownReport(report: DailyReport): string {
             lines.push(`### ${convictionEmoji(sig.conviction)} ${sig.symbol} — Score: ${sig.score}/100 (${sig.conviction.toUpperCase()})`);
             lines.push('');
             lines.push(sig.reasoning);
+            lines.push('');
+            lines.push(`**Suggested position size:** ${getPositionSizeGuidance(sig.conviction).label}`);
             if (sig.pressurePoints.length > 0) {
                 lines.push('');
                 lines.push('**Pressure points:**');
@@ -177,6 +183,8 @@ export function generateMarkdownReport(report: DailyReport): string {
             lines.push(`#### ${convictionEmoji(sig.conviction)} ${sig.symbol} — ${sig.label} — Score: ${sig.score}/100 (${sig.conviction.toUpperCase()})`);
             lines.push('');
             lines.push(sig.reasoning);
+            lines.push('');
+            lines.push(`**Suggested position size:** ${getPositionSizeGuidance(sig.conviction).label}`);
             if (sig.pressurePoints.length > 0) {
                 lines.push('');
                 lines.push('**Pressure points:**');
@@ -237,10 +245,10 @@ export function generateMarkdownReport(report: DailyReport): string {
         if (k.entryOpportunities.length > 0) {
             lines.push('### Entry Opportunities');
             lines.push('');
-            lines.push('> Confirm 2 consecutive leader days before entering. Check RSI not overbought.');
+            lines.push('> Confirm 2 consecutive leader days before entering. Check RSI not overbought. Sizing suggestions are % of cash available, capped at 35% per fund.');
             lines.push('');
-            k.entryOpportunities.forEach((e: any) => {
-                lines.push(`- **${e.ticker}** — ${e.fundName} (${e.parentEtf}, score ${e.parentEtfScore}): ${e.reason}`);
+            k.entryOpportunities.forEach(e => {
+                lines.push(`- **${e.ticker}** — ${e.fundName} (${e.parentEtf}, score ${e.parentEtfScore}): ${e.reason} _Suggested: ${e.suggestedPositionPct}% of cash (~$${e.suggestedDollarAmount.toLocaleString()})._`);
             });
             lines.push('');
         }

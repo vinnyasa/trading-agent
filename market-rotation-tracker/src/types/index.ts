@@ -167,6 +167,8 @@ export interface FourOhOneKReport {
         parentEtf: string;
         parentEtfScore: number;
         reason: string;
+        suggestedPositionPct: number;   // % of cashAvailable, capped at MAX_POSITION_PCT
+        suggestedDollarAmount: number;  // cashAvailable * suggestedPositionPct
     }[];
     summary: string[];
 }
