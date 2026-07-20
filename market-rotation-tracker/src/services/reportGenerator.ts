@@ -52,8 +52,10 @@ function generateActionSummary(report: DailyReport): string[] {
             const support = s.pressurePoints.find(p => p.type === 'support');
 
             let action = `**${s.symbol} — HIGH conviction (${s.score}/100):** `;
+            let waitForTrigger = false;
             if (overbought && resistance) {
                 action += `RSI extended and near resistance — do not chase. Wait for pullback or resistance break with volume.`;
+                waitForTrigger = true;
             } else if (overbought) {
                 action += `RSI overbought at ${s.rsi.toFixed(0)} — rotation is strong but price may need to rest. Tighten stops if already long.`;
             } else if (resistance) {
@@ -61,13 +63,15 @@ function generateActionSummary(report: DailyReport): string[] {
             } else if (squeeze?.type === 'bollinger-squeeze-up') {
                 action += `Squeeze with upward bias — volatility coiling. Watch for breakout candle above recent range. RSI ${s.rsi.toFixed(0)}.`;
             } else if (squeeze?.type === 'bollinger-squeeze-down') {
-                action += `Squeeze with downward bias — wait. Do not enter long until direction clears.`;
+                action += `Squeeze with downward bias — wait on a long. Bearish alternative: puts on ${s.symbol} or an inverse sector ETF, sized small, until direction confirms.`;
             } else if (support) {
                 action += `Near support with rotation strength — potential long entry with stop below $${s.pressurePoints.find(p => p.type === 'support')?.level?.toFixed(2)}.`;
             } else {
                 action += `Clean rotation signal, RSI ${s.rsi.toFixed(0)} — trend entry. No major overhead resistance.`;
             }
-            action += ` _Suggested size: ${getPositionSizeGuidance(s.conviction).label}._`;
+            action += waitForTrigger
+                ? ` _No long entry now — if it triggers, size at: ${getPositionSizeGuidance(s.conviction).label}._`
+                : ` _Suggested size: ${getPositionSizeGuidance(s.conviction).label}._`;
             lines.push(action);
         });
     }
@@ -93,13 +97,25 @@ function generateActionSummary(report: DailyReport): string[] {
             const oversold = s.pressurePoints.find(p => p.type === 'rsi-oversold');
 
             let note = '';
-            if (overbought) note = 'RSI extended — wait for pullback';
-            else if (oversold) note = 'RSI oversold in a leading sector — potential bounce entry';
-            else if (squeeze?.type === 'bollinger-squeeze-up') note = 'Squeeze-up in strong sector — watch for breakout';
-            else if (squeeze?.type === 'bollinger-squeeze-down') note = 'Squeeze-down — hold off';
-            else note = `RSI ${s.rsi.toFixed(0)}, sector rotation supporting`;
+            let waitForTrigger = false;
+            if (overbought) {
+                note = 'RSI extended — wait for pullback';
+                waitForTrigger = true;
+            } else if (oversold) {
+                note = 'RSI oversold in a leading sector — potential bounce entry';
+            } else if (squeeze?.type === 'bollinger-squeeze-up') {
+                note = 'Squeeze-up in strong sector — watch for breakout';
+            } else if (squeeze?.type === 'bollinger-squeeze-down') {
+                note = `Squeeze-down — hold off on a long. Bearish alt: puts on ${s.symbol} or an inverse ETF`;
+                waitForTrigger = true;
+            } else {
+                note = `RSI ${s.rsi.toFixed(0)}, sector rotation supporting`;
+            }
 
-            lines.push(`- **${s.symbol}** (${s.label}, ${s.parentSector}): ${note} — Score ${s.score}/100 _(size: ${getPositionSizeGuidance(s.conviction).label})_`);
+            const sizeNote = waitForTrigger
+                ? `no long entry yet — if it triggers, size at ${getPositionSizeGuidance(s.conviction).label}`
+                : `size: ${getPositionSizeGuidance(s.conviction).label}`;
+            lines.push(`- **${s.symbol}** (${s.label}, ${s.parentSector}): ${note} — Score ${s.score}/100 _(${sizeNote})_`);
         });
     }
 
