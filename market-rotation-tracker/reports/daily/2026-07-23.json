@@ -1,9 +1,9 @@
 {
   "runDate": "2026-07-23",
-  "runTimestamp": "2026-07-23T14:42:15.190Z",
+  "runTimestamp": "2026-07-23T22:02:14.001Z",
   "dataSourceStatus": {
     "primary": "massive",
-    "symbolsLoaded": 40,
+    "symbolsLoaded": 39,
     "symbolsFailed": []
   },
   "macroRegime": {
@@ -190,7 +190,7 @@
       }
     ],
     "topRotationMove": "Energy (XLE) leading with RS +6.82% vs SPY",
-    "rankedAt": "2026-07-23T14:45:24.667Z"
+    "rankedAt": "2026-07-23T22:05:41.942Z"
   },
   "topSignals": [
     {
@@ -554,33 +554,6 @@
       "score": 73,
       "conviction": "high",
       "reasoning": "Parent: Energy (RS +6.82% vs SPY, strengthening) | Pressure: RSI overbought at 81.23; Near 20-day resistance at $154.80 (0.2% away) | RSI: 81.23"
-    },
-    {
-      "symbol": "CVX",
-      "label": "Chevron",
-      "parentSector": "XLE",
-      "parentSectorLabel": "Energy",
-      "parentRotationScore": 66.7,
-      "pressurePoints": [
-        {
-          "symbol": "CVX",
-          "type": "rsi-overbought",
-          "level": 0,
-          "description": "RSI overbought at 89.52",
-          "strength": "strong"
-        },
-        {
-          "symbol": "CVX",
-          "type": "resistance",
-          "level": 193.7,
-          "description": "Near 20-day resistance at $193.70 (0.4% away)",
-          "strength": "strong"
-        }
-      ],
-      "rsi": 89.52,
-      "score": 73,
-      "conviction": "high",
-      "reasoning": "Parent: Energy (RS +6.82% vs SPY, strengthening) | Pressure: RSI overbought at 89.52; Near 20-day resistance at $193.70 (0.4% away) | RSI: 89.52"
     },
     {
       "symbol": "HIMS",
@@ -1135,7 +1108,9 @@
   "watchlistChanges": [
     "XLE: Monitor — score 60/100"
   ],
-  "warnings": [],
+  "warnings": [
+    "Stock fetch failed: CVX"
+  ],
   "fourOhOneK": {
     "date": "2026-07-23",
     "cashAvailable": 2600,
@@ -1173,7 +1148,7 @@
         "daysHeld": 9,
         "canSellWithoutFee": false,
         "consecutiveLeaderDays": 0,
-        "consecutiveLaggardDays": 15
+        "consecutiveLaggardDays": 16
       }
     ],
     "recommendations": [
@@ -1204,7 +1179,7 @@
         "parentEtf": "SMH",
         "daysHeld": 9,
         "canSellWithoutFee": false,
-        "reason": "SMH lagging for 15 days. Exit planned — 21 days until free of redemption fee.",
+        "reason": "SMH lagging for 16 days. Exit planned — 21 days until free of redemption fee.",
         "urgency": "medium"
       }
     ],
