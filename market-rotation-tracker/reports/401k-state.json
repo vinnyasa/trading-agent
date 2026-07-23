@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "cashAvailable": 2600,
   "cashNote": "Update cashAvailable in reports/401k-state.json when you move funds from core 401k",
   "positions": [
@@ -9,7 +9,7 @@
       "parentEtf": "XLI",
       "entryDate": "2026-07-14",
       "entrySignalScore": 53.5,
-      "daysHeld": 8,
+      "daysHeld": 9,
       "canSellWithoutFee": false,
       "consecutiveLeaderDays": 0,
       "consecutiveLaggardDays": 0
@@ -20,7 +20,7 @@
       "parentEtf": "XLU",
       "entryDate": "2026-07-14",
       "entrySignalScore": 52.3,
-      "daysHeld": 8,
+      "daysHeld": 9,
       "canSellWithoutFee": false,
       "consecutiveLeaderDays": 0,
       "consecutiveLaggardDays": 0
@@ -31,13 +31,14 @@
       "parentEtf": "SMH",
       "entryDate": "2026-07-14",
       "entrySignalScore": 37.6,
-      "daysHeld": 8,
+      "daysHeld": 9,
       "canSellWithoutFee": false,
       "consecutiveLeaderDays": 0,
-      "consecutiveLaggardDays": 13
+      "consecutiveLaggardDays": 14
     }
   ],
   "recentActions": [
+    "2026-07-23: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FIDSX (XLF), FSRBX (XLF), FSPHX (XLV)",
     "2026-07-22: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV), FIDSX (XLF), FSRBX (XLF)",
     "2026-07-22: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV), FIDSX (XLF), FSRBX (XLF)",
     "2026-07-21: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV), FIDSX (XLF), FSRBX (XLF)",
@@ -46,7 +47,6 @@
     "2026-07-20: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV), FIDSX (XLF), FSRBX (XLF)",
     "2026-07-20: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV), FIDSX (XLF), FSRBX (XLF)",
     "2026-07-17: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FIDSX (XLF), FSRBX (XLF), FSPHX (XLV)",
-    "2026-07-17: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 3 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FIDSX (XLF), FSPHX (XLV)",
-    "2026-07-17: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FIDSX (XLF), FSENX (XLE)"
+    "2026-07-17: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: $2,600 — 3 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FIDSX (XLF), FSPHX (XLV)"
   ]
 }
