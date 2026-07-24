@@ -1,6 +1,6 @@
 {
   "runDate": "2026-07-24",
-  "runTimestamp": "2026-07-24T14:21:45.242Z",
+  "runTimestamp": "2026-07-24T22:02:56.894Z",
   "dataSourceStatus": {
     "primary": "massive",
     "symbolsLoaded": 39,
@@ -190,7 +190,7 @@
       }
     ],
     "topRotationMove": "Energy (XLE) leading with RS +10.17% vs SPY",
-    "rankedAt": "2026-07-24T14:24:53.485Z"
+    "rankedAt": "2026-07-24T22:06:04.232Z"
   },
   "topSignals": [
     {
@@ -760,6 +760,33 @@
       "reasoning": "Parent: Financials (RS +3.25% vs SPY, strengthening) | Pressure: Near 20-day resistance at $103.50 (1.7% away) | RSI: 63.66"
     },
     {
+      "symbol": "XOM",
+      "label": "ExxonMobil",
+      "parentSector": "XLE",
+      "parentSectorLabel": "Energy",
+      "parentRotationScore": 73.6,
+      "pressurePoints": [
+        {
+          "symbol": "XOM",
+          "type": "rsi-overbought",
+          "level": 0,
+          "description": "RSI overbought at 82.23",
+          "strength": "strong"
+        },
+        {
+          "symbol": "XOM",
+          "type": "resistance",
+          "level": 158.57,
+          "description": "Near 20-day resistance at $158.57 (1.1% away)",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 82.23,
+      "score": 66,
+      "conviction": "medium",
+      "reasoning": "Parent: Energy (RS +10.17% vs SPY, strengthening) | Pressure: RSI overbought at 82.23; Near 20-day resistance at $158.57 (1.1% away) | RSI: 82.23"
+    },
+    {
       "symbol": "CVX",
       "label": "Chevron",
       "parentSector": "XLE",
@@ -919,33 +946,6 @@
       "reasoning": "Parent: Energy (RS +10.17% vs SPY, strengthening) | Pressure: RSI overbought at 79.81; Near 20-day resistance at $122.38 (1.8% away) | RSI: 79.81"
     },
     {
-      "symbol": "EOG",
-      "label": "EOG Resources",
-      "parentSector": "XLE",
-      "parentSectorLabel": "Energy",
-      "parentRotationScore": 73.6,
-      "pressurePoints": [
-        {
-          "symbol": "EOG",
-          "type": "rsi-overbought",
-          "level": 0,
-          "description": "RSI overbought at 74.62",
-          "strength": "moderate"
-        },
-        {
-          "symbol": "EOG",
-          "type": "resistance",
-          "level": 147.45,
-          "description": "Near 20-day resistance at $147.45 (1.3% away)",
-          "strength": "moderate"
-        }
-      ],
-      "rsi": 74.62,
-      "score": 59,
-      "conviction": "medium",
-      "reasoning": "Parent: Energy (RS +10.17% vs SPY, strengthening) | Pressure: RSI overbought at 74.62; Near 20-day resistance at $147.45 (1.3% away) | RSI: 74.62"
-    },
-    {
       "symbol": "SLB",
       "label": "SLB",
       "parentSector": "XLE",
@@ -1050,7 +1050,7 @@
     "XLF: Monitor — score 55/100"
   ],
   "warnings": [
-    "Stock fetch failed: XOM"
+    "Stock fetch failed: EOG"
   ],
   "fourOhOneK": {
     "date": "2026-07-24",
@@ -1089,7 +1089,7 @@
         "daysHeld": 10,
         "canSellWithoutFee": false,
         "consecutiveLeaderDays": 0,
-        "consecutiveLaggardDays": 18
+        "consecutiveLaggardDays": 19
       }
     ],
     "recommendations": [
@@ -1120,7 +1120,7 @@
         "parentEtf": "SMH",
         "daysHeld": 10,
         "canSellWithoutFee": false,
-        "reason": "SMH lagging for 18 days. Exit planned — 20 days until free of redemption fee.",
+        "reason": "SMH lagging for 19 days. Exit planned — 20 days until free of redemption fee.",
         "urgency": "medium"
       }
     ],
