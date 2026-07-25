@@ -2,10 +2,13 @@ name: Daily Market Rotation Report
 
 on:
   schedule:
-    # Post-close: 21:00 UTC (5:00 PM ET) — fresh EOD data
-    - cron: '00 21 * * 1-5'
-    # Pre-open:  12:30 UTC (8:30 AM ET) — review yesterday's signals before open
-    - cron: '30 12 * * 1-5'
+    # Post-close: ~21:00 UTC (5:00 PM ET) — fresh EOD data.
+    # Off the exact hour mark to avoid GitHub Actions' busiest scheduling queue slot.
+    - cron: '07 21 * * 1-5'
+    # Pre-open: ~11:00 UTC (7:00 AM ET) — review yesterday's signals before open.
+    # Moved earlier than the 8:30 AM ET target (and off :30) because scheduled
+    # workflows can run 1-2h late during high platform load, especially at :00/:30.
+    - cron: '13 11 * * 1-5'
   workflow_dispatch:            # allow manual trigger for testing
 
 permissions:

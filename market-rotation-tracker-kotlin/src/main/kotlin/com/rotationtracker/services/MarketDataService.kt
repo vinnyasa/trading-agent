@@ -13,7 +13,7 @@ import java.time.ZoneOffset
 
 private const val MASSIVE_BASE = "https://api.polygon.io/v2"
 private const val AV_BASE = "https://www.alphavantage.co/query"
-private const val MASSIVE_RATE_DELAY_MS = 13_000L
+private const val MASSIVE_RATE_DELAY_MS = 15_000L
 private const val AV_DAILY_CAP = 20
 
 private val json = Json { ignoreUnknownKeys = true }
