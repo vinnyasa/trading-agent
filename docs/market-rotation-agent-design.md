@@ -237,14 +237,16 @@ Never connect `place_equity_order` or `place_option_order` to any automated sche
 | Phase | Description | Status |
 |---|---|---|
 | Phase 1 | Lock scope: stocks + macro + pressure points, daily | Done |
-| Phase 2 | Implement macro regime detector | Next |
-| Phase 3 | Implement stock/sector rotation scoring | Pending |
-| Phase 4 | Implement daily pressure point scoring | Pending |
-| Phase 5 | Generate daily report and alert output | Pending |
-| Phase 6 | Add once-daily scheduler (GitHub Actions or local) | Pending |
-| Phase 7 | Evaluate Robinhood MCP as data source (market data tools only) | Parallel track |
+| Phase 2 | Implement macro regime detector | Done (`MacroRegimeService.kt`) |
+| Phase 3 | Implement stock/sector rotation scoring | Done (`RotationTracker.kt`, `StockScorer.kt`) |
+| Phase 4 | Implement daily pressure point scoring | Done (`PressurePointsService.kt`, incl. EMA pullback setup) |
+| Phase 5 | Generate daily report and alert output | Done (`ReportGenerator.kt`) |
+| Phase 6 | Add once-daily scheduler (GitHub Actions or local) | Done (`.github/workflows/daily-rotation.yml`, cron + workflow_dispatch) |
+| Phase 7 | Evaluate Robinhood MCP as data source (market data tools only) | Pending — not started |
 
 Gate to V2: run paper mode for 4+ weeks, validate signal accuracy, define position size and loss limits.
+
+**Note (2026-07-24):** the implementation fully migrated from the original TypeScript project (`market-rotation-tracker/`) to a Kotlin/Gradle project (`market-rotation-tracker-kotlin/`), run via Docker Compose locally and GitHub Actions in CI. All code references below to `.ts` service files are historical/design-intent only — the live implementation is the Kotlin equivalent under `market-rotation-tracker-kotlin/src/main/kotlin/com/rotationtracker/services/`. Paper-mode clock effectively restarted with the migration: only 2 days of Kotlin daily reports exist so far (2026-07-23, 2026-07-24), so the 4-week gate below is not yet met.
 
 ### V2 — Interactive analysis + rule-based execution
 
@@ -292,7 +294,9 @@ Renaissance's edge was not any single algorithm — it was signal diversity, ens
 | High-frequency trading | Completely out of scope — requires co-location and microsecond infrastructure |
 | Redundant momentum indicators (RSI + Stochastic + CCI together) | These measure the same thing — adding them is noise amplification, not signal diversity |
 
-### V1.5 candidate — Statistical arbitrage / pair trading
+### V1.5 candidate — Statistical arbitrage / pair trading — DEFERRED
+
+**Status (2026-07-24): waiting.** This one stays gated behind the 4+ week paper-mode requirement — it needs a track record of the core signals plus 2-5 years of historical bars per pair leg to run cointegration testing safely, and no code exists yet in either project. Revisit once the Kotlin batch has enough daily history.
 
 Pair trading works at daily timeframe and does not require HFT speed. It is a realistic addition once the core signal engine is stable.
 
@@ -319,7 +323,9 @@ Pair trading works at daily timeframe and does not require HFT speed. It is a re
 **When to add it:**
 After the core macro + rotation + pressure point engine has run for 4+ weeks and daily data collection is stable. Add cointegration scoring as an additional confluence input, not a replacement for existing signals.
 
-### V1.5 candidate — Short interest signal
+### V1.5 candidate — Short interest signal (short squeeze pressure point) — VIABLE NOW
+
+**Status (2026-07-24): reclassified as near-term, not gated by the 4-week paper-mode rule.** Unlike pair trading, this isn't a tuned-weight strategy that needs an outcome track record to add safely — it's a new data source feeding one more `PressurePoint` type, the same pattern already used for the EMA-pullback setup (added with a fixed `strong` weight, no historical validation, then observed going forward). It can be added now with a conservative fixed strength and its confluence weight tuned later once enough observations exist.
 
 Short interest adds a sentiment/positioning layer that is uncorrelated with price and volume signals already in V1.
 
@@ -342,7 +348,7 @@ Short interest adds a sentiment/positioning layer that is uncorrelated with pric
 - Polygon.io paid tier — real-time short interest if upgraded later
 - Robinhood MCP — worth testing during evaluation track
 
-**When to add:** After pair trading cointegration is evaluated. Add as an additional pressure point type in `pressurePoints.ts`, log it independently in the signal log, and tune its confluence weight after 4+ weeks of observations.
+**When to add:** No longer blocked on pair trading being evaluated first (that ordering assumed both were gated the same way — they aren't). Add as an additional pressure point type in `PressurePointsService.kt`, log it independently in the signal log, and tune its confluence weight after 4+ weeks of observations.
 
 ### Signal discipline rules
 
@@ -395,11 +401,12 @@ Re-evaluate crypto after the stock signal engine has proven accuracy. Apply the 
 
 ## Immediate Next Steps
 
-1. Freeze the v1 universe (sector ETFs + initial stock list).
-2. Confirm data source: test Robinhood MCP market data tools vs Massive/Alpha Vantage.
-3. Implement macro regime detector.
-4. Implement daily batch command and output schema.
-5. Run paper mode and track signal quality before any v2 work begins.
+1. ~~Freeze the v1 universe~~ — done (15 sector ETFs + 25-stock watchlist, `StockWatchlist.kt`).
+2. ~~Implement macro regime detector~~ — done.
+3. ~~Implement daily batch command and output schema~~ — done, running daily via GitHub Actions.
+4. Let paper mode accumulate history (currently 2 days post-migration) before evaluating signal accuracy or starting pair trading.
+5. Evaluate Robinhood MCP as a data source (Phase 7 — still not started).
+6. Add the short-interest / short-squeeze pressure point (viable now — see V1.5 section above).
 
 ## Related Files
 
@@ -407,5 +414,5 @@ Re-evaluate crypto after the stock signal engine has proven accuracy. Apply the 
 - [README.md](./README.md) - project overview
 - [insights.md](./insights.md) - research notes
 
-Last updated: July 11, 2026
-Current focus: V1 — stocks + macro regime + pressure points, daily cadence, read-only
+Last updated: July 24, 2026
+Current focus: V1 core engine complete and running daily (Kotlin) — accumulating paper-mode history; short-interest pressure point is the next viable addition, pair trading and Robinhood MCP remain deferred.

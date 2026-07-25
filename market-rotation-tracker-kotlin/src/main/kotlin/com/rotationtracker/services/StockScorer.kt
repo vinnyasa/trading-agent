@@ -3,11 +3,13 @@ package com.rotationtracker.services
 import com.rotationtracker.config.STOCK_WATCHLIST
 import com.rotationtracker.models.DailyBar
 import com.rotationtracker.models.SectorScore
+import com.rotationtracker.models.ShortInterestRecord
 import com.rotationtracker.models.StockSignal
 
 fun scoreStockWatchlist(
     leaders: List<SectorScore>,
     barsBySymbol: Map<String, List<DailyBar>>,
+    shortInterestBySymbol: Map<String, ShortInterestRecord> = emptyMap(),
 ): List<StockSignal> {
     val signals = mutableListOf<StockSignal>()
     val seen    = mutableSetOf<String>() // deduplicate (e.g. NVDA in XLK + SMH)
@@ -21,7 +23,7 @@ fun scoreStockWatchlist(
             val bars = barsBySymbol[symbol] ?: continue
             if (bars.size < 20) continue
 
-            val pressure = scorePressurePoints(symbol, bars)
+            val pressure = scorePressurePoints(symbol, bars, shortInterestBySymbol[symbol])
             var score    = 0
 
             // Parent sector rotation strength (40%)

@@ -3,6 +3,7 @@ package com.rotationtracker.services
 import com.rotationtracker.models.DailyBar
 import com.rotationtracker.models.PressurePoint
 import com.rotationtracker.models.PressureResult
+import com.rotationtracker.models.ShortInterestRecord
 import kotlin.math.*
 
 // ── RSI ───────────────────────────────────────────────────────────────────────
@@ -168,7 +169,7 @@ private fun candleStreakLength(bars: List<DailyBar>): CandleStreak {
 }
 
 // ── Main scorer ───────────────────────────────────────────────────────────────
-fun scorePressurePoints(symbol: String, bars: List<DailyBar>): PressureResult {
+fun scorePressurePoints(symbol: String, bars: List<DailyBar>, shortInterest: ShortInterestRecord? = null): PressureResult {
     val points       = mutableListOf<PressurePoint>()
     val currentPrice = bars.last().close
 
@@ -240,6 +241,28 @@ fun scorePressurePoints(symbol: String, bars: List<DailyBar>): PressureResult {
             "Pulled back ${"%.1f".format(setup.pctFromHigh * 100)}% from recent high to the ${setup.emaPeriod}-EMA " +
                 "(${"%.2f".format(setup.emaValue)}) in an intact uptrend — better risk/reward than chasing the breakout",
             "strong"))
+    }
+
+    // Short interest (FINRA biweekly file has no float data, so we use days-to-cover
+    // and the period-over-period change instead — both are established squeeze metrics)
+    if (shortInterest != null) {
+        val dtc = shortInterest.daysToCover
+        if (dtc >= 5)
+            points.add(PressurePoint(symbol, "short-interest-elevated", dtc,
+                "Short interest elevated: ${"%.1f".format(dtc)} days to cover " +
+                    "(${shortInterest.currentShortQuantity.let { "%,d".format(it) }} shares short vs " +
+                    "${"%,d".format(shortInterest.avgDailyVolume)} avg daily volume) — squeeze risk if it breaks higher",
+                if (dtc >= 10) "strong" else "moderate"))
+
+        val chg = shortInterest.changePercent
+        if (chg <= -15)
+            points.add(PressurePoint(symbol, "short-interest-covering", chg,
+                "Short interest down ${"%.1f".format(-chg)}% since last settlement (${shortInterest.settlementDate}) — shorts covering, bullish confirmation",
+                "moderate"))
+        else if (chg >= 20)
+            points.add(PressurePoint(symbol, "short-interest-rising", chg,
+                "Short interest up ${"%.1f".format(chg)}% since last settlement (${shortInterest.settlementDate}) — building squeeze fuel or confirming bearish thesis",
+                "weak"))
     }
 
     return PressureResult(

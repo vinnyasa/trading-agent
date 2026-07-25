@@ -64,6 +64,18 @@ fun main() = runBlocking {
     println("[batch] Computing rotation scores...")
     val rotation = scoreRotation(barsBySymbol, spyBars)
 
+    // ── 3b. Fetch short interest (FINRA biweekly public file, no API key) ─────
+    println("[batch] Fetching FINRA short interest data...")
+    val shortInterestUniverse = (allSymbols + STOCK_WATCHLIST.values.flatten().map { it.first }).toSet()
+    val shortInterestBySymbol = try {
+        fetchShortInterest(shortInterestUniverse)
+    } catch (e: Exception) {
+        warnings.add("FINRA short interest fetch failed: ${e.message}")
+        emptyMap()
+    }
+    if (shortInterestBySymbol.isEmpty())
+        println("[batch] No short interest data available for this run")
+
     // ── 4. Score pressure points + confluence ─────────────────────────────────
     println("[batch] Scoring pressure points and confluence...")
     val signals    = mutableListOf<ConfluenceSignal>()
@@ -73,7 +85,7 @@ fun main() = runBlocking {
     for ((symbol, _) in SECTOR_UNIVERSE) {
         val bars        = barsBySymbol[symbol] ?: continue
         if (bars.size < 20) continue
-        val pressure    = scorePressurePoints(symbol, bars)
+        val pressure    = scorePressurePoints(symbol, bars, shortInterestBySymbol[symbol])
         val sectorScore = rotation.allScores.find { it.symbol == symbol } ?: continue
         val signal      = scoreConfluence(sectorScore, pressure, macroRegime)
         signals.add(signal)
@@ -118,7 +130,7 @@ fun main() = runBlocking {
         if (stockFailed.isNotEmpty())
             warnings.add("Stock fetch failed: ${stockFailed.joinToString(", ")}")
         barsBySymbol.putAll(stockBars)
-        stockSignals = scoreStockWatchlist(rotation.leaders, barsBySymbol)
+        stockSignals = scoreStockWatchlist(rotation.leaders, barsBySymbol, shortInterestBySymbol)
         println("[batch] Stock signals: ${stockSignals.size} scored")
     }
 

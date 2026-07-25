@@ -77,6 +77,18 @@ data class PressureResult(
     val relativeVolume: Double, // today vs 20-day avg (1.0 = average)
 )
 
+// ── Short interest (FINRA biweekly, free public file — no float/shares data) ──
+@Serializable
+data class ShortInterestRecord(
+    val symbol: String,
+    val currentShortQuantity: Long,
+    val previousShortQuantity: Long,
+    val avgDailyVolume: Long,
+    val daysToCover: Double,   // currentShortQuantity / avgDailyVolume
+    val changePercent: Double, // % change in short position vs previous settlement
+    val settlementDate: String,
+)
+
 // ── Confluence ────────────────────────────────────────────────────────────────
 @Serializable
 data class ConfluenceSignal(
