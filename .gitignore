@@ -1,2 +1,7 @@
 .env
 */.env
+
+# Gradle / Kotlin build output (regenerated on every build, should never be committed)
+market-rotation-tracker-kotlin/build/
+market-rotation-tracker-kotlin/.gradle/
+market-rotation-tracker-kotlin/.kotlin/
