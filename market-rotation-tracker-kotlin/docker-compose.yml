@@ -1,0 +1,26 @@
+services:
+  batch:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    # API keys are read from .env — never baked into the image
+    env_file:
+      - ./.env
+    volumes:
+      # Reports written by the app land on the host
+      - ./reports:/app/reports
+    # Override entrypoint to pass JVM tuning flags without modifying the image
+    entrypoint: ["java", "-Xmx256m", "-jar", "app.jar"]
+    restart: "no"
+
+  # Compile-check only — exits 0 if clean
+  typecheck:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: build
+    env_file:
+      - ./.env
+    entrypoint: ["gradle", "compileKotlin", "--no-daemon"]
+    restart: "no"

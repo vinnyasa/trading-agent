@@ -1,0 +1,879 @@
+{
+  "runDate": "2026-07-16",
+  "runTimestamp": "2026-07-16T02:22:12.605Z",
+  "dataSourceStatus": {
+    "primary": "massive",
+    "symbolsLoaded": 41,
+    "symbolsFailed": []
+  },
+  "macroRegime": {
+    "regime": "unknown",
+    "label": "Unknown / Mixed",
+    "factors": [
+      "Mixed or inconclusive macro signals"
+    ],
+    "confidence": "low"
+  },
+  "rotation": {
+    "leaders": [
+      {
+        "symbol": "XLF",
+        "label": "Financials",
+        "relativeStrength": 3.97,
+        "momentum": 4.58,
+        "score": 60.5,
+        "trend": "strengthening"
+      },
+      {
+        "symbol": "XLE",
+        "label": "Energy",
+        "relativeStrength": -2.4,
+        "momentum": 6.29,
+        "score": 52.7,
+        "trend": "weakening"
+      },
+      {
+        "symbol": "XLU",
+        "label": "Utilities",
+        "relativeStrength": 1.25,
+        "momentum": -0.72,
+        "score": 51.2,
+        "trend": "strengthening"
+      }
+    ],
+    "laggards": [
+      {
+        "symbol": "SMH",
+        "label": "Semiconductors",
+        "relativeStrength": -4.53,
+        "momentum": -5.01,
+        "score": 38.2,
+        "trend": "weakening"
+      },
+      {
+        "symbol": "XLP",
+        "label": "Consumer Staples",
+        "relativeStrength": -4.16,
+        "momentum": -1.13,
+        "score": 42.6,
+        "trend": "weakening"
+      },
+      {
+        "symbol": "XLB",
+        "label": "Materials",
+        "relativeStrength": -4.31,
+        "momentum": -0.04,
+        "score": 43.5,
+        "trend": "weakening"
+      }
+    ],
+    "topRotationMove": "Financials (XLF) leading with RS +3.97% vs SPY",
+    "rankedAt": "2026-07-16T02:25:24.263Z"
+  },
+  "topSignals": [
+    {
+      "symbol": "XLF",
+      "score": 50,
+      "conviction": "medium",
+      "regime": "unknown",
+      "rotationTrend": "strengthening",
+      "pressurePoints": [
+        {
+          "symbol": "XLF",
+          "type": "rsi-overbought",
+          "level": 0,
+          "description": "RSI overbought at 70.1",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "XLF",
+          "type": "resistance",
+          "level": 56.8,
+          "description": "Near 20-day resistance at $56.80 (1.1% away)",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 70.1,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Financials strengthening (RS +3.97% vs SPY) | Pressure: RSI overbought at 70.1; Near 20-day resistance at $56.80 (1.1% away) | RSI: 70.1"
+    },
+    {
+      "symbol": "XLU",
+      "score": 50,
+      "conviction": "medium",
+      "regime": "unknown",
+      "rotationTrend": "strengthening",
+      "pressurePoints": [
+        {
+          "symbol": "XLU",
+          "type": "resistance",
+          "level": 46.32,
+          "description": "Near 20-day resistance at $46.32 (1.4% away)",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "XLU",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 55.54,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Utilities strengthening (RS +1.25% vs SPY) | Pressure: Near 20-day resistance at $46.32 (1.4% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 55.54"
+    },
+    {
+      "symbol": "XLE",
+      "score": 35,
+      "conviction": "low",
+      "regime": "unknown",
+      "rotationTrend": "weakening",
+      "pressurePoints": [
+        {
+          "symbol": "XLE",
+          "type": "resistance",
+          "level": 57.22,
+          "description": "Near 20-day resistance at $57.22 (0.5% away)",
+          "strength": "strong"
+        },
+        {
+          "symbol": "XLE",
+          "type": "high-volume-node",
+          "level": 57.68,
+          "description": "Near high-volume node at $57.68",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "XLE",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 64.53,
+      "reasoning": "Regime: Unknown / Mixed | Rotation: Energy weakening (RS -2.4% vs SPY) | Pressure: Near 20-day resistance at $57.22 (0.5% away); Near high-volume node at $57.68; Price and RSI diverging — potential trend exhaustion | RSI: 64.53"
+    }
+  ],
+  "stockSignals": [
+    {
+      "symbol": "MS",
+      "label": "Morgan Stanley",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 60.5,
+      "pressurePoints": [
+        {
+          "symbol": "MS",
+          "type": "resistance",
+          "level": 232.11,
+          "description": "Near 20-day resistance at $232.11 (2.0% away)",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "MS",
+          "type": "high-volume-node",
+          "level": 220.96,
+          "description": "Near high-volume node at $220.96",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "MS",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "MS",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 51.69,
+      "score": 84,
+      "conviction": "high",
+      "reasoning": "Parent: Financials (RS +3.97% vs SPY, strengthening) | Pressure: Near 20-day resistance at $232.11 (2.0% away); Near high-volume node at $220.96; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion | RSI: 51.69"
+    },
+    {
+      "symbol": "GS",
+      "label": "Goldman Sachs",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 60.5,
+      "pressurePoints": [
+        {
+          "symbol": "GS",
+          "type": "resistance",
+          "level": 1143.84,
+          "description": "Near 20-day resistance at $1143.84 (0.3% away)",
+          "strength": "strong"
+        },
+        {
+          "symbol": "GS",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "GS",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 58.01,
+      "score": 83,
+      "conviction": "high",
+      "reasoning": "Parent: Financials (RS +3.97% vs SPY, strengthening) | Pressure: Near 20-day resistance at $1143.84 (0.3% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion | RSI: 58.01"
+    },
+    {
+      "symbol": "NEE",
+      "label": "NextEra Energy",
+      "parentSector": "XLU",
+      "parentSectorLabel": "Utilities",
+      "parentRotationScore": 51.2,
+      "pressurePoints": [
+        {
+          "symbol": "NEE",
+          "type": "resistance",
+          "level": 89.86,
+          "description": "Near 20-day resistance at $89.86 (0.4% away)",
+          "strength": "strong"
+        },
+        {
+          "symbol": "NEE",
+          "type": "high-volume-node",
+          "level": 88.7,
+          "description": "Near high-volume node at $88.70",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "NEE",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 62.71,
+      "score": 81,
+      "conviction": "high",
+      "reasoning": "Parent: Utilities (RS +1.25% vs SPY, strengthening) | Pressure: Near 20-day resistance at $89.86 (0.4% away); Near high-volume node at $88.70; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 62.71"
+    },
+    {
+      "symbol": "JPM",
+      "label": "JPMorgan Chase",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 60.5,
+      "pressurePoints": [
+        {
+          "symbol": "JPM",
+          "type": "resistance",
+          "level": 344.73,
+          "description": "Near 20-day resistance at $344.73 (0.5% away)",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "JPM",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "JPM",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 59.22,
+      "score": 76,
+      "conviction": "high",
+      "reasoning": "Parent: Financials (RS +3.97% vs SPY, strengthening) | Pressure: Near 20-day resistance at $344.73 (0.5% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion | RSI: 59.22"
+    },
+    {
+      "symbol": "SOFI",
+      "label": "SoFi Technologies",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 60.5,
+      "pressurePoints": [
+        {
+          "symbol": "SOFI",
+          "type": "bollinger-squeeze-down",
+          "level": 0,
+          "description": "Bollinger squeeze with downward bias — volatility coiling, momentum tilting down",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 61.98,
+      "score": 68,
+      "conviction": "medium",
+      "reasoning": "Parent: Financials (RS +3.97% vs SPY, strengthening) | Pressure: Bollinger squeeze with downward bias — volatility coiling, momentum tilting down | RSI: 61.98"
+    },
+    {
+      "symbol": "WFC",
+      "label": "Wells Fargo",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 60.5,
+      "pressurePoints": [
+        {
+          "symbol": "WFC",
+          "type": "bollinger-squeeze-down",
+          "level": 0,
+          "description": "Bollinger squeeze with downward bias — volatility coiling, momentum tilting down",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "WFC",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 53.93,
+      "score": 68,
+      "conviction": "medium",
+      "reasoning": "Parent: Financials (RS +3.97% vs SPY, strengthening) | Pressure: Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Price and RSI diverging — potential trend exhaustion | RSI: 53.93"
+    },
+    {
+      "symbol": "BAC",
+      "label": "Bank of America",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 60.5,
+      "pressurePoints": [
+        {
+          "symbol": "BAC",
+          "type": "resistance",
+          "level": 61.21,
+          "description": "Near 20-day resistance at $61.21 (1.0% away)",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "BAC",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "BAC",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 65.01,
+      "score": 66,
+      "conviction": "medium",
+      "reasoning": "Parent: Financials (RS +3.97% vs SPY, strengthening) | Pressure: Near 20-day resistance at $61.21 (1.0% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion | RSI: 65.01"
+    },
+    {
+      "symbol": "D",
+      "label": "Dominion Energy",
+      "parentSector": "XLU",
+      "parentSectorLabel": "Utilities",
+      "parentRotationScore": 51.2,
+      "pressurePoints": [
+        {
+          "symbol": "D",
+          "type": "resistance",
+          "level": 71.575,
+          "description": "Near 20-day resistance at $71.58 (0.4% away)",
+          "strength": "strong"
+        },
+        {
+          "symbol": "D",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 67.61,
+      "score": 63,
+      "conviction": "medium",
+      "reasoning": "Parent: Utilities (RS +1.25% vs SPY, strengthening) | Pressure: Near 20-day resistance at $71.58 (0.4% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 67.61"
+    },
+    {
+      "symbol": "ORA",
+      "label": "Ormat Technologies (Geothermal)",
+      "parentSector": "XLU",
+      "parentSectorLabel": "Utilities",
+      "parentRotationScore": 51.2,
+      "pressurePoints": [
+        {
+          "symbol": "ORA",
+          "type": "rsi-oversold",
+          "level": 0,
+          "description": "RSI oversold at 23.13",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "ORA",
+          "type": "support",
+          "level": 106.2,
+          "description": "Near 20-day support at $106.20 (1.1% away)",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 23.13,
+      "score": 62,
+      "conviction": "medium",
+      "reasoning": "Parent: Utilities (RS +1.25% vs SPY, strengthening) | Pressure: RSI oversold at 23.13; Near 20-day support at $106.20 (1.1% away) | RSI: 23.13"
+    },
+    {
+      "symbol": "HOOD",
+      "label": "Robinhood Markets",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 60.5,
+      "pressurePoints": [],
+      "rsi": 59.68,
+      "score": 60,
+      "conviction": "medium",
+      "reasoning": "Parent: Financials (RS +3.97% vs SPY, strengthening) | Pressure: No significant pressure points | RSI: 59.68"
+    },
+    {
+      "symbol": "V",
+      "label": "Visa",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 60.5,
+      "pressurePoints": [
+        {
+          "symbol": "V",
+          "type": "rsi-overbought",
+          "level": 0,
+          "description": "RSI overbought at 71.64",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 71.64,
+      "score": 58,
+      "conviction": "medium",
+      "reasoning": "Parent: Financials (RS +3.97% vs SPY, strengthening) | Pressure: RSI overbought at 71.64 | RSI: 71.64"
+    },
+    {
+      "symbol": "NU",
+      "label": "Nubank (Latin America Fintech)",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 60.5,
+      "pressurePoints": [
+        {
+          "symbol": "NU",
+          "type": "rsi-overbought",
+          "level": 0,
+          "description": "RSI overbought at 71.21",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 71.21,
+      "score": 58,
+      "conviction": "medium",
+      "reasoning": "Parent: Financials (RS +3.97% vs SPY, strengthening) | Pressure: RSI overbought at 71.21 | RSI: 71.21"
+    },
+    {
+      "symbol": "DUK",
+      "label": "Duke Energy",
+      "parentSector": "XLU",
+      "parentSectorLabel": "Utilities",
+      "parentRotationScore": 51.2,
+      "pressurePoints": [
+        {
+          "symbol": "DUK",
+          "type": "high-volume-node",
+          "level": 126.48,
+          "description": "Near high-volume node at $126.48",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 53.18,
+      "score": 58,
+      "conviction": "medium",
+      "reasoning": "Parent: Utilities (RS +1.25% vs SPY, strengthening) | Pressure: Near high-volume node at $126.48 | RSI: 53.18"
+    },
+    {
+      "symbol": "SO",
+      "label": "Southern Company",
+      "parentSector": "XLU",
+      "parentSectorLabel": "Utilities",
+      "parentRotationScore": 51.2,
+      "pressurePoints": [
+        {
+          "symbol": "SO",
+          "type": "high-volume-node",
+          "level": 94.1,
+          "description": "Near high-volume node at $94.10",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 53.59,
+      "score": 58,
+      "conviction": "medium",
+      "reasoning": "Parent: Utilities (RS +1.25% vs SPY, strengthening) | Pressure: Near high-volume node at $94.10 | RSI: 53.59"
+    },
+    {
+      "symbol": "PNW",
+      "label": "Pinnacle West Capital",
+      "parentSector": "XLU",
+      "parentSectorLabel": "Utilities",
+      "parentRotationScore": 51.2,
+      "pressurePoints": [
+        {
+          "symbol": "PNW",
+          "type": "resistance",
+          "level": 110.405,
+          "description": "Near 20-day resistance at $110.41 (1.3% away)",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 64.43,
+      "score": 58,
+      "conviction": "medium",
+      "reasoning": "Parent: Utilities (RS +1.25% vs SPY, strengthening) | Pressure: Near 20-day resistance at $110.41 (1.3% away) | RSI: 64.43"
+    },
+    {
+      "symbol": "XOM",
+      "label": "ExxonMobil",
+      "parentSector": "XLE",
+      "parentSectorLabel": "Energy",
+      "parentRotationScore": 52.7,
+      "pressurePoints": [
+        {
+          "symbol": "XOM",
+          "type": "resistance",
+          "level": 146,
+          "description": "Near 20-day resistance at $146.00 (0.6% away)",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "XOM",
+          "type": "bollinger-squeeze-up",
+          "level": 0,
+          "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "XOM",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 60.88,
+      "score": 56,
+      "conviction": "medium",
+      "reasoning": "Parent: Energy (RS -2.4% vs SPY, weakening) | Pressure: Near 20-day resistance at $146.00 (0.6% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion | RSI: 60.88"
+    },
+    {
+      "symbol": "CVX",
+      "label": "Chevron",
+      "parentSector": "XLE",
+      "parentSectorLabel": "Energy",
+      "parentRotationScore": 52.7,
+      "pressurePoints": [
+        {
+          "symbol": "CVX",
+          "type": "resistance",
+          "level": 183.3605,
+          "description": "Near 20-day resistance at $183.36 (0.9% away)",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "CVX",
+          "type": "high-volume-node",
+          "level": 176.91,
+          "description": "Near high-volume node at $176.91",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "CVX",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 58.29,
+      "score": 56,
+      "conviction": "medium",
+      "reasoning": "Parent: Energy (RS -2.4% vs SPY, weakening) | Pressure: Near 20-day resistance at $183.36 (0.9% away); Near high-volume node at $176.91; Price and RSI diverging — potential trend exhaustion | RSI: 58.29"
+    },
+    {
+      "symbol": "COP",
+      "label": "ConocoPhillips",
+      "parentSector": "XLE",
+      "parentSectorLabel": "Energy",
+      "parentRotationScore": 52.7,
+      "pressurePoints": [
+        {
+          "symbol": "COP",
+          "type": "resistance",
+          "level": 113.7468,
+          "description": "Near 20-day resistance at $113.75 (1.7% away)",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "COP",
+          "type": "high-volume-node",
+          "level": 109.23,
+          "description": "Near high-volume node at $109.23",
+          "strength": "moderate"
+        },
+        {
+          "symbol": "COP",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 53.79,
+      "score": 56,
+      "conviction": "medium",
+      "reasoning": "Parent: Energy (RS -2.4% vs SPY, weakening) | Pressure: Near 20-day resistance at $113.75 (1.7% away); Near high-volume node at $109.23; Price and RSI diverging — potential trend exhaustion | RSI: 53.79"
+    },
+    {
+      "symbol": "PYPL",
+      "label": "PayPal",
+      "parentSector": "XLF",
+      "parentSectorLabel": "Financials",
+      "parentRotationScore": 60.5,
+      "pressurePoints": [
+        {
+          "symbol": "PYPL",
+          "type": "rsi-overbought",
+          "level": 0,
+          "description": "RSI overbought at 73.96",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 73.96,
+      "score": 51,
+      "conviction": "medium",
+      "reasoning": "Parent: Financials (RS +3.97% vs SPY, strengthening) | Pressure: RSI overbought at 73.96 | RSI: 73.96"
+    },
+    {
+      "symbol": "FCEL",
+      "label": "FuelCell Energy",
+      "parentSector": "XLU",
+      "parentSectorLabel": "Utilities",
+      "parentRotationScore": 51.2,
+      "pressurePoints": [],
+      "rsi": 49.44,
+      "score": 50,
+      "conviction": "medium",
+      "reasoning": "Parent: Utilities (RS +1.25% vs SPY, strengthening) | Pressure: No significant pressure points | RSI: 49.44"
+    },
+    {
+      "symbol": "PCG",
+      "label": "PG&E (Pacific Gas & Electric)",
+      "parentSector": "XLU",
+      "parentSectorLabel": "Utilities",
+      "parentRotationScore": 51.2,
+      "pressurePoints": [],
+      "rsi": 60.77,
+      "score": 50,
+      "conviction": "medium",
+      "reasoning": "Parent: Utilities (RS +1.25% vs SPY, strengthening) | Pressure: No significant pressure points | RSI: 60.77"
+    },
+    {
+      "symbol": "EOG",
+      "label": "EOG Resources",
+      "parentSector": "XLE",
+      "parentSectorLabel": "Energy",
+      "parentRotationScore": 52.7,
+      "pressurePoints": [
+        {
+          "symbol": "EOG",
+          "type": "resistance",
+          "level": 140.4799,
+          "description": "Near 20-day resistance at $140.48 (1.8% away)",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 55.22,
+      "score": 48,
+      "conviction": "low",
+      "reasoning": "Parent: Energy (RS -2.4% vs SPY, weakening) | Pressure: Near 20-day resistance at $140.48 (1.8% away) | RSI: 55.22"
+    },
+    {
+      "symbol": "BKR",
+      "label": "Baker Hughes (Oilfield Services)",
+      "parentSector": "XLE",
+      "parentSectorLabel": "Energy",
+      "parentRotationScore": 52.7,
+      "pressurePoints": [
+        {
+          "symbol": "BKR",
+          "type": "high-volume-node",
+          "level": 56.41,
+          "description": "Near high-volume node at $56.41",
+          "strength": "moderate"
+        }
+      ],
+      "rsi": 46.46,
+      "score": 48,
+      "conviction": "low",
+      "reasoning": "Parent: Energy (RS -2.4% vs SPY, weakening) | Pressure: Near high-volume node at $56.41 | RSI: 46.46"
+    },
+    {
+      "symbol": "BE",
+      "label": "Bloom Energy (Fuel Cell)",
+      "parentSector": "XLU",
+      "parentSectorLabel": "Utilities",
+      "parentRotationScore": 51.2,
+      "pressurePoints": [],
+      "rsi": 35,
+      "score": 44,
+      "conviction": "low",
+      "reasoning": "Parent: Utilities (RS +1.25% vs SPY, strengthening) | Pressure: No significant pressure points | RSI: 35"
+    },
+    {
+      "symbol": "SLB",
+      "label": "SLB",
+      "parentSector": "XLE",
+      "parentSectorLabel": "Energy",
+      "parentRotationScore": 52.7,
+      "pressurePoints": [],
+      "rsi": 48.47,
+      "score": 40,
+      "conviction": "low",
+      "reasoning": "Parent: Energy (RS -2.4% vs SPY, weakening) | Pressure: No significant pressure points | RSI: 48.47"
+    },
+    {
+      "symbol": "FRO",
+      "label": "Frontline (Oil Tankers)",
+      "parentSector": "XLE",
+      "parentSectorLabel": "Energy",
+      "parentRotationScore": 52.7,
+      "pressurePoints": [
+        {
+          "symbol": "FRO",
+          "type": "momentum-divergence",
+          "level": 0,
+          "description": "Price and RSI diverging — potential trend exhaustion",
+          "strength": "weak"
+        }
+      ],
+      "rsi": 37.56,
+      "score": 34,
+      "conviction": "low",
+      "reasoning": "Parent: Energy (RS -2.4% vs SPY, weakening) | Pressure: Price and RSI diverging — potential trend exhaustion | RSI: 37.56"
+    }
+  ],
+  "watchlistChanges": [
+    "XLF: Monitor — score 50/100",
+    "XLU: Monitor — score 50/100"
+  ],
+  "warnings": [],
+  "fourOhOneK": {
+    "date": "2026-07-16",
+    "cashAvailable": 2600,
+    "cashNote": "Update cashAvailable in reports/401k-state.json when you move funds from core 401k",
+    "totalPositions": 3,
+    "positions": [
+      {
+        "ticker": "FIDRX",
+        "fundName": "Fidelity Select Industrials",
+        "parentEtf": "XLI",
+        "entryDate": "2026-07-14",
+        "entrySignalScore": 53.5,
+        "daysHeld": 2,
+        "canSellWithoutFee": false,
+        "consecutiveLeaderDays": 0,
+        "consecutiveLaggardDays": 0
+      },
+      {
+        "ticker": "FSLEX",
+        "fundName": "Fidelity Environment & Alt Energy",
+        "parentEtf": "XLU",
+        "entryDate": "2026-07-14",
+        "entrySignalScore": 52.3,
+        "daysHeld": 2,
+        "canSellWithoutFee": false,
+        "consecutiveLeaderDays": 3,
+        "consecutiveLaggardDays": 0
+      },
+      {
+        "ticker": "FSELX",
+        "fundName": "Fidelity Select Semiconductors",
+        "parentEtf": "SMH",
+        "entryDate": "2026-07-14",
+        "entrySignalScore": 37.6,
+        "daysHeld": 2,
+        "canSellWithoutFee": false,
+        "consecutiveLeaderDays": 0,
+        "consecutiveLaggardDays": 3
+      }
+    ],
+    "recommendations": [
+      {
+        "action": "hold",
+        "ticker": "FIDRX",
+        "fundName": "Fidelity Select Industrials",
+        "parentEtf": "XLI",
+        "daysHeld": 2,
+        "canSellWithoutFee": false,
+        "reason": "XLI rotation holding. 28 days until fee-free exit.",
+        "urgency": "low"
+      },
+      {
+        "action": "hold",
+        "ticker": "FSLEX",
+        "fundName": "Fidelity Environment & Alt Energy",
+        "parentEtf": "XLU",
+        "daysHeld": 2,
+        "canSellWithoutFee": false,
+        "reason": "XLU rotation holding. RS +1.25% vs SPY 28 days until fee-free exit.",
+        "urgency": "low"
+      },
+      {
+        "action": "exit-when-eligible",
+        "ticker": "FSELX",
+        "fundName": "Fidelity Select Semiconductors",
+        "parentEtf": "SMH",
+        "daysHeld": 2,
+        "canSellWithoutFee": false,
+        "reason": "SMH lagging for 3 days. Exit planned — 28 days until free of redemption fee.",
+        "urgency": "medium"
+      }
+    ],
+    "entryOpportunities": [
+      {
+        "ticker": "FIDSX",
+        "fundName": "Fidelity Select Financial Services",
+        "parentEtf": "XLF",
+        "parentEtfScore": 60.5,
+        "reason": "Financials (XLF) is a rotation leader with RS +3.97% vs SPY, score 60.5. Confirm 2nd consecutive leader day before entering."
+      },
+      {
+        "ticker": "FSENX",
+        "fundName": "Fidelity Select Energy",
+        "parentEtf": "XLE",
+        "parentEtfScore": 52.7,
+        "reason": "Energy (XLE) is a rotation leader with RS -2.4% vs SPY, score 52.7. Confirm 2nd consecutive leader day before entering."
+      }
+    ],
+    "summary": [
+      "🟡 EXIT PLANNED: FSELX — waiting for 30-day hold",
+      "✅ HOLD: FIDRX, FSLEX",
+      "💰 CASH AVAILABLE: $2,600 — 2 entry opportunity/ies identified",
+      "📋 POTENTIAL ENTRIES: FIDSX (XLF), FSENX (XLE)"
+    ]
+  }
+}

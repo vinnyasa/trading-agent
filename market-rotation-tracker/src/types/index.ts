@@ -69,7 +69,9 @@ export type PressureType =
     | 'bollinger-squeeze'
     | 'bollinger-squeeze-up'
     | 'bollinger-squeeze-down'
-    | 'momentum-divergence';
+    | 'momentum-divergence'
+    | 'volume-dry-up'
+    | 'candle-streak-exhaustion';
 
 export interface PressurePoint {
     symbol: string;
@@ -86,6 +88,7 @@ export interface PressureResult {
     highVolumeNode: number | null;
     nearSupport: boolean;
     nearResistance: boolean;
+    relativeVolume: number;  // today vs 20-day avg (1.0 = average)
 }
 
 // ── Confluence ───────────────────────────────────────────────────────────────

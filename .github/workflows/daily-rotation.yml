@@ -14,25 +14,27 @@ permissions:
 jobs:
   daily-batch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
         with:
-          node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: market-rotation-tracker/package.json
+          distribution: 'temurin'
+          java-version: '17'
 
-      - name: Install dependencies
-        working-directory: market-rotation-tracker
-        run: npm install
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Build fat jar
+        working-directory: market-rotation-tracker-kotlin
+        run: gradle jar --no-daemon
 
       - name: Run daily batch
-        working-directory: market-rotation-tracker
+        working-directory: market-rotation-tracker-kotlin
         env:
           MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
           ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
@@ -40,14 +42,14 @@ jobs:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DISCORD_WEBHOOK_SUMMARY: ${{ secrets.DISCORD_WEBHOOK_SUMMARY }}
-        run: npm run batch
+        run: java -jar build/libs/market-rotation-tracker-1.0.0.jar
 
       - name: Commit report back to repo
         if: always()   # commit whatever was produced, even on partial failure
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add market-rotation-tracker/reports/
+          git add market-rotation-tracker-kotlin/reports/
           if git diff --staged --quiet; then
             echo "No report changes to commit."
           else

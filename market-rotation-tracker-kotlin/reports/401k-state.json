@@ -1,0 +1,46 @@
+{
+    "lastUpdated": "2026-07-24",
+    "cashAvailable": 2600.0,
+    "cashNote": "Update cashAvailable in reports/401k-state.json when you move funds from core 401k",
+    "positions": [
+        {
+            "ticker": "FIDRX",
+            "fundName": "Fidelity Select Industrials",
+            "parentEtf": "XLI",
+            "entryDate": "2026-07-14",
+            "entrySignalScore": 53.5,
+            "daysHeld": 10,
+            "canSellWithoutFee": false,
+            "consecutiveLeaderDays": 0,
+            "consecutiveLaggardDays": 0
+        },
+        {
+            "ticker": "FSLEX",
+            "fundName": "Fidelity Environment & Alt Energy",
+            "parentEtf": "XLU",
+            "entryDate": "2026-07-14",
+            "entrySignalScore": 52.3,
+            "daysHeld": 10,
+            "canSellWithoutFee": false,
+            "consecutiveLeaderDays": 0,
+            "consecutiveLaggardDays": 0
+        },
+        {
+            "ticker": "FSELX",
+            "fundName": "Fidelity Select Semiconductors",
+            "parentEtf": "SMH",
+            "entryDate": "2026-07-14",
+            "entrySignalScore": 37.6,
+            "daysHeld": 10,
+            "canSellWithoutFee": false,
+            "consecutiveLeaderDays": 0,
+            "consecutiveLaggardDays": 3
+        }
+    ],
+    "recentActions": [
+        "2026-07-24: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV), FIDSX (XLF), FSRBX (XLF)",
+        "2026-07-23: 🟡 EXIT PLANNED: FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FIDSX (XLF), FSRBX (XLF), FSPHX (XLV)",
+        "2026-07-23: 👀 WATCH: FSELX — 1st day of laggard signal, confirm tomorrow | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FIDSX (XLF), FSRBX (XLF), FSPHX (XLV)",
+        "2026-07-23: ✅ HOLD: FIDRX, FSLEX, FSELX"
+    ]
+}

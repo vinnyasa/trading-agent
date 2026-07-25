@@ -3,7 +3,7 @@ services:
     build: .
     # Reads keys from your local .env file — never baked into the image
     env_file:
-      - .env
+      - ../.env
     volumes:
       # Mount reports folder so output lands on your host machine
       - ./reports:/app/reports
@@ -14,6 +14,8 @@ services:
   # Type-check only — exits 0 if clean, non-zero on errors
   typecheck:
     build: .
+    env_file:
+      - ../.env
     volumes:
       - ./src:/app/src
     command: ["node_modules/.bin/tsc", "--noEmit"]

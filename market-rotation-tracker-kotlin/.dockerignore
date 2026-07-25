@@ -1,0 +1,19 @@
+# Gradle build outputs — large, not needed in Docker build context
+build/
+.gradle/
+
+# IDE and OS artifacts
+.idea/
+*.iml
+*.iws
+.DS_Store
+
+# Git history
+.git/
+.gitignore
+
+# Local secrets — must never be copied into the image
+.env
+
+# Runtime output — mounted as a volume at runtime
+reports/

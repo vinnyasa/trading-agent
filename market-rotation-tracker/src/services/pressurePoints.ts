@@ -67,6 +67,32 @@ function findSupportResistance(bars: DailyBar[], lookback = 20): {
     return { support, resistance };
 }
 
+// ── Relative volume (today vs 20-day avg, excluding today) ──────────────
+function computeRelativeVolume(bars: DailyBar[], period = 20): number {
+    if (bars.length < period + 1) return 1;
+    const avgVol = bars.slice(-period - 1, -1).reduce((s, b) => s + b.volume, 0) / period;
+    if (avgVol === 0) return 1;
+    return parseFloat((bars[bars.length - 1].volume / avgVol).toFixed(2));
+}
+
+// ── Consecutive candle streak ─────────────────────────────────────────────
+function candleStreakLength(bars: DailyBar[]): { count: number; direction: 'up' | 'down' | 'none' } {
+    if (bars.length < 2) return { count: 0, direction: 'none' };
+    const last = bars[bars.length - 1];
+    const direction: 'up' | 'down' | 'none' =
+        last.close > last.open ? 'up' :
+        last.close < last.open ? 'down' : 'none';
+    if (direction === 'none') return { count: 0, direction: 'none' };
+    let count = 1;
+    for (let i = bars.length - 2; i >= 0; i--) {
+        const b = bars[i];
+        if (direction === 'up' && b.close > b.open) count++;
+        else if (direction === 'down' && b.close < b.open) count++;
+        else break;
+    }
+    return { count, direction };
+}
+
 // ── Momentum divergence (price up, RSI down or vice versa) ────────────────
 function hasMomentumDivergence(bars: DailyBar[]): boolean {
     if (bars.length < 20) return false;
@@ -98,6 +124,8 @@ export function scorePressurePoints(symbol: string, bars: DailyBar[]): PressureR
     const hvn = findHighVolumeNode(bars);
     const { squeezing, direction: squeezeDir } = bollingerAnalysis(bars);
     const diverging = hasMomentumDivergence(bars);
+    const rvol = computeRelativeVolume(bars);
+    const { count: streakCount, direction: streakDir } = candleStreakLength(bars);
 
     const proximity = (level: number) => Math.abs(currentPrice - level) / currentPrice;
 
@@ -175,6 +203,27 @@ export function scorePressurePoints(symbol: string, bars: DailyBar[]): PressureR
         });
     }
 
+    // Volume dry-up: price up over 5 days but today's volume well below average
+    const priceTrend5d = bars.length >= 6
+        ? (currentPrice - bars[bars.length - 6].close) / bars[bars.length - 6].close
+        : 0;
+    if (priceTrend5d > 0.01 && rvol < 0.8) {
+        points.push({
+            symbol, type: 'volume-dry-up', level: 0,
+            description: `Volume dry-up: price +${(priceTrend5d * 100).toFixed(1)}% over 5d but RVol ${rvol}x (20d avg) — participation fading`,
+            strength: rvol < 0.6 ? 'strong' : 'moderate',
+        });
+    }
+
+    // Candle streak exhaustion: 7+ consecutive candles in same direction
+    if (streakCount >= 7) {
+        points.push({
+            symbol, type: 'candle-streak-exhaustion', level: 0,
+            description: `${streakCount} consecutive ${streakDir === 'up' ? 'green' : 'red'} candles — streak exhaustion risk`,
+            strength: streakCount >= 9 ? 'strong' : 'moderate',
+        });
+    }
+
     return {
         symbol,
         points,
@@ -182,5 +231,6 @@ export function scorePressurePoints(symbol: string, bars: DailyBar[]): PressureR
         highVolumeNode: hvn,
         nearSupport: proximity(support) <= 0.02,
         nearResistance: proximity(resistance) <= 0.02,
+        relativeVolume: rvol,
     };
 }
