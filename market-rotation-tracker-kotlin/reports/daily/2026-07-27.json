@@ -1,6 +1,6 @@
 {
     "runDate": "2026-07-27",
-    "runTimestamp": "2026-07-27T13:03:50.706203284Z",
+    "runTimestamp": "2026-07-27T13:44:35.325973993Z",
     "dataSourceStatus": {
         "primary": "massive",
         "symbolsLoaded": 40,
@@ -190,7 +190,7 @@
             }
         ],
         "topRotationMove": "Energy (XLE) leading with RS +9.59% vs SPY",
-        "rankedAt": "2026-07-27T13:07:54.368695433Z"
+        "rankedAt": "2026-07-27T13:48:16.384658995Z"
     },
     "topSignals": [
         {
@@ -1333,7 +1333,7 @@
                 "daysHeld": 13,
                 "canSellWithoutFee": false,
                 "consecutiveLeaderDays": 0,
-                "consecutiveLaggardDays": 6
+                "consecutiveLaggardDays": 7
             }
         ],
         "recommendations": [
@@ -1364,7 +1364,7 @@
                 "parentEtf": "SMH",
                 "daysHeld": 13,
                 "canSellWithoutFee": false,
-                "reason": "SMH lagging for 6 days. Exit planned — 17 days until free of redemption fee.",
+                "reason": "SMH lagging for 7 days. Exit planned — 17 days until free of redemption fee.",
                 "urgency": "medium"
             }
         ],
