@@ -4,6 +4,8 @@ import com.rotationtracker.models.*
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.io.File
+import java.time.Instant
+import java.time.ZoneOffset
 
 private val reportJson = Json {
     prettyPrint      = true
@@ -280,10 +282,20 @@ fun generateMarkdownReport(report: DailyReport): String {
     return lines.joinToString("\n")
 }
 
+// Distinguishes the pre-open and post-close runs so the same calendar day's two
+// reports don't overwrite each other. Threshold of 16:00 UTC sits comfortably
+// between the pre-open cron (~11:13 UTC) and post-close cron (~21:07 UTC),
+// with margin for GitHub Actions scheduling delay.
+private fun sessionLabel(runTimestamp: String): String {
+    val hour = Instant.parse(runTimestamp).atZone(ZoneOffset.UTC).hour
+    return if (hour < 16) "premarket" else "postclose"
+}
+
 fun saveReport(report: DailyReport, outputDir: String): String {
     File(outputDir).mkdirs()
-    val mdPath   = "$outputDir/${report.runDate}.md"
-    val jsonPath = "$outputDir/${report.runDate}.json"
+    val session  = sessionLabel(report.runTimestamp)
+    val mdPath   = "$outputDir/${report.runDate}-$session.md"
+    val jsonPath = "$outputDir/${report.runDate}-$session.json"
     File(mdPath).writeText(generateMarkdownReport(report))
     File(jsonPath).writeText(reportJson.encodeToString(report))
     return mdPath
