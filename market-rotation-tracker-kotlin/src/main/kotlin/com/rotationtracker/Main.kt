@@ -115,9 +115,21 @@ fun main() = runBlocking {
     appendSignalLog(logEntries)
 
     // ── 5. Fetch + score individual stocks for leader sectors ─────────────────
+    // Union of rotation.leaders (top-3 by raw RS+momentum) and the top-3 sectors
+    // by confluence score (which also weighs pressure points / short interest /
+    // RSI quality) — a sector can score highest on confluence without making the
+    // raw rotation-leaders cutoff (e.g. slightly negative momentum), and we still
+    // want its stock watchlist scored in that case.
+    val topConfluenceSectors = signals
+        .sortedByDescending { it.score }
+        .take(3)
+        .mapNotNull { sig -> rotation.allScores.find { it.symbol == sig.symbol } }
+
+    val stockScoringSectors = (rotation.leaders + topConfluenceSectors).distinctBy { it.symbol }
+
     val stockSymbols = mutableListOf<String>()
     val seenStocks   = mutableSetOf<String>()
-    for (leader in rotation.leaders) {
+    for (leader in stockScoringSectors) {
         for ((sym, _) in STOCK_WATCHLIST[leader.symbol] ?: emptyList()) {
             if (seenStocks.add(sym)) stockSymbols.add(sym)
         }
@@ -130,7 +142,7 @@ fun main() = runBlocking {
         if (stockFailed.isNotEmpty())
             warnings.add("Stock fetch failed: ${stockFailed.joinToString(", ")}")
         barsBySymbol.putAll(stockBars)
-        stockSignals = scoreStockWatchlist(rotation.leaders, barsBySymbol, shortInterestBySymbol)
+        stockSignals = scoreStockWatchlist(stockScoringSectors, barsBySymbol, shortInterestBySymbol)
         println("[batch] Stock signals: ${stockSignals.size} scored")
     }
 
