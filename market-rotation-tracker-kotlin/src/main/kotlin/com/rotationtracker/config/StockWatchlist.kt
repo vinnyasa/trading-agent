@@ -102,6 +102,7 @@ val STOCK_WATCHLIST: Map<String, List<Pair<String, String>>> = mapOf(
         "WMT"   to "Walmart",
         "COST"  to "Costco",
         "HELE"  to "Helen of Troy (Household & Personal Products)",
+        "NGVC"  to "Natural Grocers by Vitamin Cottage",
     ),
     "SMH" to listOf(
         "NVDA"  to "NVIDIA",
