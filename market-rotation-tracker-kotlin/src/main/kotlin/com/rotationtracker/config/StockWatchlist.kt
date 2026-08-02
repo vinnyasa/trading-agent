@@ -59,6 +59,8 @@ val STOCK_WATCHLIST: Map<String, List<Pair<String, String>>> = mapOf(
         "FRVO"  to "Frontline (Oil Tankers)",
         "BKR"   to "Baker Hughes (Oilfield Services)",
         "USO"   to "United States Oil Fund (Crude Oil ETF)",
+        "EQT"   to "EQT Corporation (Natural Gas)",
+        "MUR"   to "Murphy Oil Corporation",
     ),
     "XLY" to listOf(
         "AMZN"  to "Amazon",
