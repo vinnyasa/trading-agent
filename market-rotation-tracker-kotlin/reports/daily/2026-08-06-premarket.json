@@ -1,6 +1,6 @@
 {
     "runDate": "2026-08-06",
-    "runTimestamp": "2026-08-06T13:02:46.429656408Z",
+    "runTimestamp": "2026-08-07T01:02:37.436197188Z",
     "dataSourceStatus": {
         "primary": "massive",
         "symbolsLoaded": 51,
@@ -190,7 +190,7 @@
             }
         ],
         "topRotationMove": "Financials (XLF) leading with RS +2.24% vs SPY",
-        "rankedAt": "2026-08-06T13:06:40.264937276Z"
+        "rankedAt": "2026-08-07T01:06:12.905374600Z"
     },
     "topSignals": [
         {
@@ -235,8 +235,8 @@
                 {
                     "symbol": "XLE",
                     "type": "high-volume-node",
-                    "level": 57.65,
-                    "description": "Near high-volume node at 57.65",
+                    "level": 57.8,
+                    "description": "Near high-volume node at 57.80",
                     "strength": "moderate"
                 },
                 {
@@ -249,13 +249,13 @@
                 {
                     "symbol": "XLE",
                     "type": "ema-pullback-21",
-                    "level": 57.78033835124934,
-                    "description": "Pulled back 5.2% from recent high to the 21-EMA (57.78) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "level": 57.78738132411299,
+                    "description": "Pulled back 5.2% from recent high to the 21-EMA (57.79) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 }
             ],
             "rsi": 51.63,
-            "reasoning": "Regime: Unknown / Mixed | Rotation: Energy neutral (RS -0.2% vs SPY) | Pressure: Near high-volume node at 57.65; Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Pulled back 5.2% from recent high to the 21-EMA (57.78) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 51.63"
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Energy neutral (RS -0.2% vs SPY) | Pressure: Near high-volume node at 57.80; Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Pulled back 5.2% from recent high to the 21-EMA (57.79) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 51.63"
         },
         {
             "symbol": "XLB",
@@ -345,13 +345,13 @@
                 {
                     "symbol": "SMH",
                     "type": "ema-pullback-21",
-                    "level": 567.1376245275769,
-                    "description": "Pulled back 7.8% from recent high to the 21-EMA (567.14) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "level": 567.1560691981298,
+                    "description": "Pulled back 7.8% from recent high to the 21-EMA (567.16) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 }
             ],
             "rsi": 50.19,
-            "reasoning": "Regime: Unknown / Mixed | Rotation: Semiconductors weakening (RS -7.2% vs SPY) | Pressure: Near high-volume node at 558.26; Volume dry-up: price +13.0% over 5d but RVol 0.49x (20d avg) — participation fading; Pulled back 7.8% from recent high to the 21-EMA (567.14) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 50.19"
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Semiconductors weakening (RS -7.2% vs SPY) | Pressure: Near high-volume node at 558.26; Volume dry-up: price +13.0% over 5d but RVol 0.49x (20d avg) — participation fading; Pulled back 7.8% from recent high to the 21-EMA (567.16) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 50.19"
         },
         {
             "symbol": "XLI",
@@ -511,15 +511,15 @@
                 {
                     "symbol": "MS",
                     "type": "ema-pullback-21",
-                    "level": 214.84135425285007,
-                    "description": "Pulled back 6.0% from recent high to the 21-EMA (214.84) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "level": 214.90240182629998,
+                    "description": "Pulled back 6.0% from recent high to the 21-EMA (214.90) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 }
             ],
             "rsi": 49.89,
             "score": 81,
             "conviction": "high",
-            "reasoning": "Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Near high-volume node at 221.25; Price and RSI diverging — potential trend exhaustion; Volume dry-up: price +7.5% over 5d but RVol 0.71x (20d avg) — participation fading; Pulled back 6.0% from recent high to the 21-EMA (214.84) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 49.89"
+            "reasoning": "Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Near high-volume node at 221.25; Price and RSI diverging — potential trend exhaustion; Volume dry-up: price +7.5% over 5d but RVol 0.71x (20d avg) — participation fading; Pulled back 6.0% from recent high to the 21-EMA (214.90) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 49.89"
         },
         {
             "symbol": "NU",
@@ -552,7 +552,7 @@
                 {
                     "symbol": "NU",
                     "type": "ema-pullback-8",
-                    "level": 14.363390944037093,
+                    "level": 14.363388059577472,
                     "description": "Pulled back 2.5% from recent high to the 8-EMA (14.36) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 }
@@ -627,7 +627,7 @@
                 {
                     "symbol": "SLB",
                     "type": "ema-pullback-8",
-                    "level": 49.65876173149759,
+                    "level": 49.658767492724934,
                     "description": "Pulled back 6.2% from recent high to the 8-EMA (49.66) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 },
@@ -695,8 +695,8 @@
                 {
                     "symbol": "HSBC",
                     "type": "ema-pullback-21",
-                    "level": 102.2305878804998,
-                    "description": "Pulled back 4.9% from recent high to the 21-EMA (102.23) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "level": 102.223919031517,
+                    "description": "Pulled back 4.9% from recent high to the 21-EMA (102.22) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 },
                 {
@@ -710,7 +710,7 @@
             "rsi": 54.8,
             "score": 73,
             "conviction": "high",
-            "reasoning": "Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Price and RSI diverging — potential trend exhaustion; Pulled back 4.9% from recent high to the 21-EMA (102.23) in an intact uptrend — better risk/reward than chasing the breakout; Short interest elevated: 5.1 days to cover (6,187,588 shares short vs 1,226,225 avg daily volume) — squeeze risk if it breaks higher | RSI: 54.8"
+            "reasoning": "Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Price and RSI diverging — potential trend exhaustion; Pulled back 4.9% from recent high to the 21-EMA (102.22) in an intact uptrend — better risk/reward than chasing the breakout; Short interest elevated: 5.1 days to cover (6,187,588 shares short vs 1,226,225 avg daily volume) — squeeze risk if it breaks higher | RSI: 54.8"
         },
         {
             "symbol": "SLV",
@@ -852,15 +852,15 @@
                 {
                     "symbol": "GS",
                     "type": "ema-pullback-21",
-                    "level": 1050.0803272027144,
-                    "description": "Pulled back 8.1% from recent high to the 21-EMA (1050.08) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "level": 1050.4169951082254,
+                    "description": "Pulled back 8.1% from recent high to the 21-EMA (1050.42) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 }
             ],
             "rsi": 44.03,
             "score": 67,
             "conviction": "medium",
-            "reasoning": "Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Near high-volume node at 1085.39; Price and RSI diverging — potential trend exhaustion; Pulled back 8.1% from recent high to the 21-EMA (1050.08) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 44.03"
+            "reasoning": "Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Near high-volume node at 1085.39; Price and RSI diverging — potential trend exhaustion; Pulled back 8.1% from recent high to the 21-EMA (1050.42) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 44.03"
         },
         {
             "symbol": "V",
@@ -913,7 +913,7 @@
                 {
                     "symbol": "PYPL",
                     "type": "ema-pullback-8",
-                    "level": 57.47562329440556,
+                    "level": 57.475625848113815,
                     "description": "Pulled back 2.6% from recent high to the 8-EMA (57.48) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 }
@@ -1028,15 +1028,15 @@
                 {
                     "symbol": "COP",
                     "type": "ema-pullback-21",
-                    "level": 115.79660351803422,
-                    "description": "Pulled back 6.0% from recent high to the 21-EMA (115.80) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "level": 115.82544374729538,
+                    "description": "Pulled back 6.0% from recent high to the 21-EMA (115.83) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 }
             ],
             "rsi": 54.33,
             "score": 63,
             "conviction": "medium",
-            "reasoning": "Parent: Energy (RS -0.2% vs SPY, neutral) | Pressure: Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Pulled back 6.0% from recent high to the 21-EMA (115.80) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 54.33"
+            "reasoning": "Parent: Energy (RS -0.2% vs SPY, neutral) | Pressure: Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Pulled back 6.0% from recent high to the 21-EMA (115.83) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 54.33"
         },
         {
             "symbol": "EQT",
@@ -1062,7 +1062,7 @@
                 {
                     "symbol": "EQT",
                     "type": "ema-pullback-21",
-                    "level": 51.98272419669558,
+                    "level": 51.97529620313903,
                     "description": "Pulled back 6.5% from recent high to the 21-EMA (51.98) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 }
@@ -1272,7 +1272,7 @@
                 {
                     "symbol": "XOM",
                     "type": "ema-pullback-8",
-                    "level": 153.83681961962336,
+                    "level": 153.83684253377058,
                     "description": "Pulled back 4.7% from recent high to the 8-EMA (153.84) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 }
@@ -1292,15 +1292,15 @@
                 {
                     "symbol": "CVX",
                     "type": "ema-pullback-21",
-                    "level": 187.82939069735127,
-                    "description": "Pulled back 5.7% from recent high to the 21-EMA (187.83) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "level": 187.87390780690097,
+                    "description": "Pulled back 5.7% from recent high to the 21-EMA (187.87) in an intact uptrend — better risk/reward than chasing the breakout",
                     "strength": "strong"
                 }
             ],
             "rsi": 53.37,
             "score": 55,
             "conviction": "medium",
-            "reasoning": "Parent: Energy (RS -0.2% vs SPY, neutral) | Pressure: Pulled back 5.7% from recent high to the 21-EMA (187.83) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 53.37"
+            "reasoning": "Parent: Energy (RS -0.2% vs SPY, neutral) | Pressure: Pulled back 5.7% from recent high to the 21-EMA (187.87) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 53.37"
         },
         {
             "symbol": "BKR",
@@ -1591,7 +1591,7 @@
                 "entrySignalScore": 53.5,
                 "daysHeld": 23,
                 "canSellWithoutFee": false,
-                "consecutiveLeaderDays": 1,
+                "consecutiveLeaderDays": 2,
                 "consecutiveLaggardDays": 0
             },
             {
@@ -1603,7 +1603,7 @@
                 "daysHeld": 23,
                 "canSellWithoutFee": false,
                 "consecutiveLeaderDays": 0,
-                "consecutiveLaggardDays": 7
+                "consecutiveLaggardDays": 8
             },
             {
                 "ticker": "FSELX",
@@ -1614,7 +1614,7 @@
                 "daysHeld": 23,
                 "canSellWithoutFee": false,
                 "consecutiveLeaderDays": 0,
-                "consecutiveLaggardDays": 23
+                "consecutiveLaggardDays": 24
             }
         ],
         "recommendations": [
@@ -1635,7 +1635,7 @@
                 "parentEtf": "XLU",
                 "daysHeld": 23,
                 "canSellWithoutFee": false,
-                "reason": "XLU lagging for 7 days. Exit planned — 7 days until free of redemption fee.",
+                "reason": "XLU lagging for 8 days. Exit planned — 7 days until free of redemption fee.",
                 "urgency": "medium"
             },
             {
@@ -1645,7 +1645,7 @@
                 "parentEtf": "SMH",
                 "daysHeld": 23,
                 "canSellWithoutFee": false,
-                "reason": "SMH lagging for 23 days. Exit planned — 7 days until free of redemption fee.",
+                "reason": "SMH lagging for 24 days. Exit planned — 7 days until free of redemption fee.",
                 "urgency": "medium"
             }
         ],

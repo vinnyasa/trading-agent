@@ -1,6 +1,6 @@
 # Market Rotation Daily Report — 2026-08-06
 
-Run: 2026-08-06T13:02:46.429656408Z
+Run: 2026-08-07T01:02:37.436197188Z
 Data source: massive | Symbols loaded: 51
 
 ## Today's Action Summary
@@ -61,14 +61,14 @@ Regime: Unknown / Mixed | Rotation: Financials strengthening (RS +2.24% vs SPY) 
 
 ### 🟡 XLE — Score: 50/100 (MEDIUM)
 
-Regime: Unknown / Mixed | Rotation: Energy neutral (RS -0.2% vs SPY) | Pressure: Near high-volume node at 57.65; Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Pulled back 5.2% from recent high to the 21-EMA (57.78) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 51.63
+Regime: Unknown / Mixed | Rotation: Energy neutral (RS -0.2% vs SPY) | Pressure: Near high-volume node at 57.80; Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Pulled back 5.2% from recent high to the 21-EMA (57.79) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 51.63
 
 **Suggested position size:** 8–12% of account
 
 **Pressure points:**
-- [moderate] Near high-volume node at 57.65
+- [moderate] Near high-volume node at 57.80
 - [moderate] Bollinger squeeze with downward bias — volatility coiling, momentum tilting down
-- [strong] Pulled back 5.2% from recent high to the 21-EMA (57.78) in an intact uptrend — better risk/reward than chasing the breakout
+- [strong] Pulled back 5.2% from recent high to the 21-EMA (57.79) in an intact uptrend — better risk/reward than chasing the breakout
 
 ### 🟡 XLB — Score: 50/100 (MEDIUM)
 
@@ -94,14 +94,14 @@ Regime: Unknown / Mixed | Rotation: Consumer Discretionary neutral (RS -0.38% vs
 
 ### 🔴 SMH — Score: 45/100 (LOW)
 
-Regime: Unknown / Mixed | Rotation: Semiconductors weakening (RS -7.2% vs SPY) | Pressure: Near high-volume node at 558.26; Volume dry-up: price +13.0% over 5d but RVol 0.49x (20d avg) — participation fading; Pulled back 7.8% from recent high to the 21-EMA (567.14) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 50.19
+Regime: Unknown / Mixed | Rotation: Semiconductors weakening (RS -7.2% vs SPY) | Pressure: Near high-volume node at 558.26; Volume dry-up: price +13.0% over 5d but RVol 0.49x (20d avg) — participation fading; Pulled back 7.8% from recent high to the 21-EMA (567.16) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 50.19
 
 **Suggested position size:** 3–5% of account
 
 **Pressure points:**
 - [moderate] Near high-volume node at 558.26
 - [strong] Volume dry-up: price +13.0% over 5d but RVol 0.49x (20d avg) — participation fading
-- [strong] Pulled back 7.8% from recent high to the 21-EMA (567.14) in an intact uptrend — better risk/reward than chasing the breakout
+- [strong] Pulled back 7.8% from recent high to the 21-EMA (567.16) in an intact uptrend — better risk/reward than chasing the breakout
 
 ### 🔴 XLI — Score: 40/100 (LOW)
 
@@ -161,7 +161,7 @@ Regime: Unknown / Mixed | Rotation: Russell 2000 (Small Cap) weakening (RS -1.13
 
 #### 🟢 MS — Morgan Stanley — Score: 81/100 (HIGH)
 
-Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Near high-volume node at 221.25; Price and RSI diverging — potential trend exhaustion; Volume dry-up: price +7.5% over 5d but RVol 0.71x (20d avg) — participation fading; Pulled back 6.0% from recent high to the 21-EMA (214.84) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 49.89
+Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Near high-volume node at 221.25; Price and RSI diverging — potential trend exhaustion; Volume dry-up: price +7.5% over 5d but RVol 0.71x (20d avg) — participation fading; Pulled back 6.0% from recent high to the 21-EMA (214.90) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 49.89
 
 **Suggested position size:** 15–20% of account
 
@@ -169,7 +169,7 @@ Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Near high-volum
 - [moderate] Near high-volume node at 221.25
 - [weak] Price and RSI diverging — potential trend exhaustion
 - [moderate] Volume dry-up: price +7.5% over 5d but RVol 0.71x (20d avg) — participation fading
-- [strong] Pulled back 6.0% from recent high to the 21-EMA (214.84) in an intact uptrend — better risk/reward than chasing the breakout
+- [strong] Pulled back 6.0% from recent high to the 21-EMA (214.90) in an intact uptrend — better risk/reward than chasing the breakout
 
 #### 🟢 NU — Nubank (Latin America Fintech) — Score: 81/100 (HIGH)
 
@@ -224,13 +224,13 @@ Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Near 20-day res
 
 #### 🟢 HSBC — HSBC Holdings — Score: 73/100 (HIGH)
 
-Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Price and RSI diverging — potential trend exhaustion; Pulled back 4.9% from recent high to the 21-EMA (102.23) in an intact uptrend — better risk/reward than chasing the breakout; Short interest elevated: 5.1 days to cover (6,187,588 shares short vs 1,226,225 avg daily volume) — squeeze risk if it breaks higher | RSI: 54.8
+Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Price and RSI diverging — potential trend exhaustion; Pulled back 4.9% from recent high to the 21-EMA (102.22) in an intact uptrend — better risk/reward than chasing the breakout; Short interest elevated: 5.1 days to cover (6,187,588 shares short vs 1,226,225 avg daily volume) — squeeze risk if it breaks higher | RSI: 54.8
 
 **Suggested position size:** 15–20% of account
 
 **Pressure points:**
 - [weak] Price and RSI diverging — potential trend exhaustion
-- [strong] Pulled back 4.9% from recent high to the 21-EMA (102.23) in an intact uptrend — better risk/reward than chasing the breakout
+- [strong] Pulled back 4.9% from recent high to the 21-EMA (102.22) in an intact uptrend — better risk/reward than chasing the breakout
 - [moderate] Short interest elevated: 5.1 days to cover (6,187,588 shares short vs 1,226,225 avg daily volume) — squeeze risk if it breaks higher
 
 ### Materials (XLB)
@@ -276,14 +276,14 @@ Parent: Energy (RS -0.2% vs SPY, neutral) | Pressure: Bollinger squeeze with dow
 
 #### 🟡 GS — Goldman Sachs — Score: 67/100 (MEDIUM)
 
-Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Near high-volume node at 1085.39; Price and RSI diverging — potential trend exhaustion; Pulled back 8.1% from recent high to the 21-EMA (1050.08) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 44.03
+Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Near high-volume node at 1085.39; Price and RSI diverging — potential trend exhaustion; Pulled back 8.1% from recent high to the 21-EMA (1050.42) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 44.03
 
 **Suggested position size:** 8–12% of account
 
 **Pressure points:**
 - [moderate] Near high-volume node at 1085.39
 - [weak] Price and RSI diverging — potential trend exhaustion
-- [strong] Pulled back 8.1% from recent high to the 21-EMA (1050.08) in an intact uptrend — better risk/reward than chasing the breakout
+- [strong] Pulled back 8.1% from recent high to the 21-EMA (1050.42) in an intact uptrend — better risk/reward than chasing the breakout
 
 #### 🟡 V — Visa — Score: 66/100 (MEDIUM)
 
@@ -347,13 +347,13 @@ Parent: Financials (RS +2.24% vs SPY, strengthening) | Pressure: Near 20-day res
 
 #### 🟡 COP — ConocoPhillips — Score: 63/100 (MEDIUM)
 
-Parent: Energy (RS -0.2% vs SPY, neutral) | Pressure: Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Pulled back 6.0% from recent high to the 21-EMA (115.80) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 54.33
+Parent: Energy (RS -0.2% vs SPY, neutral) | Pressure: Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Pulled back 6.0% from recent high to the 21-EMA (115.83) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 54.33
 
 **Suggested position size:** 8–12% of account
 
 **Pressure points:**
 - [moderate] Bollinger squeeze with downward bias — volatility coiling, momentum tilting down
-- [strong] Pulled back 6.0% from recent high to the 21-EMA (115.80) in an intact uptrend — better risk/reward than chasing the breakout
+- [strong] Pulled back 6.0% from recent high to the 21-EMA (115.83) in an intact uptrend — better risk/reward than chasing the breakout
 
 #### 🟡 EQT — EQT Corporation (Natural Gas) — Score: 63/100 (MEDIUM)
 
@@ -451,12 +451,12 @@ Parent: Energy (RS -0.2% vs SPY, neutral) | Pressure: Pulled back 4.7% from rece
 
 #### 🟡 CVX — Chevron — Score: 55/100 (MEDIUM)
 
-Parent: Energy (RS -0.2% vs SPY, neutral) | Pressure: Pulled back 5.7% from recent high to the 21-EMA (187.83) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 53.37
+Parent: Energy (RS -0.2% vs SPY, neutral) | Pressure: Pulled back 5.7% from recent high to the 21-EMA (187.87) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 53.37
 
 **Suggested position size:** 8–12% of account
 
 **Pressure points:**
-- [strong] Pulled back 5.7% from recent high to the 21-EMA (187.83) in an intact uptrend — better risk/reward than chasing the breakout
+- [strong] Pulled back 5.7% from recent high to the 21-EMA (187.87) in an intact uptrend — better risk/reward than chasing the breakout
 
 #### 🟡 BKR — Baker Hughes (Oilfield Services) — Score: 54/100 (MEDIUM)
 
@@ -594,15 +594,15 @@ Parent: Industrials (RS +0.01% vs SPY, neutral) | Pressure: Price and RSI diverg
 
 | Fund | ETF Signal | Days Held | Fee-Free? | Leader Days | Laggard Days |
 |---|---|---|---|---|---|
-| FIDRX — Fidelity Select Industrials | XLI | 23 | ⏳ 7d | 1 | 0 |
-| FSLEX — Fidelity Environment & Alt Energy | XLU | 23 | ⏳ 7d | 0 | 7 |
-| FSELX — Fidelity Select Semiconductors | SMH | 23 | ⏳ 7d | 0 | 23 |
+| FIDRX — Fidelity Select Industrials | XLI | 23 | ⏳ 7d | 2 | 0 |
+| FSLEX — Fidelity Environment & Alt Energy | XLU | 23 | ⏳ 7d | 0 | 8 |
+| FSELX — Fidelity Select Semiconductors | SMH | 23 | ⏳ 7d | 0 | 24 |
 
 ### Recommendations
 
 ✅ **FIDRX** (HOLD): XLI rotation holding. RS +0.01% vs SPY 7 days until fee-free exit.
-🟠 **FSLEX** (EXIT-WHEN-ELIGIBLE): XLU lagging for 7 days. Exit planned — 7 days until free of redemption fee.
-🟠 **FSELX** (EXIT-WHEN-ELIGIBLE): SMH lagging for 23 days. Exit planned — 7 days until free of redemption fee.
+🟠 **FSLEX** (EXIT-WHEN-ELIGIBLE): XLU lagging for 8 days. Exit planned — 7 days until free of redemption fee.
+🟠 **FSELX** (EXIT-WHEN-ELIGIBLE): SMH lagging for 24 days. Exit planned — 7 days until free of redemption fee.
 
 ### Entry Opportunities
 
