@@ -23,7 +23,7 @@
             "daysHeld": 31,
             "canSellWithoutFee": true,
             "consecutiveLeaderDays": 0,
-            "consecutiveLaggardDays": 19
+            "consecutiveLaggardDays": 20
         },
         {
             "ticker": "FSELX",
@@ -33,11 +33,12 @@
             "entrySignalScore": 37.6,
             "daysHeld": 31,
             "canSellWithoutFee": true,
-            "consecutiveLeaderDays": 3,
+            "consecutiveLeaderDays": 4,
             "consecutiveLaggardDays": 0
         }
     ],
     "recentActions": [
+        "2026-08-14: 🔴 EXIT NOW: FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSELX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSPTX (XLK), FDCPX (XLK), FSCSX (XLK), FSENX (XLE)",
         "2026-08-14: 🔴 EXIT NOW: FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSELX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSPTX (XLK), FDCPX (XLK), FSCSX (XLK), FSENX (XLE)",
         "2026-08-13: 🔴 EXIT NOW: FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSELX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSPTX (XLK), FDCPX (XLK), FSCSX (XLK), FSENX (XLE)",
         "2026-08-13: 🔴 EXIT NOW: FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSELX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSPTX (XLK), FDCPX (XLK), FSCSX (XLK), FSENX (XLE)",
@@ -46,7 +47,6 @@
         "2026-08-11: 🟡 EXIT PLANNED: FSLEX, FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSDPX (XLB)",
         "2026-08-11: 🟡 EXIT PLANNED: FSLEX, FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSDPX (XLB)",
         "2026-08-10: 🟡 EXIT PLANNED: FSLEX, FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSDPX (XLB), FSPTX (XLK), FDCPX (XLK), FSCSX (XLK)",
-        "2026-08-10: 🟡 EXIT PLANNED: FSLEX, FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSDPX (XLB), FSPTX (XLK), FDCPX (XLK), FSCSX (XLK)",
-        "2026-08-07: 🟡 EXIT PLANNED: FSLEX, FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX | 💰 CASH AVAILABLE: 2600 — 3 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FIDSX (XLF), FSRBX (XLF), FSDPX (XLB)"
+        "2026-08-10: 🟡 EXIT PLANNED: FSLEX, FSELX — waiting for 30-day hold | ✅ HOLD: FIDRX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSDPX (XLB), FSPTX (XLK), FDCPX (XLK), FSCSX (XLK)"
     ]
 }
