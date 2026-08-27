@@ -1,7 +1,7 @@
 # Market Rotation Daily Report — 2026-08-26
 
-Run: 2026-08-26T11:40:56.214918529Z
-Data source: massive | Symbols loaded: 52
+Run: 2026-08-27T00:39:04.258964859Z
+Data source: massive | Symbols loaded: 53
 
 ## Today's Action Summary
 
@@ -12,10 +12,10 @@ Data source: massive | Symbols loaded: 52
 **Rotation leaders:** XLE (Energy, RS +4.42%), XLV (Health Care, RS +1.42%), XLK (Technology, RS +2.84%)
 **Avoid / underweight:** XLU (RS -8.24%), XLI (RS -5.62%), XLRE (RS -4.79%)
 
-**XLK — MEDIUM conviction (65/100):** Monitor. RS strengthening, RSI 41. _Suggested size: 8–12% of account._
 **XLV — MEDIUM conviction (65/100):** Monitor. RS strengthening, RSI 76. _Suggested size: 8–12% of account._
 **XLY — MEDIUM conviction (65/100):** Monitor. RS strengthening, RSI 47. _Suggested size: 8–12% of account._
 **QQQ — MEDIUM conviction (65/100):** Monitor. RS strengthening, RSI 44. _Suggested size: 8–12% of account._
+**XLK — MEDIUM conviction (60/100):** Monitor. RS strengthening, RSI 41. _Suggested size: 8–12% of account._
 **XLRE — MEDIUM conviction (60/100):** Monitor. RS weakening, RSI 51. _Suggested size: 8–12% of account._
 **XLF — MEDIUM conviction (55/100):** Monitor. RS weakening, RSI 53. _Suggested size: 8–12% of account._
 **XLE — MEDIUM conviction (55/100):** Monitor. RS strengthening, RSI 74. _Suggested size: 8–12% of account._
@@ -64,17 +64,6 @@ Data source: massive | Symbols loaded: 52
 
 ## Top Confluence Signals
 
-### 🟡 XLK — Score: 65/100 (MEDIUM)
-
-Regime: Disinflation Recovery | Rotation: Technology strengthening (RS +2.84% vs SPY) | Pressure: Near high-volume node at 181.91; 8 consecutive red candles — streak exhaustion risk; Pulled back 5.2% from recent high to the 8-EMA (183.55) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 41.02
-
-**Suggested position size:** 8–12% of account
-
-**Pressure points:**
-- [moderate] Near high-volume node at 181.91
-- [moderate] 8 consecutive red candles — streak exhaustion risk
-- [strong] Pulled back 5.2% from recent high to the 8-EMA (183.55) in an intact uptrend — better risk/reward than chasing the breakout
-
 ### 🟡 XLV — Score: 65/100 (MEDIUM)
 
 Regime: Disinflation Recovery | Rotation: Health Care strengthening (RS +1.42% vs SPY) | Pressure: RSI overbought at 76.07; Near 20-day resistance at 176.60 (0.7% away); Volume dry-up: price +3.3% over 5d but RVol 0.56x (20d avg) — participation fading | RSI: 76.07
@@ -108,15 +97,25 @@ Regime: Disinflation Recovery | Rotation: Nasdaq 100 (Growth) strengthening (RS 
 - [moderate] 8 consecutive red candles — streak exhaustion risk
 - [strong] Pulled back 3.2% from recent high to the 8-EMA (714.03) in an intact uptrend — better risk/reward than chasing the breakout
 
+### 🟡 XLK — Score: 60/100 (MEDIUM)
+
+Regime: Disinflation Recovery | Rotation: Technology strengthening (RS +2.84% vs SPY) | Pressure: 8 consecutive red candles — streak exhaustion risk; Pulled back 5.2% from recent high to the 8-EMA (183.55) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 41.02
+
+**Suggested position size:** 8–12% of account
+
+**Pressure points:**
+- [moderate] 8 consecutive red candles — streak exhaustion risk
+- [strong] Pulled back 5.2% from recent high to the 8-EMA (183.55) in an intact uptrend — better risk/reward than chasing the breakout
+
 ### 🟡 XLRE — Score: 60/100 (MEDIUM)
 
-Regime: Disinflation Recovery | Rotation: Real Estate weakening (RS -4.79% vs SPY) | Pressure: Near 20-day resistance at 46.22 (1.9% away); Near high-volume node at 44.28; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion; Volume dry-up: price +1.6% over 5d but RVol 0.57x (20d avg) — participation fading | RSI: 51.99
+Regime: Disinflation Recovery | Rotation: Real Estate weakening (RS -4.79% vs SPY) | Pressure: Near 20-day resistance at 46.22 (1.9% away); Near high-volume node at 44.35; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion; Volume dry-up: price +1.6% over 5d but RVol 0.57x (20d avg) — participation fading | RSI: 51.99
 
 **Suggested position size:** 8–12% of account
 
 **Pressure points:**
 - [moderate] Near 20-day resistance at 46.22 (1.9% away)
-- [moderate] Near high-volume node at 44.28
+- [moderate] Near high-volume node at 44.35
 - [moderate] Bollinger squeeze with upward bias — volatility coiling, momentum tilting up
 - [weak] Price and RSI diverging — potential trend exhaustion
 - [strong] Volume dry-up: price +1.6% over 5d but RVol 0.57x (20d avg) — participation fading
@@ -169,13 +168,13 @@ Regime: Disinflation Recovery | Rotation: S&P 500 (Benchmark) neutral (RS +0.0% 
 
 ### ⚪ IWM — Score: 20/100 (NOISE)
 
-Regime: Disinflation Recovery | Rotation: Russell 2000 (Small Cap) weakening (RS -1.38% vs SPY) | Pressure: Near 20-day resistance at 305.18 (2.0% away); Near high-volume node at 292.76 | RSI: 49.02
+Regime: Disinflation Recovery | Rotation: Russell 2000 (Small Cap) weakening (RS -1.38% vs SPY) | Pressure: Near 20-day resistance at 305.18 (2.0% away); Near high-volume node at 294.66 | RSI: 49.02
 
 **Suggested position size:** No position — signal is noise-level
 
 **Pressure points:**
 - [moderate] Near 20-day resistance at 305.18 (2.0% away)
-- [moderate] Near high-volume node at 292.76
+- [moderate] Near high-volume node at 294.66
 
 ## Stock Signals (Leader Sectors)
 
@@ -241,14 +240,14 @@ Parent: Technology (RS +2.84% vs SPY, strengthening) | Pressure: RSI oversold at
 
 #### 🟢 BKR — Baker Hughes (Oilfield Services) — Score: 83/100 (HIGH)
 
-Parent: Energy (RS +4.42% vs SPY, strengthening) | Pressure: Price and RSI diverging — potential trend exhaustion; 7 consecutive red candles — streak exhaustion risk; Pulled back 5.5% from recent high to the 21-EMA (62.07) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 50.65
+Parent: Energy (RS +4.42% vs SPY, strengthening) | Pressure: Price and RSI diverging — potential trend exhaustion; 7 consecutive red candles — streak exhaustion risk; Pulled back 5.5% from recent high to the 21-EMA (62.06) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 50.65
 
 **Suggested position size:** 15–20% of account
 
 **Pressure points:**
 - [weak] Price and RSI diverging — potential trend exhaustion
 - [moderate] 7 consecutive red candles — streak exhaustion risk
-- [strong] Pulled back 5.5% from recent high to the 21-EMA (62.07) in an intact uptrend — better risk/reward than chasing the breakout
+- [strong] Pulled back 5.5% from recent high to the 21-EMA (62.06) in an intact uptrend — better risk/reward than chasing the breakout
 
 #### 🟢 CVX — Chevron — Score: 81/100 (HIGH)
 
@@ -264,14 +263,14 @@ Parent: Energy (RS +4.42% vs SPY, strengthening) | Pressure: RSI overbought at 7
 
 #### 🟢 USO — United States Oil Fund (Crude Oil ETF) — Score: 81/100 (HIGH)
 
-Parent: Energy (RS +4.42% vs SPY, strengthening) | Pressure: Near high-volume node at 123.16; Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Pulled back 7.2% from recent high to the 21-EMA (126.91) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 66.01
+Parent: Energy (RS +4.42% vs SPY, strengthening) | Pressure: Near high-volume node at 123.16; Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Pulled back 7.2% from recent high to the 21-EMA (126.85) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 66.01
 
 **Suggested position size:** 15–20% of account
 
 **Pressure points:**
 - [moderate] Near high-volume node at 123.16
 - [moderate] Bollinger squeeze with downward bias — volatility coiling, momentum tilting down
-- [strong] Pulled back 7.2% from recent high to the 21-EMA (126.91) in an intact uptrend — better risk/reward than chasing the breakout
+- [strong] Pulled back 7.2% from recent high to the 21-EMA (126.85) in an intact uptrend — better risk/reward than chasing the breakout
 
 ### Technology (XLK)
 
@@ -414,6 +413,19 @@ Parent: Consumer Discretionary (RS +1.48% vs SPY, strengthening) | Pressure: Nea
 **Pressure points:**
 - [moderate] Near high-volume node at 342.71
 - [strong] Pulled back 5.7% from recent high to the 8-EMA (338.82) in an intact uptrend — better risk/reward than chasing the breakout
+
+### Nasdaq 100 (Growth) (QQQ)
+
+#### 🟡 GOOGL — Alphabet — Score: 67/100 (MEDIUM)
+
+Parent: Nasdaq 100 (Growth) (RS +1.83% vs SPY, strengthening) | Pressure: Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion; Pulled back 9.8% from recent high to the 8-EMA (346.09) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 32.33
+
+**Suggested position size:** 8–12% of account
+
+**Pressure points:**
+- [moderate] Bollinger squeeze with upward bias — volatility coiling, momentum tilting up
+- [weak] Price and RSI diverging — potential trend exhaustion
+- [strong] Pulled back 9.8% from recent high to the 8-EMA (346.09) in an intact uptrend — better risk/reward than chasing the breakout
 
 ### Energy (XLE)
 
@@ -609,10 +621,10 @@ Parent: Technology (RS +2.84% vs SPY, strengthening) | No significant pressure p
 
 ## Watchlist Changes
 
-- XLK: Monitor — score 65/100
 - XLV: Monitor — score 65/100
 - XLY: Monitor — score 65/100
 - QQQ: Monitor — score 65/100
+- XLK: Monitor — score 60/100
 - XLRE: Monitor — score 60/100
 
 ## 401k / BrokerageLink Tracker
@@ -629,14 +641,14 @@ Parent: Technology (RS +2.84% vs SPY, strengthening) | No significant pressure p
 
 | Fund | ETF Signal | Days Held | Fee-Free? | Leader Days | Laggard Days |
 |---|---|---|---|---|---|
-| FIDRX — Fidelity Select Industrials | XLI | 43 | ✅ Yes | 0 | 7 |
-| FSLEX — Fidelity Environment & Alt Energy | XLU | 43 | ✅ Yes | 0 | 35 |
+| FIDRX — Fidelity Select Industrials | XLI | 43 | ✅ Yes | 0 | 8 |
+| FSLEX — Fidelity Environment & Alt Energy | XLU | 43 | ✅ Yes | 0 | 36 |
 | FSELX — Fidelity Select Semiconductors | SMH | 43 | ✅ Yes | 0 | 0 |
 
 ### Recommendations
 
-🔴 **FIDRX** (EXIT-NOW): XLI has been a laggard for 7 consecutive days. Exit confirmed — no redemption fee.
-🔴 **FSLEX** (EXIT-NOW): XLU has been a laggard for 35 consecutive days. Exit confirmed — no redemption fee.
+🔴 **FIDRX** (EXIT-NOW): XLI has been a laggard for 8 consecutive days. Exit confirmed — no redemption fee.
+🔴 **FSLEX** (EXIT-NOW): XLU has been a laggard for 36 consecutive days. Exit confirmed — no redemption fee.
 ✅ **FSELX** (HOLD): SMH rotation holding. No fee to exit.
 
 ### Entry Opportunities
