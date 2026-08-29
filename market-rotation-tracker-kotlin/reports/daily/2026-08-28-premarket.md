@@ -1,6 +1,6 @@
 # Market Rotation Daily Report — 2026-08-28
 
-Run: 2026-08-28T05:17:44.581933037Z
+Run: 2026-08-29T03:08:35.655067214Z
 Data source: massive | Symbols loaded: 52
 
 ## Today's Action Summary
@@ -43,7 +43,7 @@ Data source: massive | Symbols loaded: 52
 
 - CPI trending down (332.81)
 - Fed Funds flat (3.63%)
-- Yield curve positive (0.47%)
+- Yield curve positive (0.39%)
 
 ## Sector Rotation
 
@@ -596,8 +596,7 @@ Parent: Health Care (RS +0.96% vs SPY, neutral) | No significant pressure points
 **Cash available:** $2,600
 > Update cashAvailable in reports/401k-state.json when you move funds from core 401k
 
-🔴 EXIT NOW: FSLEX — sector signal turned negative, fee-free
-👀 WATCH: FIDRX — 1st day of laggard signal, confirm tomorrow
+🔴 EXIT NOW: FIDRX, FSLEX — sector signal turned negative, fee-free
 ✅ HOLD: FSELX
 💰 CASH AVAILABLE: 2600 — 5 entry opportunity/ies identified
 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPTX (XLK), FDCPX (XLK), FSCSX (XLK), FSPHX (XLV)
@@ -606,14 +605,14 @@ Parent: Health Care (RS +0.96% vs SPY, neutral) | No significant pressure points
 
 | Fund | ETF Signal | Days Held | Fee-Free? | Leader Days | Laggard Days |
 |---|---|---|---|---|---|
-| FIDRX — Fidelity Select Industrials | XLI | 45 | ✅ Yes | 0 | 1 |
-| FSLEX — Fidelity Environment & Alt Energy | XLU | 45 | ✅ Yes | 0 | 38 |
+| FIDRX — Fidelity Select Industrials | XLI | 45 | ✅ Yes | 0 | 3 |
+| FSLEX — Fidelity Environment & Alt Energy | XLU | 45 | ✅ Yes | 0 | 40 |
 | FSELX — Fidelity Select Semiconductors | SMH | 45 | ✅ Yes | 0 | 0 |
 
 ### Recommendations
 
-🟡 **FIDRX** (CONSIDER-EXIT): XLI entered laggard territory today (day 1 of 2). Watch tomorrow — exit if laggard again.
-🔴 **FSLEX** (EXIT-NOW): XLU has been a laggard for 38 consecutive days. Exit confirmed — no redemption fee.
+🔴 **FIDRX** (EXIT-NOW): XLI has been a laggard for 3 consecutive days. Exit confirmed — no redemption fee.
+🔴 **FSLEX** (EXIT-NOW): XLU has been a laggard for 40 consecutive days. Exit confirmed — no redemption fee.
 ✅ **FSELX** (HOLD): SMH rotation holding. No fee to exit.
 
 ### Entry Opportunities

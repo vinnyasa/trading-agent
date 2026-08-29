@@ -1,6 +1,6 @@
 {
     "runDate": "2026-08-28",
-    "runTimestamp": "2026-08-28T05:17:44.581933037Z",
+    "runTimestamp": "2026-08-29T03:08:35.655067214Z",
     "dataSourceStatus": {
         "primary": "massive",
         "symbolsLoaded": 52,
@@ -12,7 +12,7 @@
         "factors": [
             "CPI trending down (332.81)",
             "Fed Funds flat (3.63%)",
-            "Yield curve positive (0.47%)"
+            "Yield curve positive (0.39%)"
         ],
         "confidence": "medium"
     },
@@ -192,7 +192,7 @@
             }
         ],
         "topRotationMove": "Energy (XLE) leading with RS +1.68% vs SPY",
-        "rankedAt": "2026-08-28T05:21:19.015289482Z"
+        "rankedAt": "2026-08-29T03:12:09.366132616Z"
     },
     "topSignals": [
         {
@@ -1545,7 +1545,7 @@
                 "daysHeld": 45,
                 "canSellWithoutFee": true,
                 "consecutiveLeaderDays": 0,
-                "consecutiveLaggardDays": 1
+                "consecutiveLaggardDays": 3
             },
             {
                 "ticker": "FSLEX",
@@ -1556,7 +1556,7 @@
                 "daysHeld": 45,
                 "canSellWithoutFee": true,
                 "consecutiveLeaderDays": 0,
-                "consecutiveLaggardDays": 38
+                "consecutiveLaggardDays": 40
             },
             {
                 "ticker": "FSELX",
@@ -1572,14 +1572,14 @@
         ],
         "recommendations": [
             {
-                "action": "consider-exit",
+                "action": "exit-now",
                 "ticker": "FIDRX",
                 "fundName": "Fidelity Select Industrials",
                 "parentEtf": "XLI",
                 "daysHeld": 45,
                 "canSellWithoutFee": true,
-                "reason": "XLI entered laggard territory today (day 1 of 2). Watch tomorrow — exit if laggard again.",
-                "urgency": "medium"
+                "reason": "XLI has been a laggard for 3 consecutive days. Exit confirmed — no redemption fee.",
+                "urgency": "high"
             },
             {
                 "action": "exit-now",
@@ -1588,7 +1588,7 @@
                 "parentEtf": "XLU",
                 "daysHeld": 45,
                 "canSellWithoutFee": true,
-                "reason": "XLU has been a laggard for 38 consecutive days. Exit confirmed — no redemption fee.",
+                "reason": "XLU has been a laggard for 40 consecutive days. Exit confirmed — no redemption fee.",
                 "urgency": "high"
             },
             {
@@ -1650,8 +1650,7 @@
             }
         ],
         "summary": [
-            "🔴 EXIT NOW: FSLEX — sector signal turned negative, fee-free",
-            "👀 WATCH: FIDRX — 1st day of laggard signal, confirm tomorrow",
+            "🔴 EXIT NOW: FIDRX, FSLEX — sector signal turned negative, fee-free",
             "✅ HOLD: FSELX",
             "💰 CASH AVAILABLE: 2600 — 5 entry opportunity/ies identified",
             "📋 POTENTIAL ENTRIES: FSENX (XLE), FSPTX (XLK), FDCPX (XLK), FSCSX (XLK), FSPHX (XLV)"
