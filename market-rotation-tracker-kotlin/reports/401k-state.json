@@ -12,7 +12,7 @@
             "daysHeld": 49,
             "canSellWithoutFee": true,
             "consecutiveLeaderDays": 0,
-            "consecutiveLaggardDays": 6
+            "consecutiveLaggardDays": 7
         },
         {
             "ticker": "FSLEX",
@@ -23,7 +23,7 @@
             "daysHeld": 49,
             "canSellWithoutFee": true,
             "consecutiveLeaderDays": 0,
-            "consecutiveLaggardDays": 43
+            "consecutiveLaggardDays": 44
         },
         {
             "ticker": "FSELX",
@@ -39,6 +39,7 @@
     ],
     "recentActions": [
         "2026-09-01: 🔴 EXIT NOW: FIDRX, FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FSELX | 💰 CASH AVAILABLE: 2600 — 3 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV), FSDPX (XLB)",
+        "2026-09-01: 🔴 EXIT NOW: FIDRX, FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FSELX | 💰 CASH AVAILABLE: 2600 — 3 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV), FSDPX (XLB)",
         "2026-08-31: 🔴 EXIT NOW: FIDRX, FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FSELX | 💰 CASH AVAILABLE: 2600 — 3 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSPHX (XLV), FSDPX (XLB), FSENX (XLE)",
         "2026-08-31: 🔴 EXIT NOW: FIDRX, FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FSELX | 💰 CASH AVAILABLE: 2600 — 3 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSPHX (XLV), FSDPX (XLB), FSENX (XLE)",
         "2026-08-28: 🔴 EXIT NOW: FIDRX, FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FSELX | 💰 CASH AVAILABLE: 2600 — 5 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPTX (XLK), FDCPX (XLK), FSCSX (XLK), FSPHX (XLV)",
@@ -46,7 +47,6 @@
         "2026-08-28: 🔴 EXIT NOW: FSLEX — sector signal turned negative, fee-free | 👀 WATCH: FIDRX — 1st day of laggard signal, confirm tomorrow | ✅ HOLD: FSELX | 💰 CASH AVAILABLE: 2600 — 5 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPTX (XLK), FDCPX (XLK), FSCSX (XLK), FSPHX (XLV)",
         "2026-08-27: 🔴 EXIT NOW: FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSELX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPTX (XLK), FDCPX (XLK), FSCSX (XLK)",
         "2026-08-26: 🔴 EXIT NOW: FIDRX, FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FSELX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV)",
-        "2026-08-26: 🔴 EXIT NOW: FIDRX, FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FSELX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV)",
-        "2026-08-25: 🔴 EXIT NOW: FIDRX, FSLEX, FSELX — sector signal turned negative, fee-free | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV)"
+        "2026-08-26: 🔴 EXIT NOW: FIDRX, FSLEX — sector signal turned negative, fee-free | ✅ HOLD: FSELX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV)"
     ]
 }
