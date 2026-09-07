@@ -1,6 +1,6 @@
 # Market Rotation Daily Report — 2026-09-07
 
-Run: 2026-09-07T16:26:24.308628600Z
+Run: 2026-09-07T23:26:31.951939852Z
 Data source: massive | Symbols loaded: 49
 
 ## Today's Action Summary
@@ -608,13 +608,13 @@ Parent: Financials (RS +1.27% vs SPY, strengthening) | No significant pressure p
 
 | Fund | ETF Signal | Days Held | Fee-Free? | Leader Days | Laggard Days |
 |---|---|---|---|---|---|
-| FIDRX — Fidelity Select Industrials | XLI | 55 | ✅ Yes | 0 | 13 |
+| FIDRX — Fidelity Select Industrials | XLI | 55 | ✅ Yes | 0 | 14 |
 | FSLEX — Fidelity Environment & Alt Energy | XLU | 55 | ✅ Yes | 0 | 0 |
 | FSELX — Fidelity Select Semiconductors | SMH | 55 | ✅ Yes | 0 | 0 |
 
 ### Recommendations
 
-🔴 **FIDRX** (EXIT-NOW): XLI has been a laggard for 13 consecutive days. Exit confirmed — no redemption fee.
+🔴 **FIDRX** (EXIT-NOW): XLI has been a laggard for 14 consecutive days. Exit confirmed — no redemption fee.
 ✅ **FSLEX** (HOLD): XLU rotation holding. No fee to exit.
 ✅ **FSELX** (HOLD): SMH rotation holding. No fee to exit.
 
