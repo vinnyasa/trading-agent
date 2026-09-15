@@ -1,6 +1,6 @@
 {
     "runDate": "2026-09-14",
-    "runTimestamp": "2026-09-14T16:57:05.159207512Z",
+    "runTimestamp": "2026-09-14T23:49:50.319488999Z",
     "dataSourceStatus": {
         "primary": "massive",
         "symbolsLoaded": 41,
@@ -190,7 +190,7 @@
             }
         ],
         "topRotationMove": "Energy (XLE) leading with RS +8.43% vs SPY",
-        "rankedAt": "2026-09-14T17:00:38.924513050Z"
+        "rankedAt": "2026-09-14T23:53:24.809259590Z"
     },
     "topSignals": [
         {
@@ -1269,7 +1269,7 @@
                 "daysHeld": 62,
                 "canSellWithoutFee": true,
                 "consecutiveLeaderDays": 0,
-                "consecutiveLaggardDays": 23
+                "consecutiveLaggardDays": 24
             },
             {
                 "ticker": "FSLEX",
@@ -1302,7 +1302,7 @@
                 "parentEtf": "XLI",
                 "daysHeld": 62,
                 "canSellWithoutFee": true,
-                "reason": "XLI has been a laggard for 23 consecutive days. Exit confirmed — no redemption fee.",
+                "reason": "XLI has been a laggard for 24 consecutive days. Exit confirmed — no redemption fee.",
                 "urgency": "high"
             },
             {
