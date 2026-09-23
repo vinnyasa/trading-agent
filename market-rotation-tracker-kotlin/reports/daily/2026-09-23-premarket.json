@@ -1,0 +1,1192 @@
+{
+    "runDate": "2026-09-23",
+    "runTimestamp": "2026-09-23T15:26:31.113938901Z",
+    "dataSourceStatus": {
+        "primary": "massive",
+        "symbolsLoaded": 34,
+        "symbolsFailed": []
+    },
+    "macroRegime": {
+        "regime": "unknown",
+        "label": "Unknown / Mixed",
+        "factors": [
+            "Mixed or inconclusive macro signals"
+        ],
+        "confidence": "low"
+    },
+    "rotation": {
+        "leaders": [
+            {
+                "symbol": "SMH",
+                "label": "Semiconductors",
+                "relativeStrength": 9.8,
+                "momentum": 5.88,
+                "score": 70.6,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLK",
+                "label": "Technology",
+                "relativeStrength": 7.71,
+                "momentum": 4.47,
+                "score": 66.0,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "QQQ",
+                "label": "Nasdaq 100 (Growth)",
+                "relativeStrength": 4.53,
+                "momentum": 4.05,
+                "score": 60.8,
+                "trend": "strengthening"
+            }
+        ],
+        "laggards": [
+            {
+                "symbol": "XLU",
+                "label": "Utilities",
+                "relativeStrength": -7.52,
+                "momentum": -6.72,
+                "score": 32.0,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLF",
+                "label": "Financials",
+                "relativeStrength": -7.17,
+                "momentum": -4.36,
+                "score": 34.9,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLRE",
+                "label": "Real Estate",
+                "relativeStrength": -7.54,
+                "momentum": -3.19,
+                "score": 35.5,
+                "trend": "weakening"
+            }
+        ],
+        "allScores": [
+            {
+                "symbol": "SMH",
+                "label": "Semiconductors",
+                "relativeStrength": 9.8,
+                "momentum": 5.88,
+                "score": 70.6,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLK",
+                "label": "Technology",
+                "relativeStrength": 7.71,
+                "momentum": 4.47,
+                "score": 66.0,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "QQQ",
+                "label": "Nasdaq 100 (Growth)",
+                "relativeStrength": 4.53,
+                "momentum": 4.05,
+                "score": 60.8,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLC",
+                "label": "Communication Services",
+                "relativeStrength": -0.22,
+                "momentum": 1.8,
+                "score": 51.5,
+                "trend": "neutral"
+            },
+            {
+                "symbol": "SPY",
+                "label": "S&P 500 (Benchmark)",
+                "relativeStrength": 0.0,
+                "momentum": 0.97,
+                "score": 51.0,
+                "trend": "neutral"
+            },
+            {
+                "symbol": "XLV",
+                "label": "Health Care",
+                "relativeStrength": -4.05,
+                "momentum": 1.65,
+                "score": 45.6,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLE",
+                "label": "Energy",
+                "relativeStrength": -3.41,
+                "momentum": -4.62,
+                "score": 40.3,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "IWM",
+                "label": "Russell 2000 (Small Cap)",
+                "relativeStrength": -4.91,
+                "momentum": -2.53,
+                "score": 40.1,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLY",
+                "label": "Consumer Discretionary",
+                "relativeStrength": -6.34,
+                "momentum": -1.46,
+                "score": 39.0,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLI",
+                "label": "Industrials",
+                "relativeStrength": -6.18,
+                "momentum": -2.38,
+                "score": 38.4,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLP",
+                "label": "Consumer Staples",
+                "relativeStrength": -6.7,
+                "momentum": -1.54,
+                "score": 38.4,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLB",
+                "label": "Materials",
+                "relativeStrength": -6.99,
+                "momentum": -2.71,
+                "score": 36.8,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLRE",
+                "label": "Real Estate",
+                "relativeStrength": -7.54,
+                "momentum": -3.19,
+                "score": 35.5,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLF",
+                "label": "Financials",
+                "relativeStrength": -7.17,
+                "momentum": -4.36,
+                "score": 34.9,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLU",
+                "label": "Utilities",
+                "relativeStrength": -7.52,
+                "momentum": -6.72,
+                "score": 32.0,
+                "trend": "weakening"
+            }
+        ],
+        "topRotationMove": "Semiconductors (SMH) leading with RS +9.8% vs SPY",
+        "rankedAt": "2026-09-23T15:30:06.782043767Z"
+    },
+    "topSignals": [
+        {
+            "symbol": "XLK",
+            "score": 60,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLK",
+                    "type": "rsi-overbought",
+                    "level": 0.0,
+                    "description": "RSI overbought at 74.41",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLK",
+                    "type": "resistance",
+                    "level": 196.505,
+                    "description": "Near 20-day resistance at 196.51 (0.1% away)",
+                    "strength": "strong"
+                },
+                {
+                    "symbol": "XLK",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLK",
+                    "type": "short-interest-rising",
+                    "level": 20.86,
+                    "description": "Short interest up 20.9% since last settlement (2026-08-31) — building squeeze fuel or confirming bearish thesis",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 74.41,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Technology strengthening (RS +7.71% vs SPY) | Pressure: RSI overbought at 74.41; Near 20-day resistance at 196.51 (0.1% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Short interest up 20.9% since last settlement (2026-08-31) — building squeeze fuel or confirming bearish thesis | RSI: 74.41"
+        },
+        {
+            "symbol": "QQQ",
+            "score": 60,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "QQQ",
+                    "type": "rsi-overbought",
+                    "level": 0.0,
+                    "description": "RSI overbought at 74.57",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "QQQ",
+                    "type": "resistance",
+                    "level": 748.349,
+                    "description": "Near 20-day resistance at 748.35 (0.1% away)",
+                    "strength": "strong"
+                },
+                {
+                    "symbol": "QQQ",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 74.57,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Nasdaq 100 (Growth) strengthening (RS +4.53% vs SPY) | Pressure: RSI overbought at 74.57; Near 20-day resistance at 748.35 (0.1% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 74.57"
+        },
+        {
+            "symbol": "SMH",
+            "score": 60,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "SMH",
+                    "type": "rsi-overbought",
+                    "level": 0.0,
+                    "description": "RSI overbought at 71.56",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "SMH",
+                    "type": "resistance",
+                    "level": 608.665,
+                    "description": "Near 20-day resistance at 608.67 (0.2% away)",
+                    "strength": "strong"
+                },
+                {
+                    "symbol": "SMH",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 71.56,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Semiconductors strengthening (RS +9.8% vs SPY) | Pressure: RSI overbought at 71.56; Near 20-day resistance at 608.67 (0.2% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 71.56"
+        },
+        {
+            "symbol": "SPY",
+            "score": 45,
+            "conviction": "low",
+            "regime": "unknown",
+            "rotationTrend": "neutral",
+            "pressurePoints": [
+                {
+                    "symbol": "SPY",
+                    "type": "resistance",
+                    "level": 775.3,
+                    "description": "Near 20-day resistance at 775.30 (0.2% away)",
+                    "strength": "strong"
+                },
+                {
+                    "symbol": "SPY",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "SPY",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 58.95,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: S&P 500 (Benchmark) neutral (RS +0.0% vs SPY) | Pressure: Near 20-day resistance at 775.30 (0.2% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion | RSI: 58.95"
+        },
+        {
+            "symbol": "XLC",
+            "score": 45,
+            "conviction": "low",
+            "regime": "unknown",
+            "rotationTrend": "neutral",
+            "pressurePoints": [
+                {
+                    "symbol": "XLC",
+                    "type": "resistance",
+                    "level": 115.61,
+                    "description": "Near 20-day resistance at 115.61 (1.8% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLC",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLC",
+                    "type": "short-interest-covering",
+                    "level": -18.27,
+                    "description": "Short interest down 18.3% since last settlement (2026-08-31) — shorts covering, bullish confirmation",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 57.08,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Communication Services neutral (RS -0.22% vs SPY) | Pressure: Near 20-day resistance at 115.61 (1.8% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Short interest down 18.3% since last settlement (2026-08-31) — shorts covering, bullish confirmation | RSI: 57.08"
+        },
+        {
+            "symbol": "XLF",
+            "score": 33,
+            "conviction": "low",
+            "regime": "unknown",
+            "rotationTrend": "weakening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLF",
+                    "type": "rsi-oversold",
+                    "level": 0.0,
+                    "description": "RSI oversold at 29.87",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLF",
+                    "type": "support",
+                    "level": 54.55,
+                    "description": "Near 20-day support at 54.55 (0.5% away)",
+                    "strength": "strong"
+                },
+                {
+                    "symbol": "XLF",
+                    "type": "high-volume-node",
+                    "level": 55.76,
+                    "description": "Near high-volume node at 55.76",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLF",
+                    "type": "short-interest-rising",
+                    "level": 45.07,
+                    "description": "Short interest up 45.1% since last settlement (2026-08-31) — building squeeze fuel or confirming bearish thesis",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 29.87,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Financials weakening (RS -7.17% vs SPY) | Pressure: RSI oversold at 29.87; Near 20-day support at 54.55 (0.5% away); Near high-volume node at 55.76; Short interest up 45.1% since last settlement (2026-08-31) — building squeeze fuel or confirming bearish thesis | RSI: 29.87"
+        },
+        {
+            "symbol": "XLB",
+            "score": 33,
+            "conviction": "low",
+            "regime": "unknown",
+            "rotationTrend": "weakening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLB",
+                    "type": "support",
+                    "level": 49.655,
+                    "description": "Near 20-day support at 49.66 (1.7% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLB",
+                    "type": "high-volume-node",
+                    "level": 51.5,
+                    "description": "Near high-volume node at 51.50",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLB",
+                    "type": "ema-pullback-8",
+                    "level": 50.538093799088436,
+                    "description": "Pulled back 6.6% from recent high to the 8-EMA (50.54) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 38.15,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Materials weakening (RS -6.99% vs SPY) | Pressure: Near 20-day support at 49.66 (1.7% away); Near high-volume node at 51.50; Pulled back 6.6% from recent high to the 8-EMA (50.54) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 38.15"
+        },
+        {
+            "symbol": "XLV",
+            "score": 30,
+            "conviction": "low",
+            "regime": "unknown",
+            "rotationTrend": "weakening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLV",
+                    "type": "high-volume-node",
+                    "level": 167.31,
+                    "description": "Near high-volume node at 167.31",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLV",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLV",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "XLV",
+                    "type": "ema-pullback-8",
+                    "level": 168.7207204340834,
+                    "description": "Pulled back 3.4% from recent high to the 8-EMA (168.72) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                },
+                {
+                    "symbol": "XLV",
+                    "type": "short-interest-rising",
+                    "level": 20.15,
+                    "description": "Short interest up 20.2% since last settlement (2026-08-31) — building squeeze fuel or confirming bearish thesis",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 44.08,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Health Care weakening (RS -4.05% vs SPY) | Pressure: Near high-volume node at 167.31; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion; Pulled back 3.4% from recent high to the 8-EMA (168.72) in an intact uptrend — better risk/reward than chasing the breakout; Short interest up 20.2% since last settlement (2026-08-31) — building squeeze fuel or confirming bearish thesis | RSI: 44.08"
+        },
+        {
+            "symbol": "IWM",
+            "score": 25,
+            "conviction": "noise",
+            "regime": "unknown",
+            "rotationTrend": "weakening",
+            "pressurePoints": [
+                {
+                    "symbol": "IWM",
+                    "type": "high-volume-node",
+                    "level": 288.9,
+                    "description": "Near high-volume node at 288.90",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "IWM",
+                    "type": "ema-pullback-8",
+                    "level": 286.78488763686454,
+                    "description": "Pulled back 4.4% from recent high to the 8-EMA (286.78) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 43.5,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Russell 2000 (Small Cap) weakening (RS -4.91% vs SPY) | Pressure: Near high-volume node at 288.90; Pulled back 4.4% from recent high to the 8-EMA (286.78) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 43.5"
+        }
+    ],
+    "stockSignals": [
+        {
+            "symbol": "AVGO",
+            "label": "Broadcom",
+            "parentSector": "SMH",
+            "parentSectorLabel": "Semiconductors",
+            "parentRotationScore": 70.6,
+            "pressurePoints": [
+                {
+                    "symbol": "AVGO",
+                    "type": "high-volume-node",
+                    "level": 360.67,
+                    "description": "Near high-volume node at 360.67",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "AVGO",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "AVGO",
+                    "type": "volume-dry-up",
+                    "level": 0.0,
+                    "description": "Volume dry-up: price +7.4% over 5d but RVol 0.76x (20d avg) — participation fading",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "AVGO",
+                    "type": "ema-pullback-21",
+                    "level": 361.4861044367087,
+                    "description": "Pulled back 3.2% from recent high to the 21-EMA (361.49) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 46.82,
+            "score": 99,
+            "conviction": "high",
+            "reasoning": "Parent: Semiconductors (RS +9.8% vs SPY, strengthening) | Pressure: Near high-volume node at 360.67; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Volume dry-up: price +7.4% over 5d but RVol 0.76x (20d avg) — participation fading; Pulled back 3.2% from recent high to the 21-EMA (361.49) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 46.82"
+        },
+        {
+            "symbol": "GOOGL",
+            "label": "Alphabet",
+            "parentSector": "QQQ",
+            "parentSectorLabel": "Nasdaq 100 (Growth)",
+            "parentRotationScore": 60.8,
+            "pressurePoints": [
+                {
+                    "symbol": "GOOGL",
+                    "type": "high-volume-node",
+                    "level": 343.22,
+                    "description": "Near high-volume node at 343.22",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "GOOGL",
+                    "type": "bollinger-squeeze",
+                    "level": 0.0,
+                    "description": "Bollinger Band squeeze — compressed volatility, breakout direction unclear",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "GOOGL",
+                    "type": "ema-pullback-8",
+                    "level": 347.63264917907185,
+                    "description": "Pulled back 2.3% from recent high to the 8-EMA (347.63) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 63.35,
+            "score": 91,
+            "conviction": "high",
+            "reasoning": "Parent: Nasdaq 100 (Growth) (RS +4.53% vs SPY, strengthening) | Pressure: Near high-volume node at 343.22; Bollinger Band squeeze — compressed volatility, breakout direction unclear; Pulled back 2.3% from recent high to the 8-EMA (347.63) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 63.35"
+        },
+        {
+            "symbol": "NVDA",
+            "label": "NVIDIA",
+            "parentSector": "SMH",
+            "parentSectorLabel": "Semiconductors",
+            "parentRotationScore": 70.6,
+            "pressurePoints": [
+                {
+                    "symbol": "NVDA",
+                    "type": "high-volume-node",
+                    "level": 222.6,
+                    "description": "Near high-volume node at 222.60",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "NVDA",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "NVDA",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "NVDA",
+                    "type": "volume-dry-up",
+                    "level": 0.0,
+                    "description": "Volume dry-up: price +7.9% over 5d but RVol 0.71x (20d avg) — participation fading",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 61.38,
+            "score": 84,
+            "conviction": "high",
+            "reasoning": "Parent: Semiconductors (RS +9.8% vs SPY, strengthening) | Pressure: Near high-volume node at 222.60; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion; Volume dry-up: price +7.9% over 5d but RVol 0.71x (20d avg) — participation fading | RSI: 61.38"
+        },
+        {
+            "symbol": "PLTR",
+            "label": "Palantir (AI Data)",
+            "parentSector": "XLK",
+            "parentSectorLabel": "Technology",
+            "parentRotationScore": 66.0,
+            "pressurePoints": [
+                {
+                    "symbol": "PLTR",
+                    "type": "resistance",
+                    "level": 188.37,
+                    "description": "Near 20-day resistance at 188.37 (1.8% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "PLTR",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "PLTR",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "PLTR",
+                    "type": "volume-dry-up",
+                    "level": 0.0,
+                    "description": "Volume dry-up: price +7.2% over 5d but RVol 0.79x (20d avg) — participation fading",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 54.17,
+            "score": 84,
+            "conviction": "high",
+            "reasoning": "Parent: Technology (RS +7.71% vs SPY, strengthening) | Pressure: Near 20-day resistance at 188.37 (1.8% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion; Volume dry-up: price +7.2% over 5d but RVol 0.79x (20d avg) — participation fading | RSI: 54.17"
+        },
+        {
+            "symbol": "MSFT",
+            "label": "Microsoft",
+            "parentSector": "XLK",
+            "parentSectorLabel": "Technology",
+            "parentRotationScore": 66.0,
+            "pressurePoints": [
+                {
+                    "symbol": "MSFT",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "MSFT",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "MSFT",
+                    "type": "ema-pullback-8",
+                    "level": 497.43527415709,
+                    "description": "Pulled back 3.8% from recent high to the 8-EMA (497.44) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 48.28,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Technology (RS +7.71% vs SPY, strengthening) | Pressure: Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion; Pulled back 3.8% from recent high to the 8-EMA (497.44) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 48.28"
+        },
+        {
+            "symbol": "QBTS",
+            "label": "D-Wave Quantum",
+            "parentSector": "XLK",
+            "parentSectorLabel": "Technology",
+            "parentRotationScore": 66.0,
+            "pressurePoints": [
+                {
+                    "symbol": "QBTS",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "QBTS",
+                    "type": "ema-pullback-21",
+                    "level": 17.43671169944506,
+                    "description": "Pulled back 10.1% from recent high to the 21-EMA (17.44) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 58.25,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Technology (RS +7.71% vs SPY, strengthening) | Pressure: Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Pulled back 10.1% from recent high to the 21-EMA (17.44) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 58.25"
+        },
+        {
+            "symbol": "AMZN",
+            "label": "Amazon",
+            "parentSector": "QQQ",
+            "parentSectorLabel": "Nasdaq 100 (Growth)",
+            "parentRotationScore": 60.8,
+            "pressurePoints": [
+                {
+                    "symbol": "AMZN",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "AMZN",
+                    "type": "ema-pullback-8",
+                    "level": 253.98548092052127,
+                    "description": "Pulled back 4.7% from recent high to the 8-EMA (253.99) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 50.07,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Nasdaq 100 (Growth) (RS +4.53% vs SPY, strengthening) | Pressure: Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Pulled back 4.7% from recent high to the 8-EMA (253.99) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 50.07"
+        },
+        {
+            "symbol": "MU",
+            "label": "Micron",
+            "parentSector": "SMH",
+            "parentSectorLabel": "Semiconductors",
+            "parentRotationScore": 70.6,
+            "pressurePoints": [
+                {
+                    "symbol": "MU",
+                    "type": "rsi-overbought",
+                    "level": 0.0,
+                    "description": "RSI overbought at 70.09",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "MU",
+                    "type": "resistance",
+                    "level": 1097.25,
+                    "description": "Near 20-day resistance at 1097.25 (0.1% away)",
+                    "strength": "strong"
+                },
+                {
+                    "symbol": "MU",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 70.09,
+            "score": 81,
+            "conviction": "high",
+            "reasoning": "Parent: Semiconductors (RS +9.8% vs SPY, strengthening) | Pressure: RSI overbought at 70.09; Near 20-day resistance at 1097.25 (0.1% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 70.09"
+        },
+        {
+            "symbol": "HPQ",
+            "label": "HP Inc",
+            "parentSector": "XLK",
+            "parentSectorLabel": "Technology",
+            "parentRotationScore": 66.0,
+            "pressurePoints": [
+                {
+                    "symbol": "HPQ",
+                    "type": "ema-pullback-21",
+                    "level": 32.163385561439384,
+                    "description": "Pulled back 11.6% from recent high to the 21-EMA (32.16) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 52.47,
+            "score": 75,
+            "conviction": "high",
+            "reasoning": "Parent: Technology (RS +7.71% vs SPY, strengthening) | Pressure: Pulled back 11.6% from recent high to the 21-EMA (32.16) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 52.47"
+        },
+        {
+            "symbol": "TSM",
+            "label": "TSMC",
+            "parentSector": "SMH",
+            "parentSectorLabel": "Semiconductors",
+            "parentRotationScore": 70.6,
+            "pressurePoints": [
+                {
+                    "symbol": "TSM",
+                    "type": "resistance",
+                    "level": 452.88,
+                    "description": "Near 20-day resistance at 452.88 (0.2% away)",
+                    "strength": "strong"
+                },
+                {
+                    "symbol": "TSM",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 69.21,
+            "score": 73,
+            "conviction": "high",
+            "reasoning": "Parent: Semiconductors (RS +9.8% vs SPY, strengthening) | Pressure: Near 20-day resistance at 452.88 (0.2% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 69.21"
+        },
+        {
+            "symbol": "AMD",
+            "label": "AMD",
+            "parentSector": "SMH",
+            "parentSectorLabel": "Semiconductors",
+            "parentRotationScore": 70.6,
+            "pressurePoints": [
+                {
+                    "symbol": "AMD",
+                    "type": "rsi-overbought",
+                    "level": 0.0,
+                    "description": "RSI overbought at 82.64",
+                    "strength": "strong"
+                },
+                {
+                    "symbol": "AMD",
+                    "type": "resistance",
+                    "level": 624.52,
+                    "description": "Near 20-day resistance at 624.52 (0.1% away)",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 82.64,
+            "score": 73,
+            "conviction": "high",
+            "reasoning": "Parent: Semiconductors (RS +9.8% vs SPY, strengthening) | Pressure: RSI overbought at 82.64; Near 20-day resistance at 624.52 (0.1% away) | RSI: 82.64"
+        },
+        {
+            "symbol": "CSCO",
+            "label": "Cisco Systems",
+            "parentSector": "XLK",
+            "parentSectorLabel": "Technology",
+            "parentRotationScore": 66.0,
+            "pressurePoints": [
+                {
+                    "symbol": "CSCO",
+                    "type": "support",
+                    "level": 104.51,
+                    "description": "Near 20-day support at 104.51 (1.8% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "CSCO",
+                    "type": "bollinger-squeeze-down",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with downward bias — volatility coiling, momentum tilting down",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 42.92,
+            "score": 70,
+            "conviction": "high",
+            "reasoning": "Parent: Technology (RS +7.71% vs SPY, strengthening) | Pressure: Near 20-day support at 104.51 (1.8% away); Bollinger squeeze with downward bias — volatility coiling, momentum tilting down | RSI: 42.92"
+        },
+        {
+            "symbol": "NOW",
+            "label": "ServiceNow",
+            "parentSector": "XLK",
+            "parentSectorLabel": "Technology",
+            "parentRotationScore": 66.0,
+            "pressurePoints": [
+                {
+                    "symbol": "NOW",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "NOW",
+                    "type": "ema-pullback-8",
+                    "level": 137.49895558619332,
+                    "description": "Pulled back 8.4% from recent high to the 8-EMA (137.50) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 44.16,
+            "score": 69,
+            "conviction": "medium",
+            "reasoning": "Parent: Technology (RS +7.71% vs SPY, strengthening) | Pressure: Price and RSI diverging — potential trend exhaustion; Pulled back 8.4% from recent high to the 8-EMA (137.50) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 44.16"
+        },
+        {
+            "symbol": "HPE",
+            "label": "Hewlett Packard Enterprise",
+            "parentSector": "XLK",
+            "parentSectorLabel": "Technology",
+            "parentRotationScore": 66.0,
+            "pressurePoints": [
+                {
+                    "symbol": "HPE",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "HPE",
+                    "type": "volume-dry-up",
+                    "level": 0.0,
+                    "description": "Volume dry-up: price +9.2% over 5d but RVol 0.62x (20d avg) — participation fading",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 63.45,
+            "score": 68,
+            "conviction": "medium",
+            "reasoning": "Parent: Technology (RS +7.71% vs SPY, strengthening) | Pressure: Price and RSI diverging — potential trend exhaustion; Volume dry-up: price +9.2% over 5d but RVol 0.62x (20d avg) — participation fading | RSI: 63.45"
+        },
+        {
+            "symbol": "AAPL",
+            "label": "Apple",
+            "parentSector": "XLK",
+            "parentSectorLabel": "Technology",
+            "parentRotationScore": 66.0,
+            "pressurePoints": [
+                {
+                    "symbol": "AAPL",
+                    "type": "resistance",
+                    "level": 345.34,
+                    "description": "Near 20-day resistance at 345.34 (1.6% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "AAPL",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "AAPL",
+                    "type": "short-interest-rising",
+                    "level": 20.13,
+                    "description": "Short interest up 20.1% since last settlement (2026-08-31) — building squeeze fuel or confirming bearish thesis",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 65.92,
+            "score": 66,
+            "conviction": "medium",
+            "reasoning": "Parent: Technology (RS +7.71% vs SPY, strengthening) | Pressure: Near 20-day resistance at 345.34 (1.6% away); Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Short interest up 20.1% since last settlement (2026-08-31) — building squeeze fuel or confirming bearish thesis | RSI: 65.92"
+        },
+        {
+            "symbol": "NBIS",
+            "label": "Nebius Group (AI Infra)",
+            "parentSector": "XLK",
+            "parentSectorLabel": "Technology",
+            "parentRotationScore": 66.0,
+            "pressurePoints": [
+                {
+                    "symbol": "NBIS",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "NBIS",
+                    "type": "short-interest-covering",
+                    "level": -18.21,
+                    "description": "Short interest down 18.2% since last settlement (2026-08-31) — shorts covering, bullish confirmation",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 66.69,
+            "score": 66,
+            "conviction": "medium",
+            "reasoning": "Parent: Technology (RS +7.71% vs SPY, strengthening) | Pressure: Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Short interest down 18.2% since last settlement (2026-08-31) — shorts covering, bullish confirmation | RSI: 66.69"
+        },
+        {
+            "symbol": "PANW",
+            "label": "Palo Alto Networks (Cybersecurity)",
+            "parentSector": "XLK",
+            "parentSectorLabel": "Technology",
+            "parentRotationScore": 66.0,
+            "pressurePoints": [],
+            "rsi": 55.06,
+            "score": 60,
+            "conviction": "medium",
+            "reasoning": "Parent: Technology (RS +7.71% vs SPY, strengthening) | No significant pressure points | RSI: 55.06"
+        },
+        {
+            "symbol": "INTC",
+            "label": "Intel",
+            "parentSector": "SMH",
+            "parentSectorLabel": "Semiconductors",
+            "parentRotationScore": 70.6,
+            "pressurePoints": [
+                {
+                    "symbol": "INTC",
+                    "type": "rsi-overbought",
+                    "level": 0.0,
+                    "description": "RSI overbought at 79.7",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "INTC",
+                    "type": "resistance",
+                    "level": 124.727,
+                    "description": "Near 20-day resistance at 124.73 (0.7% away)",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 79.7,
+            "score": 59,
+            "conviction": "medium",
+            "reasoning": "Parent: Semiconductors (RS +9.8% vs SPY, strengthening) | Pressure: RSI overbought at 79.7; Near 20-day resistance at 124.73 (0.7% away) | RSI: 79.7"
+        },
+        {
+            "symbol": "BB",
+            "label": "BlackBerry (Cybersecurity)",
+            "parentSector": "XLK",
+            "parentSectorLabel": "Technology",
+            "parentRotationScore": 66.0,
+            "pressurePoints": [
+                {
+                    "symbol": "BB",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "BB",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 67.87,
+            "score": 58,
+            "conviction": "medium",
+            "reasoning": "Parent: Technology (RS +7.71% vs SPY, strengthening) | Pressure: Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion | RSI: 67.87"
+        }
+    ],
+    "watchlistChanges": [
+        "XLK: Monitor — score 60/100",
+        "QQQ: Monitor — score 60/100",
+        "SMH: Monitor — score 60/100"
+    ],
+    "warnings": [],
+    "fourOhOneK": {
+        "date": "2026-09-23",
+        "cashAvailable": 2600.0,
+        "cashNote": "Update cashAvailable in reports/401k-state.json when you move funds from core 401k",
+        "totalPositions": 3,
+        "positions": [
+            {
+                "ticker": "FIDRX",
+                "fundName": "Fidelity Select Industrials",
+                "parentEtf": "XLI",
+                "entryDate": "2026-07-14",
+                "entrySignalScore": 53.5,
+                "daysHeld": 71,
+                "canSellWithoutFee": true,
+                "consecutiveLeaderDays": 0,
+                "consecutiveLaggardDays": 0
+            },
+            {
+                "ticker": "FSLEX",
+                "fundName": "Fidelity Environment & Alt Energy",
+                "parentEtf": "XLU",
+                "entryDate": "2026-07-14",
+                "entrySignalScore": 52.3,
+                "daysHeld": 71,
+                "canSellWithoutFee": true,
+                "consecutiveLeaderDays": 0,
+                "consecutiveLaggardDays": 5
+            },
+            {
+                "ticker": "FSELX",
+                "fundName": "Fidelity Select Semiconductors",
+                "parentEtf": "SMH",
+                "entryDate": "2026-07-14",
+                "entrySignalScore": 37.6,
+                "daysHeld": 71,
+                "canSellWithoutFee": true,
+                "consecutiveLeaderDays": 7,
+                "consecutiveLaggardDays": 0
+            }
+        ],
+        "recommendations": [
+            {
+                "action": "hold",
+                "ticker": "FIDRX",
+                "fundName": "Fidelity Select Industrials",
+                "parentEtf": "XLI",
+                "daysHeld": 71,
+                "canSellWithoutFee": true,
+                "reason": "XLI rotation holding. No fee to exit.",
+                "urgency": "low"
+            },
+            {
+                "action": "exit-now",
+                "ticker": "FSLEX",
+                "fundName": "Fidelity Environment & Alt Energy",
+                "parentEtf": "XLU",
+                "daysHeld": 71,
+                "canSellWithoutFee": true,
+                "reason": "XLU has been a laggard for 5 consecutive days. Exit confirmed — no redemption fee.",
+                "urgency": "high"
+            },
+            {
+                "action": "hold",
+                "ticker": "FSELX",
+                "fundName": "Fidelity Select Semiconductors",
+                "parentEtf": "SMH",
+                "daysHeld": 71,
+                "canSellWithoutFee": true,
+                "reason": "SMH rotation holding. RS +9.8% vs SPY No fee to exit.",
+                "urgency": "low"
+            }
+        ],
+        "entryOpportunities": [
+            {
+                "ticker": "FSPTX",
+                "fundName": "Fidelity Select Technology",
+                "parentEtf": "XLK",
+                "parentEtfScore": 66.0,
+                "reason": "Technology (XLK) is a rotation leader with RS +7.71% vs SPY, score 66.0. Confirm 2nd consecutive leader day before entering.",
+                "suggestedPositionPct": 12.0,
+                "suggestedDollarAmount": 312
+            },
+            {
+                "ticker": "FDCPX",
+                "fundName": "Fidelity Select Tech Hardware",
+                "parentEtf": "XLK",
+                "parentEtfScore": 66.0,
+                "reason": "Technology (XLK) is a rotation leader with RS +7.71% vs SPY, score 66.0. Confirm 2nd consecutive leader day before entering.",
+                "suggestedPositionPct": 12.0,
+                "suggestedDollarAmount": 312
+            },
+            {
+                "ticker": "FSCSX",
+                "fundName": "Fidelity Select IT Services",
+                "parentEtf": "XLK",
+                "parentEtfScore": 66.0,
+                "reason": "Technology (XLK) is a rotation leader with RS +7.71% vs SPY, score 66.0. Confirm 2nd consecutive leader day before entering.",
+                "suggestedPositionPct": 12.0,
+                "suggestedDollarAmount": 312
+            },
+            {
+                "ticker": "FBGRX",
+                "fundName": "Fidelity Blue Chip Growth",
+                "parentEtf": "QQQ",
+                "parentEtfScore": 60.8,
+                "reason": "Nasdaq 100 (Growth) (QQQ) is a rotation leader with RS +4.53% vs SPY, score 60.8. Confirm 2nd consecutive leader day before entering.",
+                "suggestedPositionPct": 12.0,
+                "suggestedDollarAmount": 312
+            }
+        ],
+        "summary": [
+            "🔴 EXIT NOW: FSLEX — sector signal turned negative, fee-free",
+            "✅ HOLD: FIDRX, FSELX",
+            "💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified",
+            "📋 POTENTIAL ENTRIES: FSPTX (XLK), FDCPX (XLK), FSCSX (XLK), FBGRX (QQQ)"
+        ]
+    }
+}
