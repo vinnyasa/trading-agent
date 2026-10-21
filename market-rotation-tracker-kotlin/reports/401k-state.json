@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2026-10-20",
+    "lastUpdated": "2026-10-21",
     "cashAvailable": 2600.0,
     "cashNote": "Update cashAvailable in reports/401k-state.json when you move funds from core 401k",
     "positions": [
@@ -9,7 +9,7 @@
             "parentEtf": "XLI",
             "entryDate": "2026-07-14",
             "entrySignalScore": 53.5,
-            "daysHeld": 98,
+            "daysHeld": 99,
             "canSellWithoutFee": true,
             "consecutiveLeaderDays": 0,
             "consecutiveLaggardDays": 0
@@ -20,7 +20,7 @@
             "parentEtf": "XLU",
             "entryDate": "2026-07-14",
             "entrySignalScore": 52.3,
-            "daysHeld": 98,
+            "daysHeld": 99,
             "canSellWithoutFee": true,
             "consecutiveLeaderDays": 0,
             "consecutiveLaggardDays": 0
@@ -31,13 +31,14 @@
             "parentEtf": "SMH",
             "entryDate": "2026-07-14",
             "entrySignalScore": 37.6,
-            "daysHeld": 98,
+            "daysHeld": 99,
             "canSellWithoutFee": true,
             "consecutiveLeaderDays": 0,
-            "consecutiveLaggardDays": 6
+            "consecutiveLaggardDays": 7
         }
     ],
     "recentActions": [
+        "2026-10-21: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV)",
         "2026-10-20: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV)",
         "2026-10-20: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV)",
         "2026-10-19: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV)",
@@ -46,7 +47,6 @@
         "2026-10-16: 👀 WATCH: FSELX — 1st day of laggard signal, confirm tomorrow | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSPHX (XLV), FSENX (XLE)",
         "2026-10-15: ✅ HOLD: FIDRX, FSLEX, FSELX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV)",
         "2026-10-15: ✅ HOLD: FIDRX, FSLEX, FSELX | 💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPHX (XLV)",
-        "2026-10-14: ✅ HOLD: FIDRX, FSLEX, FSELX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPTX (XLK), FDCPX (XLK), FSCSX (XLK)",
         "2026-10-14: ✅ HOLD: FIDRX, FSLEX, FSELX | 💰 CASH AVAILABLE: 2600 — 4 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSENX (XLE), FSPTX (XLK), FDCPX (XLK), FSCSX (XLK)"
     ]
 }
