@@ -1,0 +1,1661 @@
+{
+    "runDate": "2026-11-12",
+    "runTimestamp": "2026-11-13T01:46:23.255530003Z",
+    "dataSourceStatus": {
+        "primary": "massive",
+        "symbolsLoaded": 58,
+        "symbolsFailed": []
+    },
+    "macroRegime": {
+        "regime": "unknown",
+        "label": "Unknown / Mixed",
+        "factors": [
+            "Mixed or inconclusive macro signals"
+        ],
+        "confidence": "low"
+    },
+    "rotation": {
+        "leaders": [
+            {
+                "symbol": "XLV",
+                "label": "Health Care",
+                "relativeStrength": 9.89,
+                "momentum": 5.14,
+                "score": 70.0,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLY",
+                "label": "Consumer Discretionary",
+                "relativeStrength": 9.78,
+                "momentum": 4.91,
+                "score": 69.6,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLRE",
+                "label": "Real Estate",
+                "relativeStrength": 8.74,
+                "momentum": 5.84,
+                "score": 69.0,
+                "trend": "strengthening"
+            }
+        ],
+        "laggards": [
+            {
+                "symbol": "SMH",
+                "label": "Semiconductors",
+                "relativeStrength": -8.96,
+                "momentum": -10.69,
+                "score": 25.9,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLK",
+                "label": "Technology",
+                "relativeStrength": -7.17,
+                "momentum": -8.71,
+                "score": 30.5,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLE",
+                "label": "Energy",
+                "relativeStrength": -5.03,
+                "momentum": -7.42,
+                "score": 35.0,
+                "trend": "weakening"
+            }
+        ],
+        "allScores": [
+            {
+                "symbol": "XLV",
+                "label": "Health Care",
+                "relativeStrength": 9.89,
+                "momentum": 5.14,
+                "score": 70.0,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLY",
+                "label": "Consumer Discretionary",
+                "relativeStrength": 9.78,
+                "momentum": 4.91,
+                "score": 69.6,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLRE",
+                "label": "Real Estate",
+                "relativeStrength": 8.74,
+                "momentum": 5.84,
+                "score": 69.0,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLF",
+                "label": "Financials",
+                "relativeStrength": 8.81,
+                "momentum": 4.45,
+                "score": 67.7,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLP",
+                "label": "Consumer Staples",
+                "relativeStrength": 7.54,
+                "momentum": 5.31,
+                "score": 66.6,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLB",
+                "label": "Materials",
+                "relativeStrength": 8.02,
+                "momentum": 2.24,
+                "score": 64.3,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLU",
+                "label": "Utilities",
+                "relativeStrength": 6.31,
+                "momentum": 3.13,
+                "score": 62.6,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "IWM",
+                "label": "Russell 2000 (Small Cap)",
+                "relativeStrength": 5.59,
+                "momentum": 0.64,
+                "score": 59.0,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLI",
+                "label": "Industrials",
+                "relativeStrength": 3.62,
+                "momentum": 1.47,
+                "score": 56.9,
+                "trend": "strengthening"
+            },
+            {
+                "symbol": "XLC",
+                "label": "Communication Services",
+                "relativeStrength": -0.73,
+                "momentum": 5.29,
+                "score": 54.2,
+                "trend": "neutral"
+            },
+            {
+                "symbol": "SPY",
+                "label": "S&P 500 (Benchmark)",
+                "relativeStrength": 0.0,
+                "momentum": -1.62,
+                "score": 48.4,
+                "trend": "neutral"
+            },
+            {
+                "symbol": "QQQ",
+                "label": "Nasdaq 100 (Growth)",
+                "relativeStrength": -4.02,
+                "momentum": -4.86,
+                "score": 39.1,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLE",
+                "label": "Energy",
+                "relativeStrength": -5.03,
+                "momentum": -7.42,
+                "score": 35.0,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "XLK",
+                "label": "Technology",
+                "relativeStrength": -7.17,
+                "momentum": -8.71,
+                "score": 30.5,
+                "trend": "weakening"
+            },
+            {
+                "symbol": "SMH",
+                "label": "Semiconductors",
+                "relativeStrength": -8.96,
+                "momentum": -10.69,
+                "score": 25.9,
+                "trend": "weakening"
+            }
+        ],
+        "topRotationMove": "Health Care (XLV) leading with RS +9.89% vs SPY",
+        "rankedAt": "2026-11-13T01:49:57.355232053Z"
+    },
+    "topSignals": [
+        {
+            "symbol": "XLP",
+            "score": 65,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLP",
+                    "type": "high-volume-node",
+                    "level": 90.5,
+                    "description": "Near high-volume node at 90.50",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLP",
+                    "type": "ema-pullback-8",
+                    "level": 90.55388712373004,
+                    "description": "Pulled back 2.1% from recent high to the 8-EMA (90.55) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 54.79,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Consumer Staples strengthening (RS +7.54% vs SPY) | Pressure: Near high-volume node at 90.50; Pulled back 2.1% from recent high to the 8-EMA (90.55) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 54.79"
+        },
+        {
+            "symbol": "XLB",
+            "score": 65,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLB",
+                    "type": "high-volume-node",
+                    "level": 51.59,
+                    "description": "Near high-volume node at 51.59",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLB",
+                    "type": "ema-pullback-8",
+                    "level": 52.71708658470428,
+                    "description": "Pulled back 2.9% from recent high to the 8-EMA (52.72) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 57.98,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Materials strengthening (RS +8.02% vs SPY) | Pressure: Near high-volume node at 51.59; Pulled back 2.9% from recent high to the 8-EMA (52.72) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 57.98"
+        },
+        {
+            "symbol": "XLF",
+            "score": 60,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLF",
+                    "type": "ema-pullback-8",
+                    "level": 57.836640555344886,
+                    "description": "Pulled back 2.3% from recent high to the 8-EMA (57.84) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 60.49,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Financials strengthening (RS +8.81% vs SPY) | Pressure: Pulled back 2.3% from recent high to the 8-EMA (57.84) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 60.49"
+        },
+        {
+            "symbol": "XLI",
+            "score": 60,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLI",
+                    "type": "resistance",
+                    "level": 172.4,
+                    "description": "Near 20-day resistance at 172.40 (0.8% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLI",
+                    "type": "high-volume-node",
+                    "level": 166.32,
+                    "description": "Near high-volume node at 166.32",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 56.64,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Industrials strengthening (RS +3.62% vs SPY) | Pressure: Near 20-day resistance at 172.40 (0.8% away); Near high-volume node at 166.32 | RSI: 56.64"
+        },
+        {
+            "symbol": "XLY",
+            "score": 60,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLY",
+                    "type": "resistance",
+                    "level": 122.9246,
+                    "description": "Near 20-day resistance at 122.92 (1.6% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLY",
+                    "type": "high-volume-node",
+                    "level": 117.48,
+                    "description": "Near high-volume node at 117.48",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 63.02,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Consumer Discretionary strengthening (RS +9.78% vs SPY) | Pressure: Near 20-day resistance at 122.92 (1.6% away); Near high-volume node at 117.48 | RSI: 63.02"
+        },
+        {
+            "symbol": "XLU",
+            "score": 60,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLU",
+                    "type": "resistance",
+                    "level": 44.09,
+                    "description": "Near 20-day resistance at 44.09 (0.6% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLU",
+                    "type": "bollinger-squeeze",
+                    "level": 0.0,
+                    "description": "Bollinger Band squeeze — compressed volatility, breakout direction unclear",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 62.21,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Utilities strengthening (RS +6.31% vs SPY) | Pressure: Near 20-day resistance at 44.09 (0.6% away); Bollinger Band squeeze — compressed volatility, breakout direction unclear | RSI: 62.21"
+        },
+        {
+            "symbol": "XLV",
+            "score": 55,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLV",
+                    "type": "resistance",
+                    "level": 192.32,
+                    "description": "Near 20-day resistance at 192.32 (1.8% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLV",
+                    "type": "high-volume-node",
+                    "level": 186.48,
+                    "description": "Near high-volume node at 186.48",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 66.41,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Health Care strengthening (RS +9.89% vs SPY) | Pressure: Near 20-day resistance at 192.32 (1.8% away); Near high-volume node at 186.48 | RSI: 66.41"
+        },
+        {
+            "symbol": "XLRE",
+            "score": 55,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "XLRE",
+                    "type": "resistance",
+                    "level": 45.3418,
+                    "description": "Near 20-day resistance at 45.34 (1.7% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "XLRE",
+                    "type": "high-volume-node",
+                    "level": 43.82,
+                    "description": "Near high-volume node at 43.82",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 67.94,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Real Estate strengthening (RS +8.74% vs SPY) | Pressure: Near 20-day resistance at 45.34 (1.7% away); Near high-volume node at 43.82 | RSI: 67.94"
+        },
+        {
+            "symbol": "QQQ",
+            "score": 10,
+            "conviction": "noise",
+            "regime": "unknown",
+            "rotationTrend": "weakening",
+            "pressurePoints": [],
+            "rsi": 45.95,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Nasdaq 100 (Growth) weakening (RS -4.02% vs SPY) | No significant pressure points | RSI: 45.95"
+        },
+        {
+            "symbol": "SPY",
+            "score": 35,
+            "conviction": "low",
+            "regime": "unknown",
+            "rotationTrend": "neutral",
+            "pressurePoints": [
+                {
+                    "symbol": "SPY",
+                    "type": "high-volume-node",
+                    "level": 750.14,
+                    "description": "Near high-volume node at 750.14",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "SPY",
+                    "type": "ema-pullback-8",
+                    "level": 753.0808735551554,
+                    "description": "Pulled back 2.0% from recent high to the 8-EMA (753.08) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 48.23,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: S&P 500 (Benchmark) neutral (RS +0.0% vs SPY) | Pressure: Near high-volume node at 750.14; Pulled back 2.0% from recent high to the 8-EMA (753.08) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 48.23"
+        },
+        {
+            "symbol": "IWM",
+            "score": 55,
+            "conviction": "medium",
+            "regime": "unknown",
+            "rotationTrend": "strengthening",
+            "pressurePoints": [
+                {
+                    "symbol": "IWM",
+                    "type": "resistance",
+                    "level": 286.17,
+                    "description": "Near 20-day resistance at 286.17 (1.1% away)",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 56.7,
+            "reasoning": "Regime: Unknown / Mixed | Rotation: Russell 2000 (Small Cap) strengthening (RS +5.59% vs SPY) | Pressure: Near 20-day resistance at 286.17 (1.1% away) | RSI: 56.7"
+        }
+    ],
+    "stockSignals": [
+        {
+            "symbol": "JPM",
+            "label": "JPMorgan Chase",
+            "parentSector": "XLF",
+            "parentSectorLabel": "Financials",
+            "parentRotationScore": 67.7,
+            "pressurePoints": [
+                {
+                    "symbol": "JPM",
+                    "type": "high-volume-node",
+                    "level": 344.53,
+                    "description": "Near high-volume node at 344.53",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "JPM",
+                    "type": "bollinger-squeeze",
+                    "level": 0.0,
+                    "description": "Bollinger Band squeeze — compressed volatility, breakout direction unclear",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "JPM",
+                    "type": "ema-pullback-8",
+                    "level": 340.93535967329586,
+                    "description": "Pulled back 4.6% from recent high to the 8-EMA (340.94) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 54.87,
+            "score": 91,
+            "conviction": "high",
+            "reasoning": "Parent: Financials (RS +8.81% vs SPY, strengthening) | Pressure: Near high-volume node at 344.53; Bollinger Band squeeze — compressed volatility, breakout direction unclear; Pulled back 4.6% from recent high to the 8-EMA (340.94) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 54.87"
+        },
+        {
+            "symbol": "WFC",
+            "label": "Wells Fargo",
+            "parentSector": "XLF",
+            "parentSectorLabel": "Financials",
+            "parentRotationScore": 67.7,
+            "pressurePoints": [
+                {
+                    "symbol": "WFC",
+                    "type": "high-volume-node",
+                    "level": 83.58,
+                    "description": "Near high-volume node at 83.58",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "WFC",
+                    "type": "bollinger-squeeze",
+                    "level": 0.0,
+                    "description": "Bollinger Band squeeze — compressed volatility, breakout direction unclear",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "WFC",
+                    "type": "ema-pullback-8",
+                    "level": 85.22904980601679,
+                    "description": "Pulled back 4.2% from recent high to the 8-EMA (85.23) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 59.59,
+            "score": 91,
+            "conviction": "high",
+            "reasoning": "Parent: Financials (RS +8.81% vs SPY, strengthening) | Pressure: Near high-volume node at 83.58; Bollinger Band squeeze — compressed volatility, breakout direction unclear; Pulled back 4.2% from recent high to the 8-EMA (85.23) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 59.59"
+        },
+        {
+            "symbol": "PLD",
+            "label": "Prologis",
+            "parentSector": "XLRE",
+            "parentSectorLabel": "Real Estate",
+            "parentRotationScore": 69.0,
+            "pressurePoints": [
+                {
+                    "symbol": "PLD",
+                    "type": "resistance",
+                    "level": 132.6,
+                    "description": "Near 20-day resistance at 132.60 (2.0% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "PLD",
+                    "type": "high-volume-node",
+                    "level": 130.75,
+                    "description": "Near high-volume node at 130.75",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "PLD",
+                    "type": "bollinger-squeeze",
+                    "level": 0.0,
+                    "description": "Bollinger Band squeeze — compressed volatility, breakout direction unclear",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 59.56,
+            "score": 84,
+            "conviction": "high",
+            "reasoning": "Parent: Real Estate (RS +8.74% vs SPY, strengthening) | Pressure: Near 20-day resistance at 132.60 (2.0% away); Near high-volume node at 130.75; Bollinger Band squeeze — compressed volatility, breakout direction unclear | RSI: 59.56"
+        },
+        {
+            "symbol": "GS",
+            "label": "Goldman Sachs",
+            "parentSector": "XLF",
+            "parentSectorLabel": "Financials",
+            "parentRotationScore": 67.7,
+            "pressurePoints": [
+                {
+                    "symbol": "GS",
+                    "type": "resistance",
+                    "level": 939.3837,
+                    "description": "Near 20-day resistance at 939.38 (1.4% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "GS",
+                    "type": "high-volume-node",
+                    "level": 900.95,
+                    "description": "Near high-volume node at 900.95",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "GS",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 56.76,
+            "score": 84,
+            "conviction": "high",
+            "reasoning": "Parent: Financials (RS +8.81% vs SPY, strengthening) | Pressure: Near 20-day resistance at 939.38 (1.4% away); Near high-volume node at 900.95; Bollinger squeeze with upward bias — volatility coiling, momentum tilting up | RSI: 56.76"
+        },
+        {
+            "symbol": "ABBV",
+            "label": "AbbVie",
+            "parentSector": "XLV",
+            "parentSectorLabel": "Health Care",
+            "parentRotationScore": 70.0,
+            "pressurePoints": [
+                {
+                    "symbol": "ABBV",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "ABBV",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "ABBV",
+                    "type": "ema-pullback-8",
+                    "level": 292.0421883795116,
+                    "description": "Pulled back 2.6% from recent high to the 8-EMA (292.04) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 61.59,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Health Care (RS +9.89% vs SPY, strengthening) | Pressure: Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Price and RSI diverging — potential trend exhaustion; Pulled back 2.6% from recent high to the 8-EMA (292.04) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 61.59"
+        },
+        {
+            "symbol": "MRK",
+            "label": "Merck",
+            "parentSector": "XLV",
+            "parentSectorLabel": "Health Care",
+            "parentRotationScore": 70.0,
+            "pressurePoints": [
+                {
+                    "symbol": "MRK",
+                    "type": "high-volume-node",
+                    "level": 146.43,
+                    "description": "Near high-volume node at 146.43",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "MRK",
+                    "type": "ema-pullback-8",
+                    "level": 147.35769028111298,
+                    "description": "Pulled back 4.4% from recent high to the 8-EMA (147.36) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 49.91,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Health Care (RS +9.89% vs SPY, strengthening) | Pressure: Near high-volume node at 146.43; Pulled back 4.4% from recent high to the 8-EMA (147.36) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 49.91"
+        },
+        {
+            "symbol": "F",
+            "label": "Ford Motor",
+            "parentSector": "XLY",
+            "parentSectorLabel": "Consumer Discretionary",
+            "parentRotationScore": 69.6,
+            "pressurePoints": [
+                {
+                    "symbol": "F",
+                    "type": "bollinger-squeeze-down",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with downward bias — volatility coiling, momentum tilting down",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "F",
+                    "type": "ema-pullback-8",
+                    "level": 12.349266435980017,
+                    "description": "Pulled back 4.7% from recent high to the 8-EMA (12.35) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 55.48,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Consumer Discretionary (RS +9.78% vs SPY, strengthening) | Pressure: Bollinger squeeze with downward bias — volatility coiling, momentum tilting down; Pulled back 4.7% from recent high to the 8-EMA (12.35) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 55.48"
+        },
+        {
+            "symbol": "RIVN",
+            "label": "Rivian Automotive",
+            "parentSector": "XLY",
+            "parentSectorLabel": "Consumer Discretionary",
+            "parentRotationScore": 69.6,
+            "pressurePoints": [
+                {
+                    "symbol": "RIVN",
+                    "type": "high-volume-node",
+                    "level": 13.22,
+                    "description": "Near high-volume node at 13.22",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "RIVN",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "RIVN",
+                    "type": "ema-pullback-8",
+                    "level": 13.415007038348202,
+                    "description": "Pulled back 5.4% from recent high to the 8-EMA (13.42) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 62.42,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Consumer Discretionary (RS +9.78% vs SPY, strengthening) | Pressure: Near high-volume node at 13.22; Price and RSI diverging — potential trend exhaustion; Pulled back 5.4% from recent high to the 8-EMA (13.42) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 62.42"
+        },
+        {
+            "symbol": "AMT",
+            "label": "American Tower",
+            "parentSector": "XLRE",
+            "parentSectorLabel": "Real Estate",
+            "parentRotationScore": 69.0,
+            "pressurePoints": [
+                {
+                    "symbol": "AMT",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "AMT",
+                    "type": "ema-pullback-8",
+                    "level": 189.61042968537572,
+                    "description": "Pulled back 6.1% from recent high to the 8-EMA (189.61) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 62.93,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Real Estate (RS +8.74% vs SPY, strengthening) | Pressure: Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Pulled back 6.1% from recent high to the 8-EMA (189.61) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 62.93"
+        },
+        {
+            "symbol": "NUE",
+            "label": "Nucor (Steel)",
+            "parentSector": "XLB",
+            "parentSectorLabel": "Materials",
+            "parentRotationScore": 64.3,
+            "pressurePoints": [
+                {
+                    "symbol": "NUE",
+                    "type": "high-volume-node",
+                    "level": 254.95,
+                    "description": "Near high-volume node at 254.95",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "NUE",
+                    "type": "ema-pullback-8",
+                    "level": 258.382854409165,
+                    "description": "Pulled back 9.1% from recent high to the 8-EMA (258.38) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 52.28,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Materials (RS +8.02% vs SPY, strengthening) | Pressure: Near high-volume node at 254.95; Pulled back 9.1% from recent high to the 8-EMA (258.38) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 52.28"
+        },
+        {
+            "symbol": "SHW",
+            "label": "Sherwin-Williams",
+            "parentSector": "XLB",
+            "parentSectorLabel": "Materials",
+            "parentRotationScore": 64.3,
+            "pressurePoints": [
+                {
+                    "symbol": "SHW",
+                    "type": "high-volume-node",
+                    "level": 347.29,
+                    "description": "Near high-volume node at 347.29",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "SHW",
+                    "type": "ema-pullback-8",
+                    "level": 350.5051016604659,
+                    "description": "Pulled back 4.2% from recent high to the 8-EMA (350.51) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 54.0,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Materials (RS +8.02% vs SPY, strengthening) | Pressure: Near high-volume node at 347.29; Pulled back 4.2% from recent high to the 8-EMA (350.51) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 54.0"
+        },
+        {
+            "symbol": "MS",
+            "label": "Morgan Stanley",
+            "parentSector": "XLF",
+            "parentSectorLabel": "Financials",
+            "parentRotationScore": 67.7,
+            "pressurePoints": [
+                {
+                    "symbol": "MS",
+                    "type": "bollinger-squeeze-up",
+                    "level": 0.0,
+                    "description": "Bollinger squeeze with upward bias — volatility coiling, momentum tilting up",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "MS",
+                    "type": "ema-pullback-21",
+                    "level": 187.45387112477385,
+                    "description": "Pulled back 3.2% from recent high to the 21-EMA (187.45) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 56.35,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Financials (RS +8.81% vs SPY, strengthening) | Pressure: Bollinger squeeze with upward bias — volatility coiling, momentum tilting up; Pulled back 3.2% from recent high to the 21-EMA (187.45) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 56.35"
+        },
+        {
+            "symbol": "BAC",
+            "label": "Bank of America",
+            "parentSector": "XLF",
+            "parentSectorLabel": "Financials",
+            "parentRotationScore": 67.7,
+            "pressurePoints": [
+                {
+                    "symbol": "BAC",
+                    "type": "bollinger-squeeze",
+                    "level": 0.0,
+                    "description": "Bollinger Band squeeze — compressed volatility, breakout direction unclear",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "BAC",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "BAC",
+                    "type": "ema-pullback-8",
+                    "level": 50.436828786381135,
+                    "description": "Pulled back 4.4% from recent high to the 8-EMA (50.44) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 47.53,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Financials (RS +8.81% vs SPY, strengthening) | Pressure: Bollinger Band squeeze — compressed volatility, breakout direction unclear; Price and RSI diverging — potential trend exhaustion; Pulled back 4.4% from recent high to the 8-EMA (50.44) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 47.53"
+        },
+        {
+            "symbol": "SOFI",
+            "label": "SoFi Technologies",
+            "parentSector": "XLF",
+            "parentSectorLabel": "Financials",
+            "parentRotationScore": 67.7,
+            "pressurePoints": [
+                {
+                    "symbol": "SOFI",
+                    "type": "high-volume-node",
+                    "level": 15.93,
+                    "description": "Near high-volume node at 15.93",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "SOFI",
+                    "type": "ema-pullback-8",
+                    "level": 16.42152417090123,
+                    "description": "Pulled back 8.3% from recent high to the 8-EMA (16.42) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 59.64,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Financials (RS +8.81% vs SPY, strengthening) | Pressure: Near high-volume node at 15.93; Pulled back 8.3% from recent high to the 8-EMA (16.42) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 59.64"
+        },
+        {
+            "symbol": "HSBC",
+            "label": "HSBC Holdings",
+            "parentSector": "XLF",
+            "parentSectorLabel": "Financials",
+            "parentRotationScore": 67.7,
+            "pressurePoints": [
+                {
+                    "symbol": "HSBC",
+                    "type": "high-volume-node",
+                    "level": 91.48,
+                    "description": "Near high-volume node at 91.48",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "HSBC",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "HSBC",
+                    "type": "ema-pullback-8",
+                    "level": 88.90750292491887,
+                    "description": "Pulled back 6.2% from recent high to the 8-EMA (88.91) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 46.09,
+            "score": 83,
+            "conviction": "high",
+            "reasoning": "Parent: Financials (RS +8.81% vs SPY, strengthening) | Pressure: Near high-volume node at 91.48; Price and RSI diverging — potential trend exhaustion; Pulled back 6.2% from recent high to the 8-EMA (88.91) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 46.09"
+        },
+        {
+            "symbol": "UNH",
+            "label": "UnitedHealth",
+            "parentSector": "XLV",
+            "parentSectorLabel": "Health Care",
+            "parentRotationScore": 70.0,
+            "pressurePoints": [
+                {
+                    "symbol": "UNH",
+                    "type": "high-volume-node",
+                    "level": 397.94,
+                    "description": "Near high-volume node at 397.94",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "UNH",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "UNH",
+                    "type": "ema-pullback-8",
+                    "level": 402.32832219951865,
+                    "description": "Pulled back 5.5% from recent high to the 8-EMA (402.33) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 34.14,
+            "score": 77,
+            "conviction": "high",
+            "reasoning": "Parent: Health Care (RS +9.89% vs SPY, strengthening) | Pressure: Near high-volume node at 397.94; Price and RSI diverging — potential trend exhaustion; Pulled back 5.5% from recent high to the 8-EMA (402.33) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 34.14"
+        },
+        {
+            "symbol": "NGVC",
+            "label": "Natural Grocers by Vitamin Cottage",
+            "parentSector": "XLP",
+            "parentSectorLabel": "Consumer Staples",
+            "parentRotationScore": 66.6,
+            "pressurePoints": [
+                {
+                    "symbol": "NGVC",
+                    "type": "high-volume-node",
+                    "level": 29.47,
+                    "description": "Near high-volume node at 29.47",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "NGVC",
+                    "type": "ema-pullback-8",
+                    "level": 29.2024451252823,
+                    "description": "Pulled back 10.3% from recent high to the 8-EMA (29.20) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 33.64,
+            "score": 77,
+            "conviction": "high",
+            "reasoning": "Parent: Consumer Staples (RS +7.54% vs SPY, strengthening) | Pressure: Near high-volume node at 29.47; Pulled back 10.3% from recent high to the 8-EMA (29.20) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 33.64"
+        },
+        {
+            "symbol": "JNJ",
+            "label": "Johnson & Johnson",
+            "parentSector": "XLV",
+            "parentSectorLabel": "Health Care",
+            "parentRotationScore": 70.0,
+            "pressurePoints": [
+                {
+                    "symbol": "JNJ",
+                    "type": "resistance",
+                    "level": 283.2502,
+                    "description": "Near 20-day resistance at 283.25 (1.0% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "JNJ",
+                    "type": "volume-dry-up",
+                    "level": 0.0,
+                    "description": "Volume dry-up: price +1.5% over 5d but RVol 0.71x (20d avg) — participation fading",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 62.84,
+            "score": 76,
+            "conviction": "high",
+            "reasoning": "Parent: Health Care (RS +9.89% vs SPY, strengthening) | Pressure: Near 20-day resistance at 283.25 (1.0% away); Volume dry-up: price +1.5% over 5d but RVol 0.71x (20d avg) — participation fading | RSI: 62.84"
+        },
+        {
+            "symbol": "PG",
+            "label": "Procter & Gamble",
+            "parentSector": "XLP",
+            "parentSectorLabel": "Consumer Staples",
+            "parentRotationScore": 66.6,
+            "pressurePoints": [
+                {
+                    "symbol": "PG",
+                    "type": "resistance",
+                    "level": 170.52,
+                    "description": "Near 20-day resistance at 170.52 (1.7% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "PG",
+                    "type": "high-volume-node",
+                    "level": 163.26,
+                    "description": "Near high-volume node at 163.26",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "PG",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 54.07,
+            "score": 76,
+            "conviction": "high",
+            "reasoning": "Parent: Consumer Staples (RS +7.54% vs SPY, strengthening) | Pressure: Near 20-day resistance at 170.52 (1.7% away); Near high-volume node at 163.26; Price and RSI diverging — potential trend exhaustion | RSI: 54.07"
+        },
+        {
+            "symbol": "NKE",
+            "label": "Nike",
+            "parentSector": "XLY",
+            "parentSectorLabel": "Consumer Discretionary",
+            "parentRotationScore": 69.6,
+            "pressurePoints": [
+                {
+                    "symbol": "NKE",
+                    "type": "ema-pullback-8",
+                    "level": 38.82725757558762,
+                    "description": "Pulled back 6.8% from recent high to the 8-EMA (38.83) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 50.0,
+            "score": 75,
+            "conviction": "high",
+            "reasoning": "Parent: Consumer Discretionary (RS +9.78% vs SPY, strengthening) | Pressure: Pulled back 6.8% from recent high to the 8-EMA (38.83) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 50.0"
+        },
+        {
+            "symbol": "KO",
+            "label": "Coca-Cola",
+            "parentSector": "XLP",
+            "parentSectorLabel": "Consumer Staples",
+            "parentRotationScore": 66.6,
+            "pressurePoints": [
+                {
+                    "symbol": "KO",
+                    "type": "resistance",
+                    "level": 97.825,
+                    "description": "Near 20-day resistance at 97.83 (0.3% away)",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 58.66,
+            "score": 75,
+            "conviction": "high",
+            "reasoning": "Parent: Consumer Staples (RS +7.54% vs SPY, strengthening) | Pressure: Near 20-day resistance at 97.83 (0.3% away) | RSI: 58.66"
+        },
+        {
+            "symbol": "WMT",
+            "label": "Walmart",
+            "parentSector": "XLP",
+            "parentSectorLabel": "Consumer Staples",
+            "parentRotationScore": 66.6,
+            "pressurePoints": [
+                {
+                    "symbol": "WMT",
+                    "type": "ema-pullback-8",
+                    "level": 125.32244876603312,
+                    "description": "Pulled back 4.7% from recent high to the 8-EMA (125.32) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 59.79,
+            "score": 75,
+            "conviction": "high",
+            "reasoning": "Parent: Consumer Staples (RS +7.54% vs SPY, strengthening) | Pressure: Pulled back 4.7% from recent high to the 8-EMA (125.32) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 59.79"
+        },
+        {
+            "symbol": "V",
+            "label": "Visa",
+            "parentSector": "XLF",
+            "parentSectorLabel": "Financials",
+            "parentRotationScore": 67.7,
+            "pressurePoints": [
+                {
+                    "symbol": "V",
+                    "type": "ema-pullback-8",
+                    "level": 421.99387144506943,
+                    "description": "Pulled back 3.8% from recent high to the 8-EMA (421.99) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 57.2,
+            "score": 75,
+            "conviction": "high",
+            "reasoning": "Parent: Financials (RS +8.81% vs SPY, strengthening) | Pressure: Pulled back 3.8% from recent high to the 8-EMA (421.99) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 57.2"
+        },
+        {
+            "symbol": "PYPL",
+            "label": "PayPal",
+            "parentSector": "XLF",
+            "parentSectorLabel": "Financials",
+            "parentRotationScore": 67.7,
+            "pressurePoints": [
+                {
+                    "symbol": "PYPL",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                },
+                {
+                    "symbol": "PYPL",
+                    "type": "ema-pullback-8",
+                    "level": 58.94137725230045,
+                    "description": "Pulled back 2.3% from recent high to the 8-EMA (58.94) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 57.37,
+            "score": 75,
+            "conviction": "high",
+            "reasoning": "Parent: Financials (RS +8.81% vs SPY, strengthening) | Pressure: Price and RSI diverging — potential trend exhaustion; Pulled back 2.3% from recent high to the 8-EMA (58.94) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 57.37"
+        },
+        {
+            "symbol": "PSA",
+            "label": "Public Storage",
+            "parentSector": "XLRE",
+            "parentSectorLabel": "Real Estate",
+            "parentRotationScore": 69.0,
+            "pressurePoints": [
+                {
+                    "symbol": "PSA",
+                    "type": "rsi-overbought",
+                    "level": 0.0,
+                    "description": "RSI overbought at 75.23",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "PSA",
+                    "type": "high-volume-node",
+                    "level": 326.52,
+                    "description": "Near high-volume node at 326.52",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "PSA",
+                    "type": "ema-pullback-8",
+                    "level": 333.704519098364,
+                    "description": "Pulled back 2.9% from recent high to the 8-EMA (333.70) in an intact uptrend — better risk/reward than chasing the breakout",
+                    "strength": "strong"
+                }
+            ],
+            "rsi": 75.23,
+            "score": 74,
+            "conviction": "high",
+            "reasoning": "Parent: Real Estate (RS +8.74% vs SPY, strengthening) | Pressure: RSI overbought at 75.23; Near high-volume node at 326.52; Pulled back 2.9% from recent high to the 8-EMA (333.70) in an intact uptrend — better risk/reward than chasing the breakout | RSI: 75.23"
+        },
+        {
+            "symbol": "NU",
+            "label": "Nubank (Latin America Fintech)",
+            "parentSector": "XLF",
+            "parentSectorLabel": "Financials",
+            "parentRotationScore": 67.7,
+            "pressurePoints": [
+                {
+                    "symbol": "NU",
+                    "type": "rsi-oversold",
+                    "level": 0.0,
+                    "description": "RSI oversold at 29.68",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "NU",
+                    "type": "volume-dry-up",
+                    "level": 0.0,
+                    "description": "Volume dry-up: price +2.8% over 5d but RVol 0.67x (20d avg) — participation fading",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 29.68,
+            "score": 72,
+            "conviction": "high",
+            "reasoning": "Parent: Financials (RS +8.81% vs SPY, strengthening) | Pressure: RSI oversold at 29.68; Volume dry-up: price +2.8% over 5d but RVol 0.67x (20d avg) — participation fading | RSI: 29.68"
+        },
+        {
+            "symbol": "TSLA",
+            "label": "Tesla",
+            "parentSector": "XLY",
+            "parentSectorLabel": "Consumer Discretionary",
+            "parentRotationScore": 69.6,
+            "pressurePoints": [
+                {
+                    "symbol": "TSLA",
+                    "type": "volume-dry-up",
+                    "level": 0.0,
+                    "description": "Volume dry-up: price +1.5% over 5d but RVol 0.68x (20d avg) — participation fading",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 55.19,
+            "score": 68,
+            "conviction": "medium",
+            "reasoning": "Parent: Consumer Discretionary (RS +9.78% vs SPY, strengthening) | Pressure: Volume dry-up: price +1.5% over 5d but RVol 0.68x (20d avg) — participation fading | RSI: 55.19"
+        },
+        {
+            "symbol": "PEP",
+            "label": "PepsiCo",
+            "parentSector": "XLP",
+            "parentSectorLabel": "Consumer Staples",
+            "parentRotationScore": 66.6,
+            "pressurePoints": [
+                {
+                    "symbol": "PEP",
+                    "type": "resistance",
+                    "level": 145.55,
+                    "description": "Near 20-day resistance at 145.55 (1.1% away)",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 59.62,
+            "score": 68,
+            "conviction": "medium",
+            "reasoning": "Parent: Consumer Staples (RS +7.54% vs SPY, strengthening) | Pressure: Near 20-day resistance at 145.55 (1.1% away) | RSI: 59.62"
+        },
+        {
+            "symbol": "LIN",
+            "label": "Linde (Industrial Gases)",
+            "parentSector": "XLB",
+            "parentSectorLabel": "Materials",
+            "parentRotationScore": 64.3,
+            "pressurePoints": [
+                {
+                    "symbol": "LIN",
+                    "type": "resistance",
+                    "level": 533.385,
+                    "description": "Near 20-day resistance at 533.39 (1.3% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "LIN",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 61.89,
+            "score": 68,
+            "conviction": "medium",
+            "reasoning": "Parent: Materials (RS +8.02% vs SPY, strengthening) | Pressure: Near 20-day resistance at 533.39 (1.3% away); Price and RSI diverging — potential trend exhaustion | RSI: 61.89"
+        },
+        {
+            "symbol": "GLD",
+            "label": "SPDR Gold ETF",
+            "parentSector": "XLB",
+            "parentSectorLabel": "Materials",
+            "parentRotationScore": 64.3,
+            "pressurePoints": [
+                {
+                    "symbol": "GLD",
+                    "type": "high-volume-node",
+                    "level": 372.17,
+                    "description": "Near high-volume node at 372.17",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "GLD",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 47.48,
+            "score": 68,
+            "conviction": "medium",
+            "reasoning": "Parent: Materials (RS +8.02% vs SPY, strengthening) | Pressure: Near high-volume node at 372.17; Price and RSI diverging — potential trend exhaustion | RSI: 47.48"
+        },
+        {
+            "symbol": "LLY",
+            "label": "Eli Lilly",
+            "parentSector": "XLV",
+            "parentSectorLabel": "Health Care",
+            "parentRotationScore": 70.0,
+            "pressurePoints": [
+                {
+                    "symbol": "LLY",
+                    "type": "resistance",
+                    "level": 1453.0,
+                    "description": "Near 20-day resistance at 1453.00 (1.1% away)",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "LLY",
+                    "type": "volume-dry-up",
+                    "level": 0.0,
+                    "description": "Volume dry-up: price +1.4% over 5d but RVol 0.6x (20d avg) — participation fading",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 69.13,
+            "score": 66,
+            "conviction": "medium",
+            "reasoning": "Parent: Health Care (RS +9.89% vs SPY, strengthening) | Pressure: Near 20-day resistance at 1453.00 (1.1% away); Volume dry-up: price +1.4% over 5d but RVol 0.6x (20d avg) — participation fading | RSI: 69.13"
+        },
+        {
+            "symbol": "COST",
+            "label": "Costco",
+            "parentSector": "XLP",
+            "parentSectorLabel": "Consumer Staples",
+            "parentRotationScore": 66.6,
+            "pressurePoints": [
+                {
+                    "symbol": "COST",
+                    "type": "resistance",
+                    "level": 1091.92,
+                    "description": "Near 20-day resistance at 1091.92 (0.4% away)",
+                    "strength": "strong"
+                },
+                {
+                    "symbol": "COST",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 66.46,
+            "score": 65,
+            "conviction": "medium",
+            "reasoning": "Parent: Consumer Staples (RS +7.54% vs SPY, strengthening) | Pressure: Near 20-day resistance at 1091.92 (0.4% away); Price and RSI diverging — potential trend exhaustion | RSI: 66.46"
+        },
+        {
+            "symbol": "OPEN",
+            "label": "Opendoor (iBuying)",
+            "parentSector": "XLRE",
+            "parentSectorLabel": "Real Estate",
+            "parentRotationScore": 69.0,
+            "pressurePoints": [
+                {
+                    "symbol": "OPEN",
+                    "type": "rsi-oversold",
+                    "level": 0.0,
+                    "description": "RSI oversold at 24.11",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 24.11,
+            "score": 64,
+            "conviction": "medium",
+            "reasoning": "Parent: Real Estate (RS +8.74% vs SPY, strengthening) | Pressure: RSI oversold at 24.11 | RSI: 24.11"
+        },
+        {
+            "symbol": "HIMS",
+            "label": "Hims & Hers (Telehealth)",
+            "parentSector": "XLV",
+            "parentSectorLabel": "Health Care",
+            "parentRotationScore": 70.0,
+            "pressurePoints": [
+                {
+                    "symbol": "HIMS",
+                    "type": "high-volume-node",
+                    "level": 20.96,
+                    "description": "Near high-volume node at 20.96",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 31.56,
+            "score": 62,
+            "conviction": "medium",
+            "reasoning": "Parent: Health Care (RS +9.89% vs SPY, strengthening) | Pressure: Near high-volume node at 20.96 | RSI: 31.56"
+        },
+        {
+            "symbol": "FCX",
+            "label": "Freeport-McMoRan (Copper)",
+            "parentSector": "XLB",
+            "parentSectorLabel": "Materials",
+            "parentRotationScore": 64.3,
+            "pressurePoints": [
+                {
+                    "symbol": "FCX",
+                    "type": "high-volume-node",
+                    "level": 63.86,
+                    "description": "Near high-volume node at 63.86",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 44.3,
+            "score": 62,
+            "conviction": "medium",
+            "reasoning": "Parent: Materials (RS +8.02% vs SPY, strengthening) | Pressure: Near high-volume node at 63.86 | RSI: 44.3"
+        },
+        {
+            "symbol": "SLV",
+            "label": "iShares Silver ETF",
+            "parentSector": "XLB",
+            "parentSectorLabel": "Materials",
+            "parentRotationScore": 64.3,
+            "pressurePoints": [
+                {
+                    "symbol": "SLV",
+                    "type": "high-volume-node",
+                    "level": 47.25,
+                    "description": "Near high-volume node at 47.25",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "SLV",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 39.77,
+            "score": 62,
+            "conviction": "medium",
+            "reasoning": "Parent: Materials (RS +8.02% vs SPY, strengthening) | Pressure: Near high-volume node at 47.25; Price and RSI diverging — potential trend exhaustion | RSI: 39.77"
+        },
+        {
+            "symbol": "AMZN",
+            "label": "Amazon",
+            "parentSector": "XLY",
+            "parentSectorLabel": "Consumer Discretionary",
+            "parentRotationScore": 69.6,
+            "pressurePoints": [],
+            "rsi": 60.98,
+            "score": 60,
+            "conviction": "medium",
+            "reasoning": "Parent: Consumer Discretionary (RS +9.78% vs SPY, strengthening) | No significant pressure points | RSI: 60.98"
+        },
+        {
+            "symbol": "HD",
+            "label": "Home Depot",
+            "parentSector": "XLY",
+            "parentSectorLabel": "Consumer Discretionary",
+            "parentRotationScore": 69.6,
+            "pressurePoints": [],
+            "rsi": 63.45,
+            "score": 60,
+            "conviction": "medium",
+            "reasoning": "Parent: Consumer Discretionary (RS +9.78% vs SPY, strengthening) | No significant pressure points | RSI: 63.45"
+        },
+        {
+            "symbol": "TGT",
+            "label": "Target",
+            "parentSector": "XLY",
+            "parentSectorLabel": "Consumer Discretionary",
+            "parentRotationScore": 69.6,
+            "pressurePoints": [],
+            "rsi": 54.47,
+            "score": 60,
+            "conviction": "medium",
+            "reasoning": "Parent: Consumer Discretionary (RS +9.78% vs SPY, strengthening) | No significant pressure points | RSI: 54.47"
+        },
+        {
+            "symbol": "HELE",
+            "label": "Helen of Troy (Household & Personal Products)",
+            "parentSector": "XLP",
+            "parentSectorLabel": "Consumer Staples",
+            "parentRotationScore": 66.6,
+            "pressurePoints": [
+                {
+                    "symbol": "HELE",
+                    "type": "rsi-overbought",
+                    "level": 0.0,
+                    "description": "RSI overbought at 79.81",
+                    "strength": "moderate"
+                },
+                {
+                    "symbol": "HELE",
+                    "type": "volume-dry-up",
+                    "level": 0.0,
+                    "description": "Volume dry-up: price +2.6% over 5d but RVol 0.61x (20d avg) — participation fading",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 79.81,
+            "score": 59,
+            "conviction": "medium",
+            "reasoning": "Parent: Consumer Staples (RS +7.54% vs SPY, strengthening) | Pressure: RSI overbought at 79.81; Volume dry-up: price +2.6% over 5d but RVol 0.61x (20d avg) — participation fading | RSI: 79.81"
+        },
+        {
+            "symbol": "EQIX",
+            "label": "Equinix",
+            "parentSector": "XLRE",
+            "parentSectorLabel": "Real Estate",
+            "parentRotationScore": 69.0,
+            "pressurePoints": [
+                {
+                    "symbol": "EQIX",
+                    "type": "resistance",
+                    "level": 1079.125,
+                    "description": "Near 20-day resistance at 1079.13 (1.0% away)",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 67.82,
+            "score": 58,
+            "conviction": "medium",
+            "reasoning": "Parent: Real Estate (RS +8.74% vs SPY, strengthening) | Pressure: Near 20-day resistance at 1079.13 (1.0% away) | RSI: 67.82"
+        },
+        {
+            "symbol": "O",
+            "label": "Realty Income",
+            "parentSector": "XLRE",
+            "parentSectorLabel": "Real Estate",
+            "parentRotationScore": 69.0,
+            "pressurePoints": [
+                {
+                    "symbol": "O",
+                    "type": "resistance",
+                    "level": 60.08,
+                    "description": "Near 20-day resistance at 60.08 (0.9% away)",
+                    "strength": "moderate"
+                }
+            ],
+            "rsi": 69.83,
+            "score": 58,
+            "conviction": "medium",
+            "reasoning": "Parent: Real Estate (RS +8.74% vs SPY, strengthening) | Pressure: Near 20-day resistance at 60.08 (0.9% away) | RSI: 69.83"
+        },
+        {
+            "symbol": "HOOD",
+            "label": "Robinhood Markets",
+            "parentSector": "XLF",
+            "parentSectorLabel": "Financials",
+            "parentRotationScore": 67.7,
+            "pressurePoints": [
+                {
+                    "symbol": "HOOD",
+                    "type": "momentum-divergence",
+                    "level": 0.0,
+                    "description": "Price and RSI diverging — potential trend exhaustion",
+                    "strength": "weak"
+                }
+            ],
+            "rsi": 34.72,
+            "score": 54,
+            "conviction": "medium",
+            "reasoning": "Parent: Financials (RS +8.81% vs SPY, strengthening) | Pressure: Price and RSI diverging — potential trend exhaustion | RSI: 34.72"
+        }
+    ],
+    "watchlistChanges": [
+        "XLP: Monitor — score 65/100",
+        "XLB: Monitor — score 65/100",
+        "XLF: Monitor — score 60/100",
+        "XLI: Monitor — score 60/100",
+        "XLY: Monitor — score 60/100"
+    ],
+    "warnings": [],
+    "fourOhOneK": {
+        "date": "2026-11-12",
+        "cashAvailable": 2600.0,
+        "cashNote": "Update cashAvailable in reports/401k-state.json when you move funds from core 401k",
+        "totalPositions": 3,
+        "positions": [
+            {
+                "ticker": "FIDRX",
+                "fundName": "Fidelity Select Industrials",
+                "parentEtf": "XLI",
+                "entryDate": "2026-07-14",
+                "entrySignalScore": 53.5,
+                "daysHeld": 121,
+                "canSellWithoutFee": true,
+                "consecutiveLeaderDays": 0,
+                "consecutiveLaggardDays": 0
+            },
+            {
+                "ticker": "FSLEX",
+                "fundName": "Fidelity Environment & Alt Energy",
+                "parentEtf": "XLU",
+                "entryDate": "2026-07-14",
+                "entrySignalScore": 52.3,
+                "daysHeld": 121,
+                "canSellWithoutFee": true,
+                "consecutiveLeaderDays": 0,
+                "consecutiveLaggardDays": 0
+            },
+            {
+                "ticker": "FSELX",
+                "fundName": "Fidelity Select Semiconductors",
+                "parentEtf": "SMH",
+                "entryDate": "2026-07-14",
+                "entrySignalScore": 37.6,
+                "daysHeld": 121,
+                "canSellWithoutFee": true,
+                "consecutiveLeaderDays": 0,
+                "consecutiveLaggardDays": 40
+            }
+        ],
+        "recommendations": [
+            {
+                "action": "hold",
+                "ticker": "FIDRX",
+                "fundName": "Fidelity Select Industrials",
+                "parentEtf": "XLI",
+                "daysHeld": 121,
+                "canSellWithoutFee": true,
+                "reason": "XLI rotation holding. No fee to exit.",
+                "urgency": "low"
+            },
+            {
+                "action": "hold",
+                "ticker": "FSLEX",
+                "fundName": "Fidelity Environment & Alt Energy",
+                "parentEtf": "XLU",
+                "daysHeld": 121,
+                "canSellWithoutFee": true,
+                "reason": "XLU rotation holding. No fee to exit.",
+                "urgency": "low"
+            },
+            {
+                "action": "exit-now",
+                "ticker": "FSELX",
+                "fundName": "Fidelity Select Semiconductors",
+                "parentEtf": "SMH",
+                "daysHeld": 121,
+                "canSellWithoutFee": true,
+                "reason": "SMH has been a laggard for 40 consecutive days. Exit confirmed — no redemption fee.",
+                "urgency": "high"
+            }
+        ],
+        "entryOpportunities": [
+            {
+                "ticker": "FSPHX",
+                "fundName": "Fidelity Select Health Care",
+                "parentEtf": "XLV",
+                "parentEtfScore": 70.0,
+                "reason": "Health Care (XLV) is a rotation leader with RS +9.89% vs SPY, score 70.0. Confirm 2nd consecutive leader day before entering.",
+                "suggestedPositionPct": 20.0,
+                "suggestedDollarAmount": 520
+            },
+            {
+                "ticker": "FRESX",
+                "fundName": "Fidelity Real Estate Fund",
+                "parentEtf": "XLRE",
+                "parentEtfScore": 69.0,
+                "reason": "Real Estate (XLRE) is a rotation leader with RS +8.74% vs SPY, score 69.0. Confirm 2nd consecutive leader day before entering.",
+                "suggestedPositionPct": 12.0,
+                "suggestedDollarAmount": 312
+            }
+        ],
+        "summary": [
+            "🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free",
+            "✅ HOLD: FIDRX, FSLEX",
+            "💰 CASH AVAILABLE: 2600 — 2 entry opportunity/ies identified",
+            "📋 POTENTIAL ENTRIES: FSPHX (XLV), FRESX (XLRE)"
+        ]
+    }
+}
