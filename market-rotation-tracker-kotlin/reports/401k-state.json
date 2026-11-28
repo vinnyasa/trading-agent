@@ -22,7 +22,7 @@
             "entrySignalScore": 52.3,
             "daysHeld": 136,
             "canSellWithoutFee": true,
-            "consecutiveLeaderDays": 18,
+            "consecutiveLeaderDays": 0,
             "consecutiveLaggardDays": 0
         },
         {
@@ -34,10 +34,11 @@
             "daysHeld": 136,
             "canSellWithoutFee": true,
             "consecutiveLeaderDays": 0,
-            "consecutiveLaggardDays": 61
+            "consecutiveLaggardDays": 62
         }
     ],
     "recentActions": [
+        "2026-11-27: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX",
         "2026-11-27: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 1 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FRESX (XLRE)",
         "2026-11-26: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 1 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FRESX (XLRE)",
         "2026-11-26: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 1 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FRESX (XLRE)",
@@ -46,7 +47,6 @@
         "2026-11-24: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 1 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FSPHX (XLV)",
         "2026-11-24: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX",
         "2026-11-24: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX",
-        "2026-11-23: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 1 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FRESX (XLRE)",
-        "2026-11-20: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 1 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FRESX (XLRE)"
+        "2026-11-23: 🔴 EXIT NOW: FSELX — sector signal turned negative, fee-free | ✅ HOLD: FIDRX, FSLEX | 💰 CASH AVAILABLE: 2600 — 1 entry opportunity/ies identified | 📋 POTENTIAL ENTRIES: FRESX (XLRE)"
     ]
 }
